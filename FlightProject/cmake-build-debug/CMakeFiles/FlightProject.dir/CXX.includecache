@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yael/CLionProjects/FlightProject/Lexer.cpp
+vector
+-
+string
+-
+fstream
+-
+iostream
+-
+Lexer.h
+/home/yael/CLionProjects/FlightProject/Lexer.h
+
+/home/yael/CLionProjects/FlightProject/Lexer.h
+vector
+-
+string
+-
+fstream
+-
+iostream
+-
+
