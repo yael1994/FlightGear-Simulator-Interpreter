@@ -5,17 +5,24 @@
 #ifndef FLIGHTPROJECT_LEXER_H
 #define FLIGHTPROJECT_LEXER_H
 
+#define SPACE " "
+
+#define SPECIAL_OPERATOR {"+","-","*","/", "\"","<",">","<=",">=","=="}
+
 #include <vector>
 #include <string>
 #include <fstream>
 #include <iostream>
+
+
+
 using namespace std;
 
 class Lexer{
     vector<string> m_vec;
     string parseApostrophes(string word);
-    vector<string> lexFile(ifstream &in);
-    vector<string> lexStr(string &str);
+    void lexStr(string &str);
+    void getSpace(string &str);
 
 public:
     vector<string> lexer(string fileName);

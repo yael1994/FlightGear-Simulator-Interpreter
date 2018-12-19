@@ -5,18 +5,19 @@
 #include <sstream>
 #include "ShAlgo.h"
 #include <stack>
+#include <iostream>
 
 /**
  * constructor of the class
  */
-ShAlgo::ShAlgo(unordered_map<string,int > &varMap) {
+ShAlgo::ShAlgo() {
     //create map precedence of operators.
     m_mapOperator["+"] = 1;
     m_mapOperator["-"] = 1;
     m_mapOperator["*"] = 2;
     m_mapOperator["/"] = 2;
     m_mapOperator["("] = -1;
-    this->m_mapVar=varMap;
+    //this->m_mapVar=varMap;
 }
 /**
  * distructor
@@ -77,42 +78,33 @@ vector<string> ShAlgo::splitString(string &str) const {
 
         // check if the current char in the string  is a number
         string num;
+       // string var;
         while (this->isNumber(currChar)) {
             num += currChar;
             i++;
             currChar = str.substr(i, 1);
         }
+//        while (!this->isNumber(currChar)&&!this->isOperator(currChar)&&currChar!="(" &&currChar!=")"&&!currChar.empty()){
+//            var+=currChar;
+//            i++;
+//            currChar=str.substr(i,1);
+//        }
         // If this is a number put in the stack.
         if (!num.empty()) {
             splits.push_back(num);
             // Fixing position of 'i' due to the 'while' loop terminating
             i--;
-        } else {
+//        } else if(!var.empty()){
+//            double numOfVar=m_mapVar.at(var);
+//            splits.push_back(to_string(numOfVar));
+//            // Fixing position of 'i' due to the 'while' loop terminating
+//            i--;
+        }
+        else {
             splits.push_back(currChar);
         }
     }
     return splits;
-}
-/**
- * the function create a vector that after split.
- * @param expressions the strints to split.
- * @return a vector of strings split.
- */
-vector<string> ShAlgo::biuldVecSplit(vector<string> &expressions) const {
-    vector<string> vec;
-    for (auto &str : expressions) {
-        //if the string is a simple operator or number we push to the vec.
-        if (this->isNumber(str) || this->isOperator(str) || str == "(" || str == ")") {
-            vec.push_back(str);
-
-            // If the string is a complex expression consisting of numbers and operators
-        } else {
-            vector<string> splits = this->splitString(str);
-            // Add the final applied splits to the vector
-            vec.insert(vec.end(), splits.begin(), splits.end());
-        }
-    }
-    return vec;
 }
 
 /**
@@ -120,12 +112,10 @@ vector<string> ShAlgo::biuldVecSplit(vector<string> &expressions) const {
  * @param expressions the strings to order
  * @return a queue in the postfix order.
  */
-queue<string> ShAlgo::creatQueue(vector<string> &expressions) {
-    vector<string> vec = this->biuldVecSplit(expressions);
-
+queue<string> ShAlgo::creatQueue(string &expressions) {
+    vector<string> vec = this->splitString(expressions);
     stack<string> operators;
     queue<string> numbers;
-
 
     for (auto &str : vec) {
         if (this->isNumber(str)) {
@@ -160,8 +150,8 @@ queue<string> ShAlgo::creatQueue(vector<string> &expressions) {
     }
     return numbers;
 }
-
-bool ShAlgo::isVar(const string &str) const {
-    return m_mapVar.count(str) == 1;
-}
+//
+//bool ShAlgo::isVar(const string &str) const {
+//    return m_mapVar.count(str) == 1;
+//}
 

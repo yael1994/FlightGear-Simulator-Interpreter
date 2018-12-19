@@ -11,6 +11,7 @@
 #include "Mul.h"
 #include "Number.h"
 #include "Neg.h"
+#include "ShAlgo.h"
 
 bool CreateExp::isOperator(const string &str) const {
     return (str == "+") || (str == "-") || (str == "*") || (str == "/");
@@ -30,7 +31,9 @@ bool CreateExp::isNumber(const string &str) const {
     return true;
 }
 
-Expression* CreateExp::biuldExp(queue<string> q_num) {
+Expression* CreateExp::biuldExp(string &str) {
+    ShAlgo* sy=new ShAlgo();
+    queue<string> q_num=sy->creatQueue(str);
     stack<Expression*> st;
     while (!q_num.empty()){
         string element = q_num.front();
@@ -50,7 +53,7 @@ Expression* CreateExp::biuldExp(queue<string> q_num) {
                Expression *e2 = st.top();
                st.pop();
 
-               Expression *exp = new Plus(e1, e2);
+               Expression *exp = new Plus(e2, e1);
                st.push(exp);
            }
             if(element=="-"){
@@ -67,7 +70,7 @@ Expression* CreateExp::biuldExp(queue<string> q_num) {
                     st.pop();
                     Expression *e2 = st.top();
                     st.pop();
-                    Expression *exp = new Minus(e1, e2);
+                    Expression *exp = new Minus(e2, e1);
                     st.push(exp);
                 }
             }
@@ -79,7 +82,7 @@ Expression* CreateExp::biuldExp(queue<string> q_num) {
                 st.pop();
                 Expression* e2=st.top();
                 st.pop();
-                Expression* exp=new Mul(e1,e2);
+                Expression* exp=new Mul(e2,e1);
                 st.push(exp);
             }
             if(element=="/"){
@@ -90,7 +93,7 @@ Expression* CreateExp::biuldExp(queue<string> q_num) {
                 st.pop();
                 Expression* e2=st.top();
                 st.pop();
-                Expression* exp=new Div(e1,e2);
+                Expression* exp=new Div(e2,e1);
                 st.push(exp);
             }
 

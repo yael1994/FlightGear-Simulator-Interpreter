@@ -7,7 +7,7 @@
 #include <fstream>
 #include <iostream>
 #include "Lexer.h"
-
+#include <regex>
 #define TXT "txt"
 
 using namespace std;
@@ -23,33 +23,52 @@ string Lexer::parseApostrophes(string word){
     word.erase(word.size()-lenghChar, word.find(delimiter) + lenghChar);
     return word;
 }
-
-vector<string> Lexer::lexFile(ifstream &in){
-    vector<string> lexVec;
-    string line;
-    string line1;
-    // the function add the last number.
-    while (!in.eof()) {
-        in >> line;
-        if (line[0]=='\"'){
-            line=parseApostrophes(line);
+void Lexer::getSpace(string &str) {
+    string ans;
+    string ch;
+    vector<string> special_operators = SPECIAL_OPERATOR;
+    bool is_quotation = false;
+    string::iterator it;
+    for (it = str.begin(); it != str.end(); ++it) {
+        ch = *it;
+        if (ch == "\"") {
+            is_quotation = !is_quotation;
+            ans += ch;
+            continue;
         }
-        lexVec.push_back(line);
+        if ((find(special_operators.begin(), special_operators.end(), ch) != special_operators.end()) &&
+            !is_quotation) {
+            string to_replace = " " + ch + " ";
+            ans += to_replace;
+        } else {
+            ans += ch;
+        }
     }
+    str = ans;
 }
 
-vector<string> Lexer::lexStr(string &str){
-    string delimiter = " ";
+void Lexer::lexStr(string &str){
+   getSpace(str);
     string line;
-    while(str.find(delimiter)&&!str.empty()) {
+    string delimiter=SPACE;
+    while(!str.empty()) {
         line=str.substr(0, str.find(delimiter));
         if (line[0]=='\"'){
             line=parseApostrophes(line);
         }
+        if(line.empty()){
+            str.erase(0, str.find(delimiter) + delimiter.length());
+            continue;
+        }
         this->m_vec.push_back(line);
-        str.erase(0, str.find(delimiter) + delimiter.length());
+        if(str.find(delimiter)==string::npos){
+            str="";
+        } else {
+            str.erase(0, str.find(delimiter) + delimiter.length());
+        }
     }
 }
+
 
 /**
  * the function get file or string and lexer it in the space and push every string to vector.
@@ -59,20 +78,25 @@ vector<string> Lexer::lexStr(string &str){
  */
 vector<string> Lexer:: lexer(string fileName) {
     //the function check if he got file or string
-    if (fileName.find(TXT) != std::string::npos) {
+    if (fileName.find(TXT) != string::npos) {
         ifstream in;
+        string line;
         in.open(fileName);
         if (!in.is_open()) {
             cout << "error while opening the file\n";
             exit(0);
         }
-        this->m_vec=lexFile(in);
+        while (!in.eof()) {
+            getline(in, line);
+            lexStr(line);
+            this->m_vec.push_back("\n");
+        }
         in.close();
     } else{
-        this->m_vec=lexStr(fileName);
+        lexStr(fileName);
+        this->m_vec.push_back("\n");
 
     }
     return this->m_vec;
 }
-
 

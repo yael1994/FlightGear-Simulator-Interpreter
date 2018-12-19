@@ -11,31 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f49a6adb-1111-48e5-945b-4c671d122423" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BinaryExpression.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BinaryExpression.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreateExp.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreateExp.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Div.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Div.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Expression.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lexer.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lexer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Minus.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Minus.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mul.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mul.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Neg.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Neg.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Number.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Number.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plus.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plus.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShAlgo.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShAlgo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="f49a6adb-1111-48e5-945b-4c671d122423" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,49 +24,51 @@
     <session id="-1137489249">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.4" value="9" />
+          <entry key="project.open.time.4" value="11" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="FlightProject (disassembly)" value="13" />
-          <entry key="cpp" value="40" />
-          <entry key="h" value="49" />
+          <entry key="FlightProject (disassembly)" value="15" />
+          <entry key="cpp" value="51" />
+          <entry key="h" value="53" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="1" />
-          <entry key="Disassembly" value="13" />
-          <entry key="ObjectiveC" value="89" />
+          <entry key="Disassembly" value="15" />
+          <entry key="ObjectiveC" value="104" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="6573" />
-          <entry key="h" value="1079" />
+          <entry key="cpp" value="7874" />
+          <entry key="h" value="1170" />
+          <entry key="mm" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Doxygen file" value="23" />
-          <entry key="ObjectiveC" value="7629" />
+          <entry key="ObjectiveC" value="9038" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="475">
+              <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -98,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ShAlgo.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
               <folding>
                 <element signature="e#39#57#0" expanded="true" />
               </folding>
@@ -111,12 +89,56 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lexer.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CreateExp.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#39#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ShAlgo.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="46" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="54" />
+            <state relative-caret-position="475">
+              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
               <folding>
                 <element signature="e#101#116#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CreateExp.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+              <folding>
+                <element signature="e#107#131#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lexer.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="59" column="67" selection-start-line="59" selection-start-column="67" selection-end-line="59" selection-end-column="67" />
+              <folding>
+                <element signature="e#39#56#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,14 +168,14 @@
         <option value="$PROJECT_DIR$/createExp.cpp" />
         <option value="$PROJECT_DIR$/createExp.h" />
         <option value="$PROJECT_DIR$/Mul.h" />
-        <option value="$PROJECT_DIR$/CreateExp.h" />
         <option value="$PROJECT_DIR$/Neg.h" />
-        <option value="$PROJECT_DIR$/CreateExp.cpp" />
         <option value="$PROJECT_DIR$/Lexer.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/Lexer.cpp" />
-        <option value="$PROJECT_DIR$/ShAlgo.h" />
+        <option value="$PROJECT_DIR$/CreateExp.cpp" />
         <option value="$PROJECT_DIR$/ShAlgo.cpp" />
+        <option value="$PROJECT_DIR$/ShAlgo.h" />
+        <option value="$PROJECT_DIR$/CreateExp.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
@@ -164,10 +186,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-100" />
-    <option name="y" value="27" />
+    <option name="x" value="960" />
+    <option name="y" value="25" />
     <option name="width" value="960" />
-    <option name="height" value="988" />
+    <option name="height" value="990" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -243,29 +265,32 @@
       <workItem from="1544953543745" duration="5868000" />
       <workItem from="1544995237004" duration="4119000" />
       <workItem from="1545044366514" duration="877000" />
-      <workItem from="1545061240258" duration="661000" />
+      <workItem from="1545061240258" duration="1658000" />
+      <workItem from="1545066124003" duration="8382000" />
+      <workItem from="1545115841192" duration="3301000" />
+      <workItem from="1545243384502" duration="6194000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48616000" />
+    <option name="totallyTimeSpent" value="67490000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="990" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08484525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08644611" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32946634" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32946634" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.16473317" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32906976" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.05232558" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32946634" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32906976" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
@@ -289,12 +314,26 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>13</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/CreateExp.cpp</url>
+          <line>35</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>delimiter.length()</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>str.find(delimiter)</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///usr/include/c++/7/bits/stringfwd.h">
@@ -423,40 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CreateExp.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="65" column="37" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
-          <folding>
-            <element signature="e#39#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lexer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lexer.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CreateExp.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#108#125#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Expression.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -464,32 +469,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/Lexer.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="416">
+          <caret line="59" column="67" selection-start-line="59" selection-start-column="67" selection-end-line="59" selection-end-column="67" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#39#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreateExp.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="e#107#131#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ShAlgo.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="46" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="54" />
+        <state relative-caret-position="475">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
           <folding>
             <element signature="e#101#116#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CreateExp.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#39#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lexer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ShAlgo.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
           <folding>
             <element signature="e#39#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>

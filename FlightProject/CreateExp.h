@@ -4,7 +4,7 @@
 
 #ifndef FLIGHTPROJECT_CREATEEXP_H
 #define FLIGHTPROJECT_CREATEEXP_H
-
+#include <unordered_map>
 #include <string>
 #include <queue>
 #include "Expression.h"
@@ -15,7 +15,7 @@ class CreateExp {
     bool isNumber(const string &str) const;
 
 public:
-    Expression* biuldExp(queue<string> q_num);
+    Expression* biuldExp(string &str);
 };
 
 

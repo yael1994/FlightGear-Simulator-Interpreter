@@ -1,5 +1,5 @@
 openDataServer 5400 10
 var breaks = bind "/controls/flight/speedbrake"
 var throttle = bind "/controls/engines/engine/throttle"
-breaks = -5 +8
+breaks = - 5+8 5
 printf "done"

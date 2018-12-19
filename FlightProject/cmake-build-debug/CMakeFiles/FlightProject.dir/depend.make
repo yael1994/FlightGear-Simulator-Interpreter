@@ -15,6 +15,7 @@ CMakeFiles/FlightProject.dir/CreateExp.cpp.o: ../Mul.h
 CMakeFiles/FlightProject.dir/CreateExp.cpp.o: ../Neg.h
 CMakeFiles/FlightProject.dir/CreateExp.cpp.o: ../Number.h
 CMakeFiles/FlightProject.dir/CreateExp.cpp.o: ../Plus.h
+CMakeFiles/FlightProject.dir/CreateExp.cpp.o: ../ShAlgo.h
 
 CMakeFiles/FlightProject.dir/Div.cpp.o: ../BinaryExpression.h
 CMakeFiles/FlightProject.dir/Div.cpp.o: ../Div.cpp
