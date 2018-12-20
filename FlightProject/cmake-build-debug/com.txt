@@ -1,5 +1,24 @@
 openDataServer 5400 10
+connect 127.0.0.1 5402
 var breaks = bind "/controls/flight/speedbrake"
 var throttle = bind "/controls/engines/engine/throttle"
-breaks = - 5+8 5
-printf "done"
+var heading = bind "/instrumentation/heading-indicator/offset-deg"
+breaks = 0
+throttle = 1
+var h0 = heading
+if alt<1000
+{rudder = (h0–heading)/20
+aileron = 
+-
+roll / 70
+19.
+elevator = pitch / 50
+20.
+print alt
+21.
+slee
+p 250
+22.
+}
+23.
+print "done"

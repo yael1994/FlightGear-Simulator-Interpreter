@@ -5,6 +5,19 @@ CMakeFiles/FlightProject.dir/BinaryExpression.cpp.o: ../BinaryExpression.cpp
 CMakeFiles/FlightProject.dir/BinaryExpression.cpp.o: ../BinaryExpression.h
 CMakeFiles/FlightProject.dir/BinaryExpression.cpp.o: ../Expression.h
 
+CMakeFiles/FlightProject.dir/ClientConnect.cpp.o: ../ClientConnect.cpp
+CMakeFiles/FlightProject.dir/ClientConnect.cpp.o: ../ClientConnect.h
+
+CMakeFiles/FlightProject.dir/ConditionParser.cpp.o: ../Command.h
+CMakeFiles/FlightProject.dir/ConditionParser.cpp.o: ../ConditionParser.cpp
+CMakeFiles/FlightProject.dir/ConditionParser.cpp.o: ../ConditionParser.h
+
+CMakeFiles/FlightProject.dir/ConnectCommand.cpp.o: ../ClientConnect.h
+CMakeFiles/FlightProject.dir/ConnectCommand.cpp.o: ../Command.h
+CMakeFiles/FlightProject.dir/ConnectCommand.cpp.o: ../ConnectCommand.cpp
+CMakeFiles/FlightProject.dir/ConnectCommand.cpp.o: ../ConnectCommand.h
+CMakeFiles/FlightProject.dir/ConnectCommand.cpp.o: ../IterCommand.h
+
 CMakeFiles/FlightProject.dir/CreateExp.cpp.o: ../BinaryExpression.h
 CMakeFiles/FlightProject.dir/CreateExp.cpp.o: ../CreateExp.cpp
 CMakeFiles/FlightProject.dir/CreateExp.cpp.o: ../CreateExp.h
@@ -17,14 +30,38 @@ CMakeFiles/FlightProject.dir/CreateExp.cpp.o: ../Number.h
 CMakeFiles/FlightProject.dir/CreateExp.cpp.o: ../Plus.h
 CMakeFiles/FlightProject.dir/CreateExp.cpp.o: ../ShAlgo.h
 
+CMakeFiles/FlightProject.dir/DataReaderServer.cpp.o: ../DataReaderServer.cpp
+CMakeFiles/FlightProject.dir/DataReaderServer.cpp.o: ../DataReaderServer.h
+CMakeFiles/FlightProject.dir/DataReaderServer.cpp.o: ../SymbolTable.h
+
+CMakeFiles/FlightProject.dir/DefineVarCommand.cpp.o: ../Command.h
+CMakeFiles/FlightProject.dir/DefineVarCommand.cpp.o: ../DefineVarCommand.cpp
+CMakeFiles/FlightProject.dir/DefineVarCommand.cpp.o: ../DefineVarCommand.h
+CMakeFiles/FlightProject.dir/DefineVarCommand.cpp.o: ../IterCommand.h
+
 CMakeFiles/FlightProject.dir/Div.cpp.o: ../BinaryExpression.h
 CMakeFiles/FlightProject.dir/Div.cpp.o: ../Div.cpp
 CMakeFiles/FlightProject.dir/Div.cpp.o: ../Div.h
 CMakeFiles/FlightProject.dir/Div.cpp.o: ../Expression.h
 CMakeFiles/FlightProject.dir/Div.cpp.o: ../Number.h
 
+CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.o: ../Command.h
+CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.o: ../Expression.h
+CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.o: ../ExpressionCommand.cpp
+CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.o: ../ExpressionCommand.h
+
+CMakeFiles/FlightProject.dir/IfCommand.cpp.o: ../Command.h
+CMakeFiles/FlightProject.dir/IfCommand.cpp.o: ../ConditionParser.h
+CMakeFiles/FlightProject.dir/IfCommand.cpp.o: ../IfCommand.cpp
+CMakeFiles/FlightProject.dir/IfCommand.cpp.o: ../IfCommand.h
+
 CMakeFiles/FlightProject.dir/Lexer.cpp.o: ../Lexer.cpp
 CMakeFiles/FlightProject.dir/Lexer.cpp.o: ../Lexer.h
+
+CMakeFiles/FlightProject.dir/LoopCommand.cpp.o: ../Command.h
+CMakeFiles/FlightProject.dir/LoopCommand.cpp.o: ../ConditionParser.h
+CMakeFiles/FlightProject.dir/LoopCommand.cpp.o: ../LoopCommand.cpp
+CMakeFiles/FlightProject.dir/LoopCommand.cpp.o: ../LoopCommand.h
 
 CMakeFiles/FlightProject.dir/Minus.cpp.o: ../BinaryExpression.h
 CMakeFiles/FlightProject.dir/Minus.cpp.o: ../Expression.h
@@ -44,17 +81,59 @@ CMakeFiles/FlightProject.dir/Number.cpp.o: ../Expression.h
 CMakeFiles/FlightProject.dir/Number.cpp.o: ../Number.cpp
 CMakeFiles/FlightProject.dir/Number.cpp.o: ../Number.h
 
+CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.o: ../Command.h
+CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.o: ../DataReaderServer.h
+CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.o: ../IterCommand.h
+CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.o: ../OpenDataServerCommand.cpp
+CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.o: ../OpenDataServerCommand.h
+CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.o: ../SymbolTable.h
+
+CMakeFiles/FlightProject.dir/Parser.cpp.o: ../Command.h
+CMakeFiles/FlightProject.dir/Parser.cpp.o: ../ConnectCommand.h
+CMakeFiles/FlightProject.dir/Parser.cpp.o: ../DefineVarCommand.h
+CMakeFiles/FlightProject.dir/Parser.cpp.o: ../Expression.h
+CMakeFiles/FlightProject.dir/Parser.cpp.o: ../ExpressionCommand.h
+CMakeFiles/FlightProject.dir/Parser.cpp.o: ../IterCommand.h
+CMakeFiles/FlightProject.dir/Parser.cpp.o: ../Lexer.h
+CMakeFiles/FlightProject.dir/Parser.cpp.o: ../OpenDataServerCommand.h
+CMakeFiles/FlightProject.dir/Parser.cpp.o: ../Parser.cpp
+CMakeFiles/FlightProject.dir/Parser.cpp.o: ../Parser.h
+CMakeFiles/FlightProject.dir/Parser.cpp.o: ../PrintCommand.h
+CMakeFiles/FlightProject.dir/Parser.cpp.o: ../Project1.h
+
 CMakeFiles/FlightProject.dir/Plus.cpp.o: ../BinaryExpression.h
 CMakeFiles/FlightProject.dir/Plus.cpp.o: ../Expression.h
 CMakeFiles/FlightProject.dir/Plus.cpp.o: ../Plus.cpp
 CMakeFiles/FlightProject.dir/Plus.cpp.o: ../Plus.h
 
+CMakeFiles/FlightProject.dir/PrintCommand.cpp.o: ../Command.h
+CMakeFiles/FlightProject.dir/PrintCommand.cpp.o: ../PrintCommand.cpp
+CMakeFiles/FlightProject.dir/PrintCommand.cpp.o: ../PrintCommand.h
+
+CMakeFiles/FlightProject.dir/Project1.cpp.o: ../Command.h
+CMakeFiles/FlightProject.dir/Project1.cpp.o: ../ConnectCommand.h
+CMakeFiles/FlightProject.dir/Project1.cpp.o: ../DefineVarCommand.h
+CMakeFiles/FlightProject.dir/Project1.cpp.o: ../Expression.h
+CMakeFiles/FlightProject.dir/Project1.cpp.o: ../ExpressionCommand.h
+CMakeFiles/FlightProject.dir/Project1.cpp.o: ../IterCommand.h
+CMakeFiles/FlightProject.dir/Project1.cpp.o: ../Lexer.h
+CMakeFiles/FlightProject.dir/Project1.cpp.o: ../OpenDataServerCommand.h
+CMakeFiles/FlightProject.dir/Project1.cpp.o: ../Parser.h
+CMakeFiles/FlightProject.dir/Project1.cpp.o: ../Project1.cpp
+CMakeFiles/FlightProject.dir/Project1.cpp.o: ../Project1.h
+
 CMakeFiles/FlightProject.dir/ShAlgo.cpp.o: ../ShAlgo.cpp
 CMakeFiles/FlightProject.dir/ShAlgo.cpp.o: ../ShAlgo.h
+
+CMakeFiles/FlightProject.dir/SymbolTable.cpp.o: ../SymbolTable.cpp
+CMakeFiles/FlightProject.dir/SymbolTable.cpp.o: ../SymbolTable.h
 
 CMakeFiles/FlightProject.dir/main.cpp.o: ../CreateExp.h
 CMakeFiles/FlightProject.dir/main.cpp.o: ../Expression.h
 CMakeFiles/FlightProject.dir/main.cpp.o: ../Lexer.h
 CMakeFiles/FlightProject.dir/main.cpp.o: ../ShAlgo.h
 CMakeFiles/FlightProject.dir/main.cpp.o: ../main.cpp
+
+CMakeFiles/FlightProject.dir/setCommand.cpp.o: ../setCommand.cpp
+CMakeFiles/FlightProject.dir/setCommand.cpp.o: ../setCommand.h
 

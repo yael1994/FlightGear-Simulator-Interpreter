@@ -36,8 +36,7 @@ void Lexer::getSpace(string &str) {
             ans += ch;
             continue;
         }
-        if ((find(special_operators.begin(), special_operators.end(), ch) != special_operators.end()) &&
-            !is_quotation) {
+        if ((find(special_operators.begin(), special_operators.end(), ch) != special_operators.end()) && !is_quotation) {
             string to_replace = " " + ch + " ";
             ans += to_replace;
         } else {

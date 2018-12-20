@@ -19,8 +19,6 @@ int main() {
 
 //
     string s="(5-7)";
-//    unordered_map<string, double > m;
-//    m["kom"]=5;
     CreateExp* c=new CreateExp();
     Expression* e=c->biuldExp(s);
     cout<<e->calculate()<<endl;

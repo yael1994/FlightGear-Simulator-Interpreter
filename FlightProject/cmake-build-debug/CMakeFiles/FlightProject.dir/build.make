@@ -70,9 +70,165 @@ CMakeFiles/FlightProject.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlightProject.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yael/CLionProjects/FlightProject/main.cpp -o CMakeFiles/FlightProject.dir/main.cpp.s
 
+CMakeFiles/FlightProject.dir/Parser.cpp.o: CMakeFiles/FlightProject.dir/flags.make
+CMakeFiles/FlightProject.dir/Parser.cpp.o: ../Parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FlightProject.dir/Parser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/Parser.cpp.o -c /home/yael/CLionProjects/FlightProject/Parser.cpp
+
+CMakeFiles/FlightProject.dir/Parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlightProject.dir/Parser.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yael/CLionProjects/FlightProject/Parser.cpp > CMakeFiles/FlightProject.dir/Parser.cpp.i
+
+CMakeFiles/FlightProject.dir/Parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlightProject.dir/Parser.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yael/CLionProjects/FlightProject/Parser.cpp -o CMakeFiles/FlightProject.dir/Parser.cpp.s
+
+CMakeFiles/FlightProject.dir/ConnectCommand.cpp.o: CMakeFiles/FlightProject.dir/flags.make
+CMakeFiles/FlightProject.dir/ConnectCommand.cpp.o: ../ConnectCommand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FlightProject.dir/ConnectCommand.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/ConnectCommand.cpp.o -c /home/yael/CLionProjects/FlightProject/ConnectCommand.cpp
+
+CMakeFiles/FlightProject.dir/ConnectCommand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlightProject.dir/ConnectCommand.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yael/CLionProjects/FlightProject/ConnectCommand.cpp > CMakeFiles/FlightProject.dir/ConnectCommand.cpp.i
+
+CMakeFiles/FlightProject.dir/ConnectCommand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlightProject.dir/ConnectCommand.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yael/CLionProjects/FlightProject/ConnectCommand.cpp -o CMakeFiles/FlightProject.dir/ConnectCommand.cpp.s
+
+CMakeFiles/FlightProject.dir/DefineVarCommand.cpp.o: CMakeFiles/FlightProject.dir/flags.make
+CMakeFiles/FlightProject.dir/DefineVarCommand.cpp.o: ../DefineVarCommand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FlightProject.dir/DefineVarCommand.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/DefineVarCommand.cpp.o -c /home/yael/CLionProjects/FlightProject/DefineVarCommand.cpp
+
+CMakeFiles/FlightProject.dir/DefineVarCommand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlightProject.dir/DefineVarCommand.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yael/CLionProjects/FlightProject/DefineVarCommand.cpp > CMakeFiles/FlightProject.dir/DefineVarCommand.cpp.i
+
+CMakeFiles/FlightProject.dir/DefineVarCommand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlightProject.dir/DefineVarCommand.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yael/CLionProjects/FlightProject/DefineVarCommand.cpp -o CMakeFiles/FlightProject.dir/DefineVarCommand.cpp.s
+
+CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.o: CMakeFiles/FlightProject.dir/flags.make
+CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.o: ../OpenDataServerCommand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.o -c /home/yael/CLionProjects/FlightProject/OpenDataServerCommand.cpp
+
+CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yael/CLionProjects/FlightProject/OpenDataServerCommand.cpp > CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.i
+
+CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yael/CLionProjects/FlightProject/OpenDataServerCommand.cpp -o CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.s
+
+CMakeFiles/FlightProject.dir/PrintCommand.cpp.o: CMakeFiles/FlightProject.dir/flags.make
+CMakeFiles/FlightProject.dir/PrintCommand.cpp.o: ../PrintCommand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FlightProject.dir/PrintCommand.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/PrintCommand.cpp.o -c /home/yael/CLionProjects/FlightProject/PrintCommand.cpp
+
+CMakeFiles/FlightProject.dir/PrintCommand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlightProject.dir/PrintCommand.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yael/CLionProjects/FlightProject/PrintCommand.cpp > CMakeFiles/FlightProject.dir/PrintCommand.cpp.i
+
+CMakeFiles/FlightProject.dir/PrintCommand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlightProject.dir/PrintCommand.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yael/CLionProjects/FlightProject/PrintCommand.cpp -o CMakeFiles/FlightProject.dir/PrintCommand.cpp.s
+
+CMakeFiles/FlightProject.dir/ConditionParser.cpp.o: CMakeFiles/FlightProject.dir/flags.make
+CMakeFiles/FlightProject.dir/ConditionParser.cpp.o: ../ConditionParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/FlightProject.dir/ConditionParser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/ConditionParser.cpp.o -c /home/yael/CLionProjects/FlightProject/ConditionParser.cpp
+
+CMakeFiles/FlightProject.dir/ConditionParser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlightProject.dir/ConditionParser.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yael/CLionProjects/FlightProject/ConditionParser.cpp > CMakeFiles/FlightProject.dir/ConditionParser.cpp.i
+
+CMakeFiles/FlightProject.dir/ConditionParser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlightProject.dir/ConditionParser.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yael/CLionProjects/FlightProject/ConditionParser.cpp -o CMakeFiles/FlightProject.dir/ConditionParser.cpp.s
+
+CMakeFiles/FlightProject.dir/IfCommand.cpp.o: CMakeFiles/FlightProject.dir/flags.make
+CMakeFiles/FlightProject.dir/IfCommand.cpp.o: ../IfCommand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/FlightProject.dir/IfCommand.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/IfCommand.cpp.o -c /home/yael/CLionProjects/FlightProject/IfCommand.cpp
+
+CMakeFiles/FlightProject.dir/IfCommand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlightProject.dir/IfCommand.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yael/CLionProjects/FlightProject/IfCommand.cpp > CMakeFiles/FlightProject.dir/IfCommand.cpp.i
+
+CMakeFiles/FlightProject.dir/IfCommand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlightProject.dir/IfCommand.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yael/CLionProjects/FlightProject/IfCommand.cpp -o CMakeFiles/FlightProject.dir/IfCommand.cpp.s
+
+CMakeFiles/FlightProject.dir/LoopCommand.cpp.o: CMakeFiles/FlightProject.dir/flags.make
+CMakeFiles/FlightProject.dir/LoopCommand.cpp.o: ../LoopCommand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/FlightProject.dir/LoopCommand.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/LoopCommand.cpp.o -c /home/yael/CLionProjects/FlightProject/LoopCommand.cpp
+
+CMakeFiles/FlightProject.dir/LoopCommand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlightProject.dir/LoopCommand.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yael/CLionProjects/FlightProject/LoopCommand.cpp > CMakeFiles/FlightProject.dir/LoopCommand.cpp.i
+
+CMakeFiles/FlightProject.dir/LoopCommand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlightProject.dir/LoopCommand.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yael/CLionProjects/FlightProject/LoopCommand.cpp -o CMakeFiles/FlightProject.dir/LoopCommand.cpp.s
+
+CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.o: CMakeFiles/FlightProject.dir/flags.make
+CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.o: ../ExpressionCommand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.o -c /home/yael/CLionProjects/FlightProject/ExpressionCommand.cpp
+
+CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yael/CLionProjects/FlightProject/ExpressionCommand.cpp > CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.i
+
+CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yael/CLionProjects/FlightProject/ExpressionCommand.cpp -o CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.s
+
+CMakeFiles/FlightProject.dir/DataReaderServer.cpp.o: CMakeFiles/FlightProject.dir/flags.make
+CMakeFiles/FlightProject.dir/DataReaderServer.cpp.o: ../DataReaderServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/FlightProject.dir/DataReaderServer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/DataReaderServer.cpp.o -c /home/yael/CLionProjects/FlightProject/DataReaderServer.cpp
+
+CMakeFiles/FlightProject.dir/DataReaderServer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlightProject.dir/DataReaderServer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yael/CLionProjects/FlightProject/DataReaderServer.cpp > CMakeFiles/FlightProject.dir/DataReaderServer.cpp.i
+
+CMakeFiles/FlightProject.dir/DataReaderServer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlightProject.dir/DataReaderServer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yael/CLionProjects/FlightProject/DataReaderServer.cpp -o CMakeFiles/FlightProject.dir/DataReaderServer.cpp.s
+
+CMakeFiles/FlightProject.dir/ClientConnect.cpp.o: CMakeFiles/FlightProject.dir/flags.make
+CMakeFiles/FlightProject.dir/ClientConnect.cpp.o: ../ClientConnect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/FlightProject.dir/ClientConnect.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/ClientConnect.cpp.o -c /home/yael/CLionProjects/FlightProject/ClientConnect.cpp
+
+CMakeFiles/FlightProject.dir/ClientConnect.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlightProject.dir/ClientConnect.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yael/CLionProjects/FlightProject/ClientConnect.cpp > CMakeFiles/FlightProject.dir/ClientConnect.cpp.i
+
+CMakeFiles/FlightProject.dir/ClientConnect.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlightProject.dir/ClientConnect.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yael/CLionProjects/FlightProject/ClientConnect.cpp -o CMakeFiles/FlightProject.dir/ClientConnect.cpp.s
+
+CMakeFiles/FlightProject.dir/setCommand.cpp.o: CMakeFiles/FlightProject.dir/flags.make
+CMakeFiles/FlightProject.dir/setCommand.cpp.o: ../setCommand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/FlightProject.dir/setCommand.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/setCommand.cpp.o -c /home/yael/CLionProjects/FlightProject/setCommand.cpp
+
+CMakeFiles/FlightProject.dir/setCommand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlightProject.dir/setCommand.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yael/CLionProjects/FlightProject/setCommand.cpp > CMakeFiles/FlightProject.dir/setCommand.cpp.i
+
+CMakeFiles/FlightProject.dir/setCommand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlightProject.dir/setCommand.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yael/CLionProjects/FlightProject/setCommand.cpp -o CMakeFiles/FlightProject.dir/setCommand.cpp.s
+
 CMakeFiles/FlightProject.dir/Lexer.cpp.o: CMakeFiles/FlightProject.dir/flags.make
 CMakeFiles/FlightProject.dir/Lexer.cpp.o: ../Lexer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FlightProject.dir/Lexer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/FlightProject.dir/Lexer.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/Lexer.cpp.o -c /home/yael/CLionProjects/FlightProject/Lexer.cpp
 
 CMakeFiles/FlightProject.dir/Lexer.cpp.i: cmake_force
@@ -83,9 +239,35 @@ CMakeFiles/FlightProject.dir/Lexer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlightProject.dir/Lexer.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yael/CLionProjects/FlightProject/Lexer.cpp -o CMakeFiles/FlightProject.dir/Lexer.cpp.s
 
+CMakeFiles/FlightProject.dir/SymbolTable.cpp.o: CMakeFiles/FlightProject.dir/flags.make
+CMakeFiles/FlightProject.dir/SymbolTable.cpp.o: ../SymbolTable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/FlightProject.dir/SymbolTable.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/SymbolTable.cpp.o -c /home/yael/CLionProjects/FlightProject/SymbolTable.cpp
+
+CMakeFiles/FlightProject.dir/SymbolTable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlightProject.dir/SymbolTable.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yael/CLionProjects/FlightProject/SymbolTable.cpp > CMakeFiles/FlightProject.dir/SymbolTable.cpp.i
+
+CMakeFiles/FlightProject.dir/SymbolTable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlightProject.dir/SymbolTable.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yael/CLionProjects/FlightProject/SymbolTable.cpp -o CMakeFiles/FlightProject.dir/SymbolTable.cpp.s
+
+CMakeFiles/FlightProject.dir/Project1.cpp.o: CMakeFiles/FlightProject.dir/flags.make
+CMakeFiles/FlightProject.dir/Project1.cpp.o: ../Project1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/FlightProject.dir/Project1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/Project1.cpp.o -c /home/yael/CLionProjects/FlightProject/Project1.cpp
+
+CMakeFiles/FlightProject.dir/Project1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlightProject.dir/Project1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yael/CLionProjects/FlightProject/Project1.cpp > CMakeFiles/FlightProject.dir/Project1.cpp.i
+
+CMakeFiles/FlightProject.dir/Project1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlightProject.dir/Project1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yael/CLionProjects/FlightProject/Project1.cpp -o CMakeFiles/FlightProject.dir/Project1.cpp.s
+
 CMakeFiles/FlightProject.dir/BinaryExpression.cpp.o: CMakeFiles/FlightProject.dir/flags.make
 CMakeFiles/FlightProject.dir/BinaryExpression.cpp.o: ../BinaryExpression.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FlightProject.dir/BinaryExpression.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/FlightProject.dir/BinaryExpression.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/BinaryExpression.cpp.o -c /home/yael/CLionProjects/FlightProject/BinaryExpression.cpp
 
 CMakeFiles/FlightProject.dir/BinaryExpression.cpp.i: cmake_force
@@ -98,7 +280,7 @@ CMakeFiles/FlightProject.dir/BinaryExpression.cpp.s: cmake_force
 
 CMakeFiles/FlightProject.dir/Number.cpp.o: CMakeFiles/FlightProject.dir/flags.make
 CMakeFiles/FlightProject.dir/Number.cpp.o: ../Number.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FlightProject.dir/Number.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/FlightProject.dir/Number.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/Number.cpp.o -c /home/yael/CLionProjects/FlightProject/Number.cpp
 
 CMakeFiles/FlightProject.dir/Number.cpp.i: cmake_force
@@ -111,7 +293,7 @@ CMakeFiles/FlightProject.dir/Number.cpp.s: cmake_force
 
 CMakeFiles/FlightProject.dir/Plus.cpp.o: CMakeFiles/FlightProject.dir/flags.make
 CMakeFiles/FlightProject.dir/Plus.cpp.o: ../Plus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FlightProject.dir/Plus.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/FlightProject.dir/Plus.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/Plus.cpp.o -c /home/yael/CLionProjects/FlightProject/Plus.cpp
 
 CMakeFiles/FlightProject.dir/Plus.cpp.i: cmake_force
@@ -124,7 +306,7 @@ CMakeFiles/FlightProject.dir/Plus.cpp.s: cmake_force
 
 CMakeFiles/FlightProject.dir/Minus.cpp.o: CMakeFiles/FlightProject.dir/flags.make
 CMakeFiles/FlightProject.dir/Minus.cpp.o: ../Minus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FlightProject.dir/Minus.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/FlightProject.dir/Minus.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/Minus.cpp.o -c /home/yael/CLionProjects/FlightProject/Minus.cpp
 
 CMakeFiles/FlightProject.dir/Minus.cpp.i: cmake_force
@@ -137,7 +319,7 @@ CMakeFiles/FlightProject.dir/Minus.cpp.s: cmake_force
 
 CMakeFiles/FlightProject.dir/Div.cpp.o: CMakeFiles/FlightProject.dir/flags.make
 CMakeFiles/FlightProject.dir/Div.cpp.o: ../Div.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/FlightProject.dir/Div.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/FlightProject.dir/Div.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/Div.cpp.o -c /home/yael/CLionProjects/FlightProject/Div.cpp
 
 CMakeFiles/FlightProject.dir/Div.cpp.i: cmake_force
@@ -150,7 +332,7 @@ CMakeFiles/FlightProject.dir/Div.cpp.s: cmake_force
 
 CMakeFiles/FlightProject.dir/Mul.cpp.o: CMakeFiles/FlightProject.dir/flags.make
 CMakeFiles/FlightProject.dir/Mul.cpp.o: ../Mul.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/FlightProject.dir/Mul.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/FlightProject.dir/Mul.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/Mul.cpp.o -c /home/yael/CLionProjects/FlightProject/Mul.cpp
 
 CMakeFiles/FlightProject.dir/Mul.cpp.i: cmake_force
@@ -163,7 +345,7 @@ CMakeFiles/FlightProject.dir/Mul.cpp.s: cmake_force
 
 CMakeFiles/FlightProject.dir/Neg.cpp.o: CMakeFiles/FlightProject.dir/flags.make
 CMakeFiles/FlightProject.dir/Neg.cpp.o: ../Neg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/FlightProject.dir/Neg.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/FlightProject.dir/Neg.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/Neg.cpp.o -c /home/yael/CLionProjects/FlightProject/Neg.cpp
 
 CMakeFiles/FlightProject.dir/Neg.cpp.i: cmake_force
@@ -176,7 +358,7 @@ CMakeFiles/FlightProject.dir/Neg.cpp.s: cmake_force
 
 CMakeFiles/FlightProject.dir/ShAlgo.cpp.o: CMakeFiles/FlightProject.dir/flags.make
 CMakeFiles/FlightProject.dir/ShAlgo.cpp.o: ../ShAlgo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/FlightProject.dir/ShAlgo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/FlightProject.dir/ShAlgo.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/ShAlgo.cpp.o -c /home/yael/CLionProjects/FlightProject/ShAlgo.cpp
 
 CMakeFiles/FlightProject.dir/ShAlgo.cpp.i: cmake_force
@@ -189,7 +371,7 @@ CMakeFiles/FlightProject.dir/ShAlgo.cpp.s: cmake_force
 
 CMakeFiles/FlightProject.dir/CreateExp.cpp.o: CMakeFiles/FlightProject.dir/flags.make
 CMakeFiles/FlightProject.dir/CreateExp.cpp.o: ../CreateExp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/FlightProject.dir/CreateExp.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/FlightProject.dir/CreateExp.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/CreateExp.cpp.o -c /home/yael/CLionProjects/FlightProject/CreateExp.cpp
 
 CMakeFiles/FlightProject.dir/CreateExp.cpp.i: cmake_force
@@ -203,7 +385,21 @@ CMakeFiles/FlightProject.dir/CreateExp.cpp.s: cmake_force
 # Object files for target FlightProject
 FlightProject_OBJECTS = \
 "CMakeFiles/FlightProject.dir/main.cpp.o" \
+"CMakeFiles/FlightProject.dir/Parser.cpp.o" \
+"CMakeFiles/FlightProject.dir/ConnectCommand.cpp.o" \
+"CMakeFiles/FlightProject.dir/DefineVarCommand.cpp.o" \
+"CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.o" \
+"CMakeFiles/FlightProject.dir/PrintCommand.cpp.o" \
+"CMakeFiles/FlightProject.dir/ConditionParser.cpp.o" \
+"CMakeFiles/FlightProject.dir/IfCommand.cpp.o" \
+"CMakeFiles/FlightProject.dir/LoopCommand.cpp.o" \
+"CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.o" \
+"CMakeFiles/FlightProject.dir/DataReaderServer.cpp.o" \
+"CMakeFiles/FlightProject.dir/ClientConnect.cpp.o" \
+"CMakeFiles/FlightProject.dir/setCommand.cpp.o" \
 "CMakeFiles/FlightProject.dir/Lexer.cpp.o" \
+"CMakeFiles/FlightProject.dir/SymbolTable.cpp.o" \
+"CMakeFiles/FlightProject.dir/Project1.cpp.o" \
 "CMakeFiles/FlightProject.dir/BinaryExpression.cpp.o" \
 "CMakeFiles/FlightProject.dir/Number.cpp.o" \
 "CMakeFiles/FlightProject.dir/Plus.cpp.o" \
@@ -218,7 +414,21 @@ FlightProject_OBJECTS = \
 FlightProject_EXTERNAL_OBJECTS =
 
 FlightProject: CMakeFiles/FlightProject.dir/main.cpp.o
+FlightProject: CMakeFiles/FlightProject.dir/Parser.cpp.o
+FlightProject: CMakeFiles/FlightProject.dir/ConnectCommand.cpp.o
+FlightProject: CMakeFiles/FlightProject.dir/DefineVarCommand.cpp.o
+FlightProject: CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.o
+FlightProject: CMakeFiles/FlightProject.dir/PrintCommand.cpp.o
+FlightProject: CMakeFiles/FlightProject.dir/ConditionParser.cpp.o
+FlightProject: CMakeFiles/FlightProject.dir/IfCommand.cpp.o
+FlightProject: CMakeFiles/FlightProject.dir/LoopCommand.cpp.o
+FlightProject: CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.o
+FlightProject: CMakeFiles/FlightProject.dir/DataReaderServer.cpp.o
+FlightProject: CMakeFiles/FlightProject.dir/ClientConnect.cpp.o
+FlightProject: CMakeFiles/FlightProject.dir/setCommand.cpp.o
 FlightProject: CMakeFiles/FlightProject.dir/Lexer.cpp.o
+FlightProject: CMakeFiles/FlightProject.dir/SymbolTable.cpp.o
+FlightProject: CMakeFiles/FlightProject.dir/Project1.cpp.o
 FlightProject: CMakeFiles/FlightProject.dir/BinaryExpression.cpp.o
 FlightProject: CMakeFiles/FlightProject.dir/Number.cpp.o
 FlightProject: CMakeFiles/FlightProject.dir/Plus.cpp.o
@@ -230,7 +440,7 @@ FlightProject: CMakeFiles/FlightProject.dir/ShAlgo.cpp.o
 FlightProject: CMakeFiles/FlightProject.dir/CreateExp.cpp.o
 FlightProject: CMakeFiles/FlightProject.dir/build.make
 FlightProject: CMakeFiles/FlightProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable FlightProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable FlightProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FlightProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

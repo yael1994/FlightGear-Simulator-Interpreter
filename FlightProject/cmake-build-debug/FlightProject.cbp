@@ -90,10 +90,43 @@
 		<Unit filename="/home/yael/CLionProjects/FlightProject/BinaryExpression.h">
 			<Option target="FlightProject"/>
 		</Unit>
+		<Unit filename="/home/yael/CLionProjects/FlightProject/ClientConnect.cpp">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/CLionProjects/FlightProject/ClientConnect.h">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/CLionProjects/FlightProject/Command.h">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/CLionProjects/FlightProject/ConditionParser.cpp">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/CLionProjects/FlightProject/ConditionParser.h">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/CLionProjects/FlightProject/ConnectCommand.cpp">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/CLionProjects/FlightProject/ConnectCommand.h">
+			<Option target="FlightProject"/>
+		</Unit>
 		<Unit filename="/home/yael/CLionProjects/FlightProject/CreateExp.cpp">
 			<Option target="FlightProject"/>
 		</Unit>
 		<Unit filename="/home/yael/CLionProjects/FlightProject/CreateExp.h">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/CLionProjects/FlightProject/DataReaderServer.cpp">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/CLionProjects/FlightProject/DataReaderServer.h">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/CLionProjects/FlightProject/DefineVarCommand.cpp">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/CLionProjects/FlightProject/DefineVarCommand.h">
 			<Option target="FlightProject"/>
 		</Unit>
 		<Unit filename="/home/yael/CLionProjects/FlightProject/Div.cpp">
@@ -105,10 +138,34 @@
 		<Unit filename="/home/yael/CLionProjects/FlightProject/Expression.h">
 			<Option target="FlightProject"/>
 		</Unit>
+		<Unit filename="/home/yael/CLionProjects/FlightProject/ExpressionCommand.cpp">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/CLionProjects/FlightProject/ExpressionCommand.h">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/CLionProjects/FlightProject/ExpressionSingleTone.h">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/CLionProjects/FlightProject/IfCommand.cpp">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/CLionProjects/FlightProject/IfCommand.h">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/CLionProjects/FlightProject/IterCommand.h">
+			<Option target="FlightProject"/>
+		</Unit>
 		<Unit filename="/home/yael/CLionProjects/FlightProject/Lexer.cpp">
 			<Option target="FlightProject"/>
 		</Unit>
 		<Unit filename="/home/yael/CLionProjects/FlightProject/Lexer.h">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/CLionProjects/FlightProject/LoopCommand.cpp">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/CLionProjects/FlightProject/LoopCommand.h">
 			<Option target="FlightProject"/>
 		</Unit>
 		<Unit filename="/home/yael/CLionProjects/FlightProject/Minus.cpp">
@@ -135,10 +192,34 @@
 		<Unit filename="/home/yael/CLionProjects/FlightProject/Number.h">
 			<Option target="FlightProject"/>
 		</Unit>
+		<Unit filename="/home/yael/CLionProjects/FlightProject/OpenDataServerCommand.cpp">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/CLionProjects/FlightProject/OpenDataServerCommand.h">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/CLionProjects/FlightProject/Parser.cpp">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/CLionProjects/FlightProject/Parser.h">
+			<Option target="FlightProject"/>
+		</Unit>
 		<Unit filename="/home/yael/CLionProjects/FlightProject/Plus.cpp">
 			<Option target="FlightProject"/>
 		</Unit>
 		<Unit filename="/home/yael/CLionProjects/FlightProject/Plus.h">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/CLionProjects/FlightProject/PrintCommand.cpp">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/CLionProjects/FlightProject/PrintCommand.h">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/CLionProjects/FlightProject/Project1.cpp">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/CLionProjects/FlightProject/Project1.h">
 			<Option target="FlightProject"/>
 		</Unit>
 		<Unit filename="/home/yael/CLionProjects/FlightProject/ShAlgo.cpp">
@@ -147,7 +228,19 @@
 		<Unit filename="/home/yael/CLionProjects/FlightProject/ShAlgo.h">
 			<Option target="FlightProject"/>
 		</Unit>
+		<Unit filename="/home/yael/CLionProjects/FlightProject/SymbolTable.cpp">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/CLionProjects/FlightProject/SymbolTable.h">
+			<Option target="FlightProject"/>
+		</Unit>
 		<Unit filename="/home/yael/CLionProjects/FlightProject/main.cpp">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/CLionProjects/FlightProject/setCommand.cpp">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/CLionProjects/FlightProject/setCommand.h">
 			<Option target="FlightProject"/>
 		</Unit>
 		<Unit filename="/home/yael/CLionProjects/FlightProject/CMakeLists.txt">
