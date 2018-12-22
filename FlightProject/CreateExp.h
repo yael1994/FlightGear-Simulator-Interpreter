@@ -8,7 +8,6 @@
 #include <string>
 #include <queue>
 #include "Expression.h"
-#include "map"
 using namespace std;
 
 class CreateExp {

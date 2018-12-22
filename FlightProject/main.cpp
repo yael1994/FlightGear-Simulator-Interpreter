@@ -6,13 +6,13 @@
 
 SymbolTable* SymbolTable::_instance= NULL;
 int main() {
-//   SymbolTable* p = SymbolTable::getInstance();
-//   SymbolTable* q = SymbolTable::getInstance();
-//
-//
-//   Project1* project1 = new Project1("file.txt");
-//   project1->run();
-//
+   SymbolTable* p = SymbolTable::getInstance();
+   SymbolTable* q = SymbolTable::getInstance();
+
+
+   Project1* project1 = new Project1("file.txt");
+   project1->run();
+
 
 
 //   struct var{
@@ -24,13 +24,6 @@ int main() {
 //   struct var d = {"daniel","path", 3};
 //   maps[d] = 3.0;
 //   d.path  = 3.0;
-    string s="var x= ( 5 + 7 )";
-    Lexer* lex=new Lexer();
-    lex->lexer(s);
 
-
-//    CreateExp* c=new CreateExp();
-//    Expression* e=c->biuldExp(s);
-//    cout<<e->calculate()<<endl;
    return 0;
 }

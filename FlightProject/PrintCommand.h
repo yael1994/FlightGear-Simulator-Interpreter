@@ -9,12 +9,12 @@
 #include "IterCommand.h"
 
 class PrintCommand : public IterCommand {
-
-
 public:
-    PrintCommand(vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>::iterator &iterator);
+    PrintCommand();
 
-    //PrintCommand(vector<string> *&pointer);
+    PrintCommand(
+            vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>::iterator &iterator);
+
 
     void execute() override;
 

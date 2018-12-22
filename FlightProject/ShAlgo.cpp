@@ -6,7 +6,7 @@
 #include "ShAlgo.h"
 #include <stack>
 #include <iostream>
-#include "map"
+
 /**
  * constructor of the class
  */
@@ -17,6 +17,7 @@ ShAlgo::ShAlgo() {
     m_mapOperator["*"] = 2;
     m_mapOperator["/"] = 2;
     m_mapOperator["("] = -1;
+    //this->m_mapVar=varMap;
 }
 /**
  * distructor
@@ -52,6 +53,7 @@ bool ShAlgo::isNumber(const string &str) const {
     }
     return true;
 }
+
 /**
  * the function check how add more precedence, between current operator to the top operator in the stack
  * @param oper the current operator
@@ -76,18 +78,27 @@ vector<string> ShAlgo::splitString(string &str) const {
 
         // check if the current char in the string  is a number
         string num;
-       string var;
+       // string var;
         while (this->isNumber(currChar)) {
             num += currChar;
             i++;
             currChar = str.substr(i, 1);
         }
-
+//        while (!this->isNumber(currChar)&&!this->isOperator(currChar)&&currChar!="(" &&currChar!=")"&&!currChar.empty()){
+//            var+=currChar;
+//            i++;
+//            currChar=str.substr(i,1);
+//        }
         // If this is a number put in the stack.
         if (!num.empty()) {
             splits.push_back(num);
             // Fixing position of 'i' due to the 'while' loop terminating
             i--;
+//        } else if(!var.empty()){
+//            double numOfVar=m_mapVar.at(var);
+//            splits.push_back(to_string(numOfVar));
+//            // Fixing position of 'i' due to the 'while' loop terminating
+//            i--;
         }
         else {
             splits.push_back(currChar);
@@ -139,4 +150,8 @@ queue<string> ShAlgo::creatQueue(string &expressions) {
     }
     return numbers;
 }
+//
+//bool ShAlgo::isVar(const string &str) const {
+//    return m_mapVar.count(str) == 1;
+//}
 

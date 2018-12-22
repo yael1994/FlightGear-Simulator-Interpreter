@@ -22,7 +22,6 @@ CMakeFiles/untitled4.dir/ConditionParser.cpp.o
  /home/yael/CLionProjects/FlightProject/IterCommand.h
  /home/yael/CLionProjects/FlightProject/LoopCommand.h
  /home/yael/CLionProjects/FlightProject/OpenDataServerCommand.h
- /home/yael/CLionProjects/FlightProject/PrintCommand.h
  /home/yael/CLionProjects/FlightProject/Project1.h
  /home/yael/CLionProjects/FlightProject/setCommand.h
 CMakeFiles/untitled4.dir/ConnectCommand.cpp.o
@@ -173,7 +172,6 @@ CMakeFiles/untitled4.dir/Project1.cpp.o
  /home/yael/CLionProjects/FlightProject/LoopCommand.h
  /home/yael/CLionProjects/FlightProject/OpenDataServerCommand.h
  /home/yael/CLionProjects/FlightProject/Parser.h
- /home/yael/CLionProjects/FlightProject/PrintCommand.h
  /home/yael/CLionProjects/FlightProject/Project1.cpp
  /home/yael/CLionProjects/FlightProject/Project1.h
  /home/yael/CLionProjects/FlightProject/setCommand.h
@@ -198,7 +196,6 @@ CMakeFiles/untitled4.dir/main.cpp.o
  /home/yael/CLionProjects/FlightProject/LoopCommand.h
  /home/yael/CLionProjects/FlightProject/OpenDataServerCommand.h
  /home/yael/CLionProjects/FlightProject/Parser.h
- /home/yael/CLionProjects/FlightProject/PrintCommand.h
  /home/yael/CLionProjects/FlightProject/Project1.h
  /home/yael/CLionProjects/FlightProject/SymbolTable.h
  /home/yael/CLionProjects/FlightProject/main.cpp

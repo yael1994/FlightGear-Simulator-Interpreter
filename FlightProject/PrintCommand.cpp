@@ -24,6 +24,4 @@ while (this->getString()!="\n"){
 
 PrintCommand::PrintCommand(
         vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>::iterator &iterator)
-        : IterCommand(iterator) {
-
-}
+        : IterCommand(iterator) {}

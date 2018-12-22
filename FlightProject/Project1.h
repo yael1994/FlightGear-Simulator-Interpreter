@@ -17,7 +17,6 @@
 #include "setCommand.h"
 #include "IfCommand.h"
 #include "LoopCommand.h"
-#include "PrintCommand.h"
 
 class Project1 {
     map<string,Expression*> commandMap;
@@ -30,7 +29,6 @@ class Project1 {
             commandMap["set"] = new ExpressionCommand(new setCommand(iter));
             commandMap["if"] = new ExpressionCommand(new IfCommand(iter));
             commandMap["while"] = new ExpressionCommand(new LoopCommand(iter));
-            commandMap["print"]=new ExpressionCommand(new PrintCommand(iter));
         }
 
 public:

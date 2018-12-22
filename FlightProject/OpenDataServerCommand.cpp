@@ -4,7 +4,7 @@
 
 #include "OpenDataServerCommand.h"
 #include "DataReaderServer.h"
-
+#include <chrono>
 
 OpenDataServerCommand::OpenDataServerCommand(
         vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>::iterator &iterator)
@@ -25,7 +25,11 @@ void OpenDataServerCommand::execute() {
          
    //call DataReaderServer with object function
    thread thread1(DataReaderServer(), port,Hz);
-   thread1.join();
+//   this_thread::__sleep_for(chrono::seconds(1000),chrono::microseconds(1));
+   thread1.detach();
+//   DataReaderServer d;
+//   d.openServer(port,Hz);
+
 
 }
 

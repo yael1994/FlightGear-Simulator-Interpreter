@@ -21,7 +21,6 @@ CMakeFiles/untitled4.dir/ConditionParser.cpp.o: ../IfCommand.h
 CMakeFiles/untitled4.dir/ConditionParser.cpp.o: ../IterCommand.h
 CMakeFiles/untitled4.dir/ConditionParser.cpp.o: ../LoopCommand.h
 CMakeFiles/untitled4.dir/ConditionParser.cpp.o: ../OpenDataServerCommand.h
-CMakeFiles/untitled4.dir/ConditionParser.cpp.o: ../PrintCommand.h
 CMakeFiles/untitled4.dir/ConditionParser.cpp.o: ../Project1.h
 CMakeFiles/untitled4.dir/ConditionParser.cpp.o: ../setCommand.h
 
@@ -172,7 +171,6 @@ CMakeFiles/untitled4.dir/Project1.cpp.o: ../Lexer.h
 CMakeFiles/untitled4.dir/Project1.cpp.o: ../LoopCommand.h
 CMakeFiles/untitled4.dir/Project1.cpp.o: ../OpenDataServerCommand.h
 CMakeFiles/untitled4.dir/Project1.cpp.o: ../Parser.h
-CMakeFiles/untitled4.dir/Project1.cpp.o: ../PrintCommand.h
 CMakeFiles/untitled4.dir/Project1.cpp.o: ../Project1.cpp
 CMakeFiles/untitled4.dir/Project1.cpp.o: ../Project1.h
 CMakeFiles/untitled4.dir/Project1.cpp.o: ../setCommand.h
@@ -197,7 +195,6 @@ CMakeFiles/untitled4.dir/main.cpp.o: ../Lexer.h
 CMakeFiles/untitled4.dir/main.cpp.o: ../LoopCommand.h
 CMakeFiles/untitled4.dir/main.cpp.o: ../OpenDataServerCommand.h
 CMakeFiles/untitled4.dir/main.cpp.o: ../Parser.h
-CMakeFiles/untitled4.dir/main.cpp.o: ../PrintCommand.h
 CMakeFiles/untitled4.dir/main.cpp.o: ../Project1.h
 CMakeFiles/untitled4.dir/main.cpp.o: ../SymbolTable.h
 CMakeFiles/untitled4.dir/main.cpp.o: ../main.cpp

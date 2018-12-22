@@ -13,6 +13,7 @@ using namespace std;
 
 class ClientConnect {
     static ClientConnect* _instance;
+    bool flag;
     int sockfd, n;
     string msg;
     ClientConnect()= default;

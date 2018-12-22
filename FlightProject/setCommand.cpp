@@ -19,10 +19,12 @@ void setCommand::execute() {
     this->next();
     this->next();
     string value = this->getString();
-    string msg = "set "+ path+ " "+ value;
+    path.erase(0,1);
+    string msg = "set "+ path+ " "+ value+"\r\n";
     ClientConnect* c = ClientConnect::getInstance();
     c->sendMessage(msg);
-    symbolTable->setDoubleValue(name,toDouble->calculateExp(this->getString()));
+    double v = toDouble->calculateExp(this->getString());
+    symbolTable->setDoubleValue(name,v);
 
     this->next();
 }

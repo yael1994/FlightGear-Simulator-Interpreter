@@ -8,24 +8,21 @@
 #include <iostream>
 #include "Lexer.h"
 #include <regex>
-
 #define TXT "txt"
 
 using namespace std;
-
 /**
  * the function out the apostrophes.
  * @param word the word has apostrophes.
  * @return the word without apostrophes.
  */
-string Lexer::parseApostrophes(string word) {
-    int lenghChar = 1;
-    char delimiter = '\"';
+string Lexer::parseApostrophes(string word){
+    int lenghChar=1;
+    char delimiter ='\"';
     word.erase(0, word.find(delimiter) + lenghChar);
-    word.erase(word.size() - lenghChar, word.find(delimiter) + lenghChar);
+    word.erase(word.size()-lenghChar, word.find(delimiter) + lenghChar);
     return word;
 }
-
 void Lexer::getSpace(string &str) {
     string ans;
     string ch;
@@ -50,22 +47,22 @@ void Lexer::getSpace(string &str) {
     str = ans;
 }
 
-void Lexer::lexStr(string &str) {
-    getSpace(str);
+void Lexer::lexStr(string &str){
+   getSpace(str);
     string line;
-    string delimiter = SPACE;
-    while (!str.empty()) {
-        line = str.substr(0, str.find(delimiter));
-        if (line[0] == '\"') {
-            line = parseApostrophes(line);
+    string delimiter=SPACE;
+    while(!str.empty()) {
+        line=str.substr(0, str.find(delimiter));
+        if (line[0]=='\"'){
+            line=parseApostrophes(line);
         }
-        if (line.empty()) {
+        if(line.empty()){
             str.erase(0, str.find(delimiter) + delimiter.length());
             continue;
         }
         this->m_vec.push_back(line);
-        if (str.find(delimiter) == string::npos) {
-            str = "";
+        if(str.find(delimiter)==string::npos){
+            str="";
         } else {
             str.erase(0, str.find(delimiter) + delimiter.length());
         }
@@ -79,7 +76,7 @@ void Lexer::lexStr(string &str) {
  * @param fileName file or string
  * @return vector of string.
  */
-vector<string> Lexer::lexer(string fileName) {
+vector<string> Lexer:: lexer(string fileName) {
     //the function check if he got file or string
     if (fileName.find(TXT) != string::npos) {
         ifstream in;
@@ -95,10 +92,11 @@ vector<string> Lexer::lexer(string fileName) {
             this->m_vec.push_back("\n");
         }
         in.close();
-    } else {
+    } else{
         lexStr(fileName);
         this->m_vec.push_back("\n");
 
     }
     return this->m_vec;
 }
+

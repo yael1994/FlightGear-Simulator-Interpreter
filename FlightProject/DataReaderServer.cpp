@@ -4,6 +4,7 @@
 
 #include <sstream>
 #include <algorithm>
+#include <thread>
 #include "DataReaderServer.h"
 #include "NameToPathTable.h"
 
@@ -13,7 +14,7 @@
 void DataReaderServer::operator()(int portno, int hz) {
     this->symbolTable = SymbolTable::getInstance();
     int sockfd;
-    int newsockfd;
+
     int clilen;
 
     struct sockaddr_in serv_addr, cli_addr;
@@ -47,7 +48,7 @@ void DataReaderServer::operator()(int portno, int hz) {
 
     listen(sockfd, 5);
     clilen = sizeof(cli_addr);
-
+    newsockfd = -1;
     /* Accept actual connection from the client */
     newsockfd = accept(sockfd, (struct sockaddr *) &cli_addr, (socklen_t *) &clilen);
 
@@ -55,34 +56,45 @@ void DataReaderServer::operator()(int portno, int hz) {
         perror("ERROR on accept");
         exit(1);
     }
-    while(1){
-        /* If connection is established then start communicating */
-        cout<<"c"<<endl;
-        bzero(buffer, 256);
-        read(newsockfd, buffer,255);
+//    cout<<"c"<<endl;
+//    auto f = [this](){
+//        while(true){
+//         //   cout<<"c"<<endl;
+//            bzero(buffer,1024);
+//            int n =read(newsockfd,buffer,1023);
+//            if(n<0){
+//             //   perror("Error: reading from socket");
+//            }else{
+//                split();
+//            }
+//            sleep(1/30);
+//            split();
+//
+//        }
+//    };
+//    if(newsockfd > 0){
+//        thread t1(f);
+//        t1.detach();
+//    }
+    while(true){
+           cout<<"c"<<endl;
+        bzero(buffer,1024);
+        int n =read(newsockfd,buffer,1023);
+        if(n<0){
+             perror("Error: reading from socket");
+        }
+        sleep(1/10);
         split();
 
-        if (n < 0) {
-            perror("ERROR reading from socket");
-
-        }
-        sleep(1 / hz);
-
-        cout << buffer << endl;
     }
-//    FILE* fin;
-//    fin = fopen("try.txt","r");
-//
-//    for(int i =0; i< 256;i++) {
-//        fread(this->buffer, 1, 256, fin);
-//        split();
-//    }
+
 
 }
 void DataReaderServer::split() {
   for(int i = 0; i< strlen(buffer); i++){
       string buf;
-      while(buffer[i] != ',') {
+
+      while(buffer[i] != ',' || i < strlen(buffer)) {
           buf += buffer[i];
           i++;
       }
@@ -108,5 +120,6 @@ void DataReaderServer::setArgs() {
         }
     }
 }
+
 
 

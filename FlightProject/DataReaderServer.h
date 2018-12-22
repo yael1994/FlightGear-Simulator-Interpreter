@@ -24,11 +24,15 @@ class DataReaderServer {
     SymbolTable* symbolTable;
     char buffer[1042];
     vector<double> valueFromSimu;
+    int newsockfd;
+
 public:
     DataReaderServer(){}
     void operator()(int portno, int hz);
     void split();
+
     void setArgs();
+    void readFromSocket();
 };
 
 
