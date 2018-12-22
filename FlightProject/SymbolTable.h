@@ -9,7 +9,7 @@
 #include <string>
 #include <fstream>
 #include <iostream>
-#include <stack>
+#include <queue>
 
 #include <mutex>
 
@@ -20,7 +20,7 @@ class SymbolTable {
     static SymbolTable* _instance;
     mutex myLock;
     map<string, double> symbolTable;
-    stack<string> updates;
+    queue<string> updates;
 
     SymbolTable()= default;
 
@@ -42,7 +42,7 @@ public:
 
     }
 
-    stack<string> &getStackUpdates()  {
+    queue<string> &getQueueUpdates()  {
         return updates;
     }
 

@@ -18,7 +18,8 @@ class Parser {
 
    vector<string>::iterator &iter;
    map<string, Expression*> _commandMap;
-   vector<string>::iterator endIter;
+   vector<string> vector1;
+
 
 
 
@@ -27,6 +28,9 @@ public:
     Parser(vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>::iterator &iter,
            const map<string, Expression *> &_commandMap,
            const vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>::iterator &endIter);
+
+    Parser(vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>::iterator &iter,
+           const map<string, Expression *> &_commandMap, const vector<string> &vector1);
 
     void parse();
 

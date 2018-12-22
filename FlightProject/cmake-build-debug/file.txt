@@ -1,4 +1,3 @@
-connect 10.100.102.9 5403
 var breaks = bind "/controls/flight/speedbrake"
 var throttle = bind "/controls/engines/engine/throttle"
 var heading = bind "/instrumentation/heading-indicator/indicated-heading-deg"
@@ -16,6 +15,8 @@ while alt < 1000 {
 rudder = (h0 - heading)/20
 aileron = - roll / 70
 elevator = pitch / 50
+alt = alt + 500
+print alt
 sleep 250
 
  }

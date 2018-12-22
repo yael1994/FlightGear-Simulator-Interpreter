@@ -97,6 +97,7 @@ vector<string> Lexer:: lexer(string fileName) {
         this->m_vec.push_back("\n");
 
     }
+    this->m_vec.push_back("$");
     return this->m_vec;
 }
 

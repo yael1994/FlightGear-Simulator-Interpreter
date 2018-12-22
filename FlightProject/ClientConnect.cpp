@@ -64,8 +64,8 @@ void ClientConnect::openClient(string ip, int port) {
 //    fgets(buffer,255,stdin)
 
     while (true) {
-        if (!symbolTable->getStackUpdates().empty()) {
-            string name = symbolTable->getStackUpdates().top();
+        if (!symbolTable->getQueueUpdates().empty()) {
+            string name = symbolTable->getQueueUpdates().front();
             if (paths->countPath(name)) {
                 string path = paths->getPath(name);
                 path.erase(0, 1);
@@ -73,7 +73,7 @@ void ClientConnect::openClient(string ip, int port) {
                 msg = "set " + path + " " + value+"\r\n";
                 n = send(sockfd, (char *) msg.c_str(), strlen((char *) msg.c_str()), 0);
                 sleep(5);
-                symbolTable->getStackUpdates().pop();
+                symbolTable->getQueueUpdates().pop();
             }
 
 

@@ -22,8 +22,8 @@ while (this->getString()!="\n"){
     }
 
 }
-cout<<endl;
-this->next();
+ cout<<endl;
+ this->next();
 }
 
 PrintCommand::PrintCommand(
