@@ -26,6 +26,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/FlightProject.dir/ShAlgo.cpp.o"
   "CMakeFiles/FlightProject.dir/SymbolTable.cpp.o"
   "CMakeFiles/FlightProject.dir/Utils.cpp.o"
+  "CMakeFiles/FlightProject.dir/SleepCommand.cpp.o"
   "FlightProject.pdb"
   "FlightProject"
 )

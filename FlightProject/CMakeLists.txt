@@ -62,4 +62,4 @@ add_executable(FlightProject
         SymbolTable.cpp
         SymbolTable.h
         Utils.cpp
-        Utils.h)
+        Utils.h SleepCommand.cpp SleepCommand.h)

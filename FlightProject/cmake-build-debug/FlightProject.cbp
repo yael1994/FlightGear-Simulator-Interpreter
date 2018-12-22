@@ -240,6 +240,12 @@
 		<Unit filename="/home/daniel/Desktop/FlightProject/FlightProject/ShAlgo.h">
 			<Option target="FlightProject"/>
 		</Unit>
+		<Unit filename="/home/daniel/Desktop/FlightProject/FlightProject/SleepCommand.cpp">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/daniel/Desktop/FlightProject/FlightProject/SleepCommand.h">
+			<Option target="FlightProject"/>
+		</Unit>
 		<Unit filename="/home/daniel/Desktop/FlightProject/FlightProject/SymbolTable.cpp">
 			<Option target="FlightProject"/>
 		</Unit>

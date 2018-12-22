@@ -23,7 +23,11 @@ CMakeFiles/FlightProject.dir/ConditionParser.cpp.o: ../IfCommand.h
 CMakeFiles/FlightProject.dir/ConditionParser.cpp.o: ../IterCommand.h
 CMakeFiles/FlightProject.dir/ConditionParser.cpp.o: ../LoopCommand.h
 CMakeFiles/FlightProject.dir/ConditionParser.cpp.o: ../OpenDataServerCommand.h
+CMakeFiles/FlightProject.dir/ConditionParser.cpp.o: ../PrintCommand.h
 CMakeFiles/FlightProject.dir/ConditionParser.cpp.o: ../Project1.h
+CMakeFiles/FlightProject.dir/ConditionParser.cpp.o: ../SleepCommand.h
+CMakeFiles/FlightProject.dir/ConditionParser.cpp.o: ../SymbolTable.h
+CMakeFiles/FlightProject.dir/ConditionParser.cpp.o: ../Utils.h
 CMakeFiles/FlightProject.dir/ConditionParser.cpp.o: ../setCommand.h
 
 CMakeFiles/FlightProject.dir/ConnectCommand.cpp.o: ../ClientConnect.h
@@ -64,6 +68,7 @@ CMakeFiles/FlightProject.dir/DefineVarCommand.cpp.o: ../ExpressionSingleTone.h
 CMakeFiles/FlightProject.dir/DefineVarCommand.cpp.o: ../IterCommand.h
 CMakeFiles/FlightProject.dir/DefineVarCommand.cpp.o: ../NameToPathTable.h
 CMakeFiles/FlightProject.dir/DefineVarCommand.cpp.o: ../SymbolTable.h
+CMakeFiles/FlightProject.dir/DefineVarCommand.cpp.o: ../Utils.h
 
 CMakeFiles/FlightProject.dir/Div.cpp.o: ../BinaryExpression.h
 CMakeFiles/FlightProject.dir/Div.cpp.o: ../Div.cpp
@@ -87,6 +92,7 @@ CMakeFiles/FlightProject.dir/IfCommand.cpp.o: ../ExpressionSingleTone.h
 CMakeFiles/FlightProject.dir/IfCommand.cpp.o: ../IfCommand.cpp
 CMakeFiles/FlightProject.dir/IfCommand.cpp.o: ../IfCommand.h
 CMakeFiles/FlightProject.dir/IfCommand.cpp.o: ../IterCommand.h
+CMakeFiles/FlightProject.dir/IfCommand.cpp.o: ../SymbolTable.h
 
 CMakeFiles/FlightProject.dir/Lexer.cpp.o: ../Lexer.cpp
 CMakeFiles/FlightProject.dir/Lexer.cpp.o: ../Lexer.h
@@ -99,6 +105,7 @@ CMakeFiles/FlightProject.dir/LoopCommand.cpp.o: ../ExpressionSingleTone.h
 CMakeFiles/FlightProject.dir/LoopCommand.cpp.o: ../IterCommand.h
 CMakeFiles/FlightProject.dir/LoopCommand.cpp.o: ../LoopCommand.cpp
 CMakeFiles/FlightProject.dir/LoopCommand.cpp.o: ../LoopCommand.h
+CMakeFiles/FlightProject.dir/LoopCommand.cpp.o: ../SymbolTable.h
 
 CMakeFiles/FlightProject.dir/Minus.cpp.o: ../BinaryExpression.h
 CMakeFiles/FlightProject.dir/Minus.cpp.o: ../Expression.h
@@ -124,6 +131,7 @@ CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.o: ../DataReaderServer.h
 CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.o: ../Expression.h
 CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.o: ../ExpressionSingleTone.h
 CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.o: ../IterCommand.h
+CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.o: ../NameToPathTable.h
 CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.o: ../OpenDataServerCommand.cpp
 CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.o: ../OpenDataServerCommand.h
 CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.o: ../SymbolTable.h
@@ -146,6 +154,7 @@ CMakeFiles/FlightProject.dir/Parser.cpp.o: ../Parser.cpp
 CMakeFiles/FlightProject.dir/Parser.cpp.o: ../Parser.h
 CMakeFiles/FlightProject.dir/Parser.cpp.o: ../PrintCommand.h
 CMakeFiles/FlightProject.dir/Parser.cpp.o: ../Project1.h
+CMakeFiles/FlightProject.dir/Parser.cpp.o: ../SleepCommand.h
 CMakeFiles/FlightProject.dir/Parser.cpp.o: ../SymbolTable.h
 CMakeFiles/FlightProject.dir/Parser.cpp.o: ../setCommand.h
 
@@ -177,13 +186,24 @@ CMakeFiles/FlightProject.dir/Project1.cpp.o: ../Lexer.h
 CMakeFiles/FlightProject.dir/Project1.cpp.o: ../LoopCommand.h
 CMakeFiles/FlightProject.dir/Project1.cpp.o: ../OpenDataServerCommand.h
 CMakeFiles/FlightProject.dir/Project1.cpp.o: ../Parser.h
+CMakeFiles/FlightProject.dir/Project1.cpp.o: ../PrintCommand.h
 CMakeFiles/FlightProject.dir/Project1.cpp.o: ../Project1.cpp
 CMakeFiles/FlightProject.dir/Project1.cpp.o: ../Project1.h
+CMakeFiles/FlightProject.dir/Project1.cpp.o: ../SleepCommand.h
+CMakeFiles/FlightProject.dir/Project1.cpp.o: ../SymbolTable.h
 CMakeFiles/FlightProject.dir/Project1.cpp.o: ../setCommand.h
 
 CMakeFiles/FlightProject.dir/ShAlgo.cpp.o: ../ShAlgo.cpp
 CMakeFiles/FlightProject.dir/ShAlgo.cpp.o: ../ShAlgo.h
 CMakeFiles/FlightProject.dir/ShAlgo.cpp.o: ../Utils.h
+
+CMakeFiles/FlightProject.dir/SleepCommand.cpp.o: ../Command.h
+CMakeFiles/FlightProject.dir/SleepCommand.cpp.o: ../CreateExp.h
+CMakeFiles/FlightProject.dir/SleepCommand.cpp.o: ../Expression.h
+CMakeFiles/FlightProject.dir/SleepCommand.cpp.o: ../ExpressionSingleTone.h
+CMakeFiles/FlightProject.dir/SleepCommand.cpp.o: ../IterCommand.h
+CMakeFiles/FlightProject.dir/SleepCommand.cpp.o: ../SleepCommand.cpp
+CMakeFiles/FlightProject.dir/SleepCommand.cpp.o: ../SleepCommand.h
 
 CMakeFiles/FlightProject.dir/SymbolTable.cpp.o: ../SymbolTable.cpp
 CMakeFiles/FlightProject.dir/SymbolTable.cpp.o: ../SymbolTable.h
@@ -205,7 +225,9 @@ CMakeFiles/FlightProject.dir/main.cpp.o: ../Lexer.h
 CMakeFiles/FlightProject.dir/main.cpp.o: ../LoopCommand.h
 CMakeFiles/FlightProject.dir/main.cpp.o: ../OpenDataServerCommand.h
 CMakeFiles/FlightProject.dir/main.cpp.o: ../Parser.h
+CMakeFiles/FlightProject.dir/main.cpp.o: ../PrintCommand.h
 CMakeFiles/FlightProject.dir/main.cpp.o: ../Project1.h
+CMakeFiles/FlightProject.dir/main.cpp.o: ../SleepCommand.h
 CMakeFiles/FlightProject.dir/main.cpp.o: ../SymbolTable.h
 CMakeFiles/FlightProject.dir/main.cpp.o: ../main.cpp
 CMakeFiles/FlightProject.dir/main.cpp.o: ../setCommand.h
@@ -218,6 +240,7 @@ CMakeFiles/FlightProject.dir/setCommand.cpp.o: ../ExpressionSingleTone.h
 CMakeFiles/FlightProject.dir/setCommand.cpp.o: ../IterCommand.h
 CMakeFiles/FlightProject.dir/setCommand.cpp.o: ../NameToPathTable.h
 CMakeFiles/FlightProject.dir/setCommand.cpp.o: ../SymbolTable.h
+CMakeFiles/FlightProject.dir/setCommand.cpp.o: ../Utils.h
 CMakeFiles/FlightProject.dir/setCommand.cpp.o: ../setCommand.cpp
 CMakeFiles/FlightProject.dir/setCommand.cpp.o: ../setCommand.h
 

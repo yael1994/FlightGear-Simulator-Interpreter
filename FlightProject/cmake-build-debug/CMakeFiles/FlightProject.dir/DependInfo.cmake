@@ -27,6 +27,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/daniel/Desktop/FlightProject/FlightProject/PrintCommand.cpp" "/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/PrintCommand.cpp.o"
   "/home/daniel/Desktop/FlightProject/FlightProject/Project1.cpp" "/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/Project1.cpp.o"
   "/home/daniel/Desktop/FlightProject/FlightProject/ShAlgo.cpp" "/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/ShAlgo.cpp.o"
+  "/home/daniel/Desktop/FlightProject/FlightProject/SleepCommand.cpp" "/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/SleepCommand.cpp.o"
   "/home/daniel/Desktop/FlightProject/FlightProject/SymbolTable.cpp" "/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/SymbolTable.cpp.o"
   "/home/daniel/Desktop/FlightProject/FlightProject/Utils.cpp" "/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/Utils.cpp.o"
   "/home/daniel/Desktop/FlightProject/FlightProject/main.cpp" "/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/main.cpp.o"

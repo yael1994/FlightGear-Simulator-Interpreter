@@ -25,10 +25,8 @@ void OpenDataServerCommand::execute() {
          
    //call DataReaderServer with object function
    thread thread1(DataReaderServer(), port,Hz);
-//   this_thread::__sleep_for(chrono::seconds(1000),chrono::microseconds(1));
    thread1.detach();
-//   DataReaderServer d;
-//   d.openServer(port,Hz);
+
 }
 
 string OpenDataServerCommand::convertToString() {

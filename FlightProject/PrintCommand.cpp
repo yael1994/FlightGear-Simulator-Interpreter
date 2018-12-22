@@ -17,9 +17,13 @@ while (this->getString()!="\n"){
            this->next();
        }
     } else {
-        p->getValue(this->getString());
+       cout<< p->getValue(this->getString());
+       this->next();
     }
+
 }
+cout<<endl;
+this->next();
 }
 
 PrintCommand::PrintCommand(

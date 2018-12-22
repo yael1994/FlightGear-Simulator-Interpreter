@@ -17,6 +17,8 @@
 #include "setCommand.h"
 #include "IfCommand.h"
 #include "LoopCommand.h"
+#include "PrintCommand.h"
+#include "SleepCommand.h"
 
 class Project1 {
     map<string,Expression*> commandMap;
@@ -27,9 +29,13 @@ class Project1 {
             commandMap["connect"]= new ExpressionCommand(new ConnectCommand(iter));
             commandMap["var"] = new ExpressionCommand(new DefineVarCommand(iter));
             commandMap["set"] = new ExpressionCommand(new setCommand(iter));
-            commandMap["if"] = new ExpressionCommand(new IfCommand(iter));
-            commandMap["while"] = new ExpressionCommand(new LoopCommand(iter));
+            commandMap["print"] = new ExpressionCommand(new PrintCommand(iter));
+            commandMap["sleep"] = new ExpressionCommand(new SleepCommand(iter));
+            commandMap["if"] = new ExpressionCommand(new IfCommand(iter,getCommandMap()));
+            commandMap["while"] = new ExpressionCommand(new LoopCommand(iter,getCommandMap()));
+
         }
+
 
 public:
         const map<string, Expression *> &getCommandMap() {

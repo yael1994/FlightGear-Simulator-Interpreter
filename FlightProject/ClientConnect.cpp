@@ -66,7 +66,7 @@ void ClientConnect::openClient(string ip, int port) {
     while (true) {
         if (!symbolTable->getStackUpdates().empty()) {
             string name = symbolTable->getStackUpdates().top();
-            if (paths->getPath(name) != "") {
+            if (paths->countPath(name)) {
                 string path = paths->getPath(name);
                 path.erase(0, 1);
                 string value = to_string(symbolTable->getValue(name));

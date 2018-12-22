@@ -9,6 +9,7 @@
 
 #include <map>
 #include <string>
+#include <mutex>
 #include <fstream>
 #include <iostream>
 
@@ -17,6 +18,7 @@ using namespace std;
 
 class NameToPathTable {
     static NameToPathTable* _instance;
+    mutex myLock;
 
     map<string,string> nameToPath;
     map<string,int> pathToIndex;
@@ -33,17 +35,26 @@ public:
     }
 
     void setPathValue(string key, string value){
+        myLock.lock();
         this->nameToPath[key] = value;
+        myLock.unlock();
     }
     const string& getPath(string key){
-        if(this->nameToPath.count(key) > 0) {
-            return this->nameToPath.find(key)->second;
-        }
-        return "";
 
+            return this->nameToPath.find(key)->second;
+
+    }
+    bool countPath(string name){
+        return this->nameToPath.count(name) > 0;
     }
     const int& getIndex(string key){
         return this->pathToIndex.find(key)->second;
+    }
+    unsigned long getPathSize(){
+        return this->pathToIndex.size();
+    }
+    unsigned long getNamesSize(){
+        return this->nameToPath.size();
     }
 
 private:

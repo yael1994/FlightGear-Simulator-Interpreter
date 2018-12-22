@@ -23,21 +23,12 @@ void Parser::parse() {
     int j =0;
     bool setFlag = true;
     while(iter != endIter) {
-        if(*iter == "\n"){
-            iter++;
-        }
         if(_commandMap.count(*iter) > 0){
 
         Expression* c = _commandMap.find(*iter)->second;
-            if(*iter == "if" || *iter == "while"){
-                if(setFlag){
-                    ConditionParser* conditionParser = dynamic_cast<ConditionParser*>(c);
-                    if(conditionParser){
-                        conditionParser->setMapCommand(this->_commandMap);
-                    }
-                }
-            }
+        if(c!= NULL) {
             c->calculate();
+        }
         }else{
             SymbolTable* stable = SymbolTable::getInstance();
             if(stable->getSymbolTable().count(*iter) > 0){
@@ -47,13 +38,7 @@ void Parser::parse() {
         }
         cout << i++ << endl;
         j++;
-        if(j==18) {
-            while (true) {
-                if (i % 100000000000 == 0)
-                    cout << i << endl;
-                i++;
-            }
-        }
+
     }
 
 }
