@@ -14,6 +14,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f49a6adb-1111-48e5-945b-4c671d122423" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.12.3/CMakeCCompiler.cmake" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.12.3/CMakeCXXCompiler.cmake" beforeDir="false" />
@@ -342,12 +343,12 @@
       <workItem from="1545389445136" duration="9295000" />
       <workItem from="1545397271282" duration="16240000" />
       <workItem from="1545466282573" duration="9060000" />
-      <workItem from="1545481831942" duration="3999000" />
+      <workItem from="1545481831942" duration="5060000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130654000" />
+    <option name="totallyTimeSpent" value="131715000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
