@@ -6,13 +6,15 @@
 #define UNTITLED4_PRINTCOMMAND_H
 
 
-#include "Command.h"
+#include "IterCommand.h"
 
-class PrintCommand : public Command {
+class PrintCommand : public IterCommand {
+
+
 public:
-    PrintCommand();
+    PrintCommand(vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>::iterator &iterator);
 
-    PrintCommand(vector<string> *&pointer);
+    //PrintCommand(vector<string> *&pointer);
 
     void execute() override;
 

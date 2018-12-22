@@ -11,7 +11,7 @@
 #include <netdb.h>
 #include <unistd.h>
 #include <netinet/in.h>
-
+#include<vector>
 #include <string.h>
 
 #include <sys/socket.h>
@@ -21,10 +21,14 @@
 
 using namespace std;
 class DataReaderServer {
-//    SymbolTable* symbolTable;
+    SymbolTable* symbolTable;
+    char buffer[1042];
+    vector<double> valueFromSimu;
 public:
-
+    DataReaderServer(){}
     void operator()(int portno, int hz);
+    void split();
+    void setArgs();
 };
 
 

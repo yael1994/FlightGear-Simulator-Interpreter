@@ -1,6 +1,12 @@
 //
 // Created by daniel on 12/14/18.
 //
+
+#include "ConditionParser.h"
+
+//
+// Created by daniel on 12/14/18.
+//
 #include "algorithm"
 #include "ConditionParser.h"
 #include "iterator"
@@ -51,7 +57,7 @@ bool ConditionParser:: getCondition(){
 }
 
 void ConditionParser::createCommandMap(){
-vector<string> ::iterator it=this->getIter();
+    vector<string> ::iterator it=this->getIter();
     while (*it!="}") {
         Expression *c = mapCommand.find(*it)->second;
         if (c != NULL) {
@@ -66,5 +72,5 @@ ConditionParser::ConditionParser(
         : IterCommand(iterator) {}
 
 void ConditionParser::setMapCommand(map<string, Expression *> &map1) {
-        this->mapCommand = Project1::getCommandMap();
+    this->mapCommand = map1;
 }

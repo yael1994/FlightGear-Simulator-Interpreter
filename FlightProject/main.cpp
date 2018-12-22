@@ -1,31 +1,36 @@
 #include <iostream>
+#include "Parser.h"
+#include "SymbolTable.h"
+#include "Project1.h"
 #include "Lexer.h"
-#include "ShAlgo.h"
-#include <deque>
-#include <iostream>
-#include "CreateExp.h"
+
+SymbolTable* SymbolTable::_instance= NULL;
 int main() {
-//   vector<string> ex;
-//    ex.push_back("-");
-//    ex.push_back("(5+4");
-//    ex.push_back(")");
+//   SymbolTable* p = SymbolTable::getInstance();
+//   SymbolTable* q = SymbolTable::getInstance();
 //
-//    ShAlgo* sy=new ShAlgo();
-//    queue<string> r=sy->creatQueue(ex);
-////    CreateExp* cr=new CreateExp();
-////    Expression* epr=cr->biuldExp(r);
-////    double num=epr->calculate();
-////    cout<<num<<endl;
-
 //
-    string s="(5-7)";
-    CreateExp* c=new CreateExp();
-    Expression* e=c->biuldExp(s);
-    cout<<e->calculate()<<endl;
-
+//   Project1* project1 = new Project1("file.txt");
+//   project1->run();
 //
-//     Lexer* le=new Lexer;
-//    vector<string> ex=le->lexer("com.txt");
 
-    return 0;
+
+//   struct var{
+//       string name;
+//       string path;
+//       int index;
+//   };
+//   map<var, double> maps;
+//   struct var d = {"daniel","path", 3};
+//   maps[d] = 3.0;
+//   d.path  = 3.0;
+    string s="var x= ( 5 + 7 )";
+    Lexer* lex=new Lexer();
+    lex->lexer(s);
+
+
+//    CreateExp* c=new CreateExp();
+//    Expression* e=c->biuldExp(s);
+//    cout<<e->calculate()<<endl;
+   return 0;
 }

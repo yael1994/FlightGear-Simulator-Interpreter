@@ -16,6 +16,7 @@ Project1::Project1(string fileName)  {
 }
 
 void Project1::run() {
+
     Parser* p = new Parser(this->iter,this->getCommandMap(),rawData.end());
     p->parse();
 

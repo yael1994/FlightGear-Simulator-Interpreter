@@ -6,10 +6,6 @@
 #include "DataReaderServer.h"
 
 
-//OpenDataServerCommand::OpenDataServerCommand(
-//        vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>::iterator &iter,
-//        MapsSingleTone *controller) : iter(iter), controller(controller) {}
-
 OpenDataServerCommand::OpenDataServerCommand(
         vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>::iterator &iterator)
         : IterCommand(iterator) {}
@@ -22,14 +18,14 @@ OpenDataServerCommand::OpenDataServerCommand(
 void OpenDataServerCommand::execute() {
 
          this->next();
-         int port = stoi(this->getString());
+         int port = (int) toDouble->calculateExp(this->getString());
          this->next();
-         int Hz = stoi(this->getString());
+         int Hz = (int) toDouble->calculateExp(this->getString());
          this->next();
          
    //call DataReaderServer with object function
    thread thread1(DataReaderServer(), port,Hz);
-   thread1.detach();
+   thread1.join();
 
 }
 

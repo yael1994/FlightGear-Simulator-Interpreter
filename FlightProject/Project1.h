@@ -14,27 +14,33 @@
 #include "OpenDataServerCommand.h"
 #include "ConnectCommand.h"
 #include "DefineVarCommand.h"
+#include "setCommand.h"
 #include "IfCommand.h"
+#include "LoopCommand.h"
+#include "PrintCommand.h"
 
 class Project1 {
-    static map<string,Expression*> commandMap;
+    map<string,Expression*> commandMap;
     vector<string> rawData;
     vector<string>::iterator iter;
         void bulidMap(){
             commandMap["openDataServer"]= new ExpressionCommand(new OpenDataServerCommand(iter));
             commandMap["connect"]= new ExpressionCommand(new ConnectCommand(iter));
             commandMap["var"] = new ExpressionCommand(new DefineVarCommand(iter));
-            commandMap["if"]=new ExpressionCommand(new IfCommand(iter));
-
+            commandMap["set"] = new ExpressionCommand(new setCommand(iter));
+            commandMap["if"] = new ExpressionCommand(new IfCommand(iter));
+            commandMap["while"] = new ExpressionCommand(new LoopCommand(iter));
+            commandMap["print"]=new ExpressionCommand(new PrintCommand(iter));
         }
 
 public:
-        static const map<string, Expression *> &getCommandMap(){
+        const map<string, Expression *> &getCommandMap() {
             return commandMap;
         }
 
 
     Project1( string filename);
+        Project1 ()= default;
     void run();
 
 

@@ -16,7 +16,6 @@ class ExpressionSingleTone {
 
    CreateExp* createExp;
 
-
 public:
     ExpressionSingleTone()  {
         createExp = new CreateExp();

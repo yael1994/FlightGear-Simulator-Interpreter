@@ -1,3 +1,4 @@
+
 //
 // Created by daniel on 12/14/18.
 //
@@ -7,17 +8,17 @@
 
 
 void IfCommand::execute(){
-if (getCondition()){
-    for (int i=0;i<m_commandVec.size();i++){
-        m_commandVec.at(i)->calculate();
+    if (getCondition()){
+        for (int i=0;i<m_commandVec.size();i++){
+            m_commandVec.at(i)->calculate();
+        }
+    } else{
+        while (this->getString()!="}"){
+            this->next();
+        }
     }
-} else{
-    while (this->getString()!="}"){
-        this->next();
-    }
-}
 //to jump over the "}"
-this->next();
+    this->next();
 }
 
 IfCommand::IfCommand(

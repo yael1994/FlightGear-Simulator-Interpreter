@@ -14,7 +14,7 @@
 
 class ConditionParser : public IterCommand{
 
-map<string, Expression*> mapCommand;
+    map<string, Expression*> mapCommand;
 
 public:
     ConditionParser(
@@ -24,7 +24,7 @@ public:
     void setMapCommand(map<string,Expression*> &map1);
 
 protected:
-        //ConditionParser(vector<string> *&pointer);
+    //ConditionParser(vector<string> *&pointer);
     vector<Expression*> m_commandVec;
 
 };

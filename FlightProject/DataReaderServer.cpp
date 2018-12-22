@@ -3,16 +3,19 @@
 //
 
 #include <sstream>
+#include <algorithm>
 #include "DataReaderServer.h"
+#include "NameToPathTable.h"
 
-
+//NameToPathTable* NameToPathTable::_instance = NULL;
+//SymbolTable* SymbolTable::_instance = NULL;
 
 void DataReaderServer::operator()(int portno, int hz) {
-//    this->symbolTable = SymbolTable::getInstance();
+    this->symbolTable = SymbolTable::getInstance();
     int sockfd;
     int newsockfd;
     int clilen;
-    char buffer[256];
+
     struct sockaddr_in serv_addr, cli_addr;
     int  n;
 
@@ -57,6 +60,7 @@ void DataReaderServer::operator()(int portno, int hz) {
         cout<<"c"<<endl;
         bzero(buffer, 256);
         read(newsockfd, buffer,255);
+        split();
 
         if (n < 0) {
             perror("ERROR reading from socket");
@@ -65,6 +69,43 @@ void DataReaderServer::operator()(int portno, int hz) {
         sleep(1 / hz);
 
         cout << buffer << endl;
+    }
+//    FILE* fin;
+//    fin = fopen("try.txt","r");
+//
+//    for(int i =0; i< 256;i++) {
+//        fread(this->buffer, 1, 256, fin);
+//        split();
+//    }
+
+}
+void DataReaderServer::split() {
+  for(int i = 0; i< strlen(buffer); i++){
+      string buf;
+      while(buffer[i] != ',') {
+          buf += buffer[i];
+          i++;
+      }
+      double num = stod(buf);
+      valueFromSimu.push_back(num);
+      i++;
+  }
+  setArgs();
+}
+
+void DataReaderServer::setArgs() {
+    NameToPathTable* pathTable = NameToPathTable::getInstance();
+    for(auto key : this->symbolTable->getSymbolTable()){
+        string name = key.first;
+        if(pathTable->getPath(name) != "" ) {
+            string path = pathTable->getPath(name);
+            int i = pathTable->getIndex(path);
+            //fix the 23!!!!!!!!!!!!!
+            if( i< 23){
+            this->symbolTable->setDoubleValue(name, valueFromSimu[i]);
+            cout << name << " " << valueFromSimu[i] << endl;
+                }
+        }
     }
 }
 

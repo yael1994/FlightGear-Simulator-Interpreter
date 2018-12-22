@@ -8,6 +8,7 @@
 #include <string>
 #include <queue>
 #include "Expression.h"
+#include "map"
 using namespace std;
 
 class CreateExp {
@@ -15,7 +16,8 @@ class CreateExp {
     bool isNumber(const string &str) const;
 
 public:
-    Expression* biuldExp(string &str);
+    CreateExp()= default;
+    Expression* biuldExp(string str);
 };
 
 

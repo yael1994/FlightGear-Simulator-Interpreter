@@ -7,8 +7,8 @@
 
 #define SPACE " "
 
-#define SPECIAL_OPERATOR {"+","-","*","/", "\"","<",">","<=",">=","==","!="}
-
+#define SPECIAL_OPERATOR {"+","-","*","/", "\"","<",">","<=",">=","==","=","(",")","{","}"}
+#define OPERATOR_BIN {"+","-","*","/"}
 #include <vector>
 #include <string>
 #include <fstream>
@@ -25,6 +25,7 @@ class Lexer{
     void getSpace(string &str);
 
 public:
+    Lexer(){}
     vector<string> lexer(string fileName);
 };
 

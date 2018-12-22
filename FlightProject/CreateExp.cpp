@@ -31,7 +31,7 @@ bool CreateExp::isNumber(const string &str) const {
     return true;
 }
 
-Expression* CreateExp::biuldExp(string &str) {
+Expression* CreateExp::biuldExp(string str) {
     ShAlgo* sy=new ShAlgo();
     queue<string> q_num=sy->creatQueue(str);
     stack<Expression*> st;

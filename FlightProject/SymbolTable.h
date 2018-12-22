@@ -10,17 +10,16 @@
 #include <fstream>
 #include <iostream>
 
+#define XML "generic_small.xml"
 using namespace std;
 
 class SymbolTable {
     static SymbolTable* _instance;
-    typedef struct var{
-        string name;
-        string path;
-        string index;
-    };
-    map<var, double> symbolTable;
-    SymbolTable(){}
+
+    map<string, double> symbolTable;
+
+    SymbolTable()= default;
+
 public:
     static SymbolTable* getInstance(){
         if(_instance == NULL){
@@ -29,13 +28,22 @@ public:
         return _instance;
     }
 
-//    void setValue(string &key, double num){
-//        this->symbolTable[key] = num;
-//    }
-//
-//    const map<string, double> &getSymbolTable() const {
-//        return symbolTable;
-//    }
+    void setDoubleValue(string &key, double num){
+        this->symbolTable[key] = num;
+
+    }
+
+    const map<string, double> &getSymbolTable() const {
+        return symbolTable;
+    }
+
+    const double getValue(string key){
+        return this->symbolTable.find(key)->second;
+    }
+
+
+
+
 
 };
 

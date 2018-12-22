@@ -15,11 +15,8 @@ public:
 
 
     ConnectCommand(
-            const vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>::iterator &iterator);
-
-    ConnectCommand(
             vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>::iterator &iterator);
-
+    static void openClient(string &ip, int port);
     virtual void execute() override;
 
 
