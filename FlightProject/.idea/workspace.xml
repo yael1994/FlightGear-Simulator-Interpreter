@@ -132,13 +132,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="15" />
+          <entry key="cpp" value="16" />
           <entry key="h" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="19" />
+          <entry key="ObjectiveC" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -181,7 +181,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setCommand.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="261">
@@ -190,6 +190,13 @@
                 <element signature="e#41#64#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ClientConnect.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-570" />
           </provider>
         </entry>
       </file>
@@ -255,7 +262,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="4">
     <option name="y" value="25" />
     <option name="width" value="960" />
     <option name="height" value="990" />
@@ -343,12 +350,12 @@
       <workItem from="1545389445136" duration="9295000" />
       <workItem from="1545397271282" duration="16240000" />
       <workItem from="1545466282573" duration="9060000" />
-      <workItem from="1545481831942" duration="5060000" />
+      <workItem from="1545481831942" duration="6014000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131715000" />
+    <option name="totallyTimeSpent" value="132669000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -374,7 +381,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32906976" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.2755814" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.61744183" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.877907" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.32906976" />
@@ -522,9 +529,6 @@
           <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientConnect.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/BinaryExpression.h">
       <provider selected="true" editor-type-id="text-editor">
@@ -829,6 +833,11 @@
             <element signature="e#41#64#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientConnect.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-570" />
       </provider>
     </entry>
   </component>
