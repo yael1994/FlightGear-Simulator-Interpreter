@@ -48,10 +48,10 @@ RM = /home/yael/Documents/clion-2018.2.4/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yael/CLionProjects/FlightProject
+CMAKE_SOURCE_DIR = /home/yael/FlightProject/FlightProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yael/CLionProjects/FlightProject/cmake-build-debug
+CMAKE_BINARY_DIR = /home/yael/FlightProject/FlightProject/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles /home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yael/FlightProject/FlightProject/cmake-build-debug/CMakeFiles /home/yael/FlightProject/FlightProject/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yael/FlightProject/FlightProject/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named untitled4
+# Target rules for targets named FlightProject
 
 # Build rule for target.
-untitled4: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 untitled4
-.PHONY : untitled4
+FlightProject: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FlightProject
+.PHONY : FlightProject
 
 # fast build rule for target.
-untitled4/fast:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/build
-.PHONY : untitled4/fast
+FlightProject/fast:
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/build
+.PHONY : FlightProject/fast
 
 BinaryExpression.o: BinaryExpression.cpp.o
 
@@ -129,7 +129,7 @@ BinaryExpression.o: BinaryExpression.cpp.o
 
 # target to build an object file
 BinaryExpression.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/BinaryExpression.cpp.o
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/BinaryExpression.cpp.o
 .PHONY : BinaryExpression.cpp.o
 
 BinaryExpression.i: BinaryExpression.cpp.i
@@ -138,7 +138,7 @@ BinaryExpression.i: BinaryExpression.cpp.i
 
 # target to preprocess a source file
 BinaryExpression.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/BinaryExpression.cpp.i
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/BinaryExpression.cpp.i
 .PHONY : BinaryExpression.cpp.i
 
 BinaryExpression.s: BinaryExpression.cpp.s
@@ -147,7 +147,7 @@ BinaryExpression.s: BinaryExpression.cpp.s
 
 # target to generate assembly for a file
 BinaryExpression.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/BinaryExpression.cpp.s
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/BinaryExpression.cpp.s
 .PHONY : BinaryExpression.cpp.s
 
 ClientConnect.o: ClientConnect.cpp.o
@@ -156,7 +156,7 @@ ClientConnect.o: ClientConnect.cpp.o
 
 # target to build an object file
 ClientConnect.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/ClientConnect.cpp.o
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/ClientConnect.cpp.o
 .PHONY : ClientConnect.cpp.o
 
 ClientConnect.i: ClientConnect.cpp.i
@@ -165,7 +165,7 @@ ClientConnect.i: ClientConnect.cpp.i
 
 # target to preprocess a source file
 ClientConnect.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/ClientConnect.cpp.i
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/ClientConnect.cpp.i
 .PHONY : ClientConnect.cpp.i
 
 ClientConnect.s: ClientConnect.cpp.s
@@ -174,7 +174,7 @@ ClientConnect.s: ClientConnect.cpp.s
 
 # target to generate assembly for a file
 ClientConnect.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/ClientConnect.cpp.s
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/ClientConnect.cpp.s
 .PHONY : ClientConnect.cpp.s
 
 ConditionParser.o: ConditionParser.cpp.o
@@ -183,7 +183,7 @@ ConditionParser.o: ConditionParser.cpp.o
 
 # target to build an object file
 ConditionParser.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/ConditionParser.cpp.o
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/ConditionParser.cpp.o
 .PHONY : ConditionParser.cpp.o
 
 ConditionParser.i: ConditionParser.cpp.i
@@ -192,7 +192,7 @@ ConditionParser.i: ConditionParser.cpp.i
 
 # target to preprocess a source file
 ConditionParser.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/ConditionParser.cpp.i
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/ConditionParser.cpp.i
 .PHONY : ConditionParser.cpp.i
 
 ConditionParser.s: ConditionParser.cpp.s
@@ -201,7 +201,7 @@ ConditionParser.s: ConditionParser.cpp.s
 
 # target to generate assembly for a file
 ConditionParser.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/ConditionParser.cpp.s
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/ConditionParser.cpp.s
 .PHONY : ConditionParser.cpp.s
 
 ConnectCommand.o: ConnectCommand.cpp.o
@@ -210,7 +210,7 @@ ConnectCommand.o: ConnectCommand.cpp.o
 
 # target to build an object file
 ConnectCommand.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/ConnectCommand.cpp.o
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/ConnectCommand.cpp.o
 .PHONY : ConnectCommand.cpp.o
 
 ConnectCommand.i: ConnectCommand.cpp.i
@@ -219,7 +219,7 @@ ConnectCommand.i: ConnectCommand.cpp.i
 
 # target to preprocess a source file
 ConnectCommand.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/ConnectCommand.cpp.i
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/ConnectCommand.cpp.i
 .PHONY : ConnectCommand.cpp.i
 
 ConnectCommand.s: ConnectCommand.cpp.s
@@ -228,7 +228,7 @@ ConnectCommand.s: ConnectCommand.cpp.s
 
 # target to generate assembly for a file
 ConnectCommand.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/ConnectCommand.cpp.s
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/ConnectCommand.cpp.s
 .PHONY : ConnectCommand.cpp.s
 
 CreateExp.o: CreateExp.cpp.o
@@ -237,7 +237,7 @@ CreateExp.o: CreateExp.cpp.o
 
 # target to build an object file
 CreateExp.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/CreateExp.cpp.o
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/CreateExp.cpp.o
 .PHONY : CreateExp.cpp.o
 
 CreateExp.i: CreateExp.cpp.i
@@ -246,7 +246,7 @@ CreateExp.i: CreateExp.cpp.i
 
 # target to preprocess a source file
 CreateExp.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/CreateExp.cpp.i
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/CreateExp.cpp.i
 .PHONY : CreateExp.cpp.i
 
 CreateExp.s: CreateExp.cpp.s
@@ -255,7 +255,7 @@ CreateExp.s: CreateExp.cpp.s
 
 # target to generate assembly for a file
 CreateExp.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/CreateExp.cpp.s
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/CreateExp.cpp.s
 .PHONY : CreateExp.cpp.s
 
 DataReaderServer.o: DataReaderServer.cpp.o
@@ -264,7 +264,7 @@ DataReaderServer.o: DataReaderServer.cpp.o
 
 # target to build an object file
 DataReaderServer.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/DataReaderServer.cpp.o
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/DataReaderServer.cpp.o
 .PHONY : DataReaderServer.cpp.o
 
 DataReaderServer.i: DataReaderServer.cpp.i
@@ -273,7 +273,7 @@ DataReaderServer.i: DataReaderServer.cpp.i
 
 # target to preprocess a source file
 DataReaderServer.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/DataReaderServer.cpp.i
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/DataReaderServer.cpp.i
 .PHONY : DataReaderServer.cpp.i
 
 DataReaderServer.s: DataReaderServer.cpp.s
@@ -282,7 +282,7 @@ DataReaderServer.s: DataReaderServer.cpp.s
 
 # target to generate assembly for a file
 DataReaderServer.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/DataReaderServer.cpp.s
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/DataReaderServer.cpp.s
 .PHONY : DataReaderServer.cpp.s
 
 DefineVarCommand.o: DefineVarCommand.cpp.o
@@ -291,7 +291,7 @@ DefineVarCommand.o: DefineVarCommand.cpp.o
 
 # target to build an object file
 DefineVarCommand.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/DefineVarCommand.cpp.o
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/DefineVarCommand.cpp.o
 .PHONY : DefineVarCommand.cpp.o
 
 DefineVarCommand.i: DefineVarCommand.cpp.i
@@ -300,7 +300,7 @@ DefineVarCommand.i: DefineVarCommand.cpp.i
 
 # target to preprocess a source file
 DefineVarCommand.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/DefineVarCommand.cpp.i
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/DefineVarCommand.cpp.i
 .PHONY : DefineVarCommand.cpp.i
 
 DefineVarCommand.s: DefineVarCommand.cpp.s
@@ -309,7 +309,7 @@ DefineVarCommand.s: DefineVarCommand.cpp.s
 
 # target to generate assembly for a file
 DefineVarCommand.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/DefineVarCommand.cpp.s
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/DefineVarCommand.cpp.s
 .PHONY : DefineVarCommand.cpp.s
 
 Div.o: Div.cpp.o
@@ -318,7 +318,7 @@ Div.o: Div.cpp.o
 
 # target to build an object file
 Div.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Div.cpp.o
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Div.cpp.o
 .PHONY : Div.cpp.o
 
 Div.i: Div.cpp.i
@@ -327,7 +327,7 @@ Div.i: Div.cpp.i
 
 # target to preprocess a source file
 Div.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Div.cpp.i
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Div.cpp.i
 .PHONY : Div.cpp.i
 
 Div.s: Div.cpp.s
@@ -336,7 +336,7 @@ Div.s: Div.cpp.s
 
 # target to generate assembly for a file
 Div.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Div.cpp.s
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Div.cpp.s
 .PHONY : Div.cpp.s
 
 Expression.o: Expression.cpp.o
@@ -345,7 +345,7 @@ Expression.o: Expression.cpp.o
 
 # target to build an object file
 Expression.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Expression.cpp.o
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Expression.cpp.o
 .PHONY : Expression.cpp.o
 
 Expression.i: Expression.cpp.i
@@ -354,7 +354,7 @@ Expression.i: Expression.cpp.i
 
 # target to preprocess a source file
 Expression.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Expression.cpp.i
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Expression.cpp.i
 .PHONY : Expression.cpp.i
 
 Expression.s: Expression.cpp.s
@@ -363,7 +363,7 @@ Expression.s: Expression.cpp.s
 
 # target to generate assembly for a file
 Expression.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Expression.cpp.s
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Expression.cpp.s
 .PHONY : Expression.cpp.s
 
 ExpressionCommand.o: ExpressionCommand.cpp.o
@@ -372,7 +372,7 @@ ExpressionCommand.o: ExpressionCommand.cpp.o
 
 # target to build an object file
 ExpressionCommand.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/ExpressionCommand.cpp.o
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.o
 .PHONY : ExpressionCommand.cpp.o
 
 ExpressionCommand.i: ExpressionCommand.cpp.i
@@ -381,7 +381,7 @@ ExpressionCommand.i: ExpressionCommand.cpp.i
 
 # target to preprocess a source file
 ExpressionCommand.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/ExpressionCommand.cpp.i
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.i
 .PHONY : ExpressionCommand.cpp.i
 
 ExpressionCommand.s: ExpressionCommand.cpp.s
@@ -390,7 +390,7 @@ ExpressionCommand.s: ExpressionCommand.cpp.s
 
 # target to generate assembly for a file
 ExpressionCommand.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/ExpressionCommand.cpp.s
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.s
 .PHONY : ExpressionCommand.cpp.s
 
 IfCommand.o: IfCommand.cpp.o
@@ -399,7 +399,7 @@ IfCommand.o: IfCommand.cpp.o
 
 # target to build an object file
 IfCommand.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/IfCommand.cpp.o
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/IfCommand.cpp.o
 .PHONY : IfCommand.cpp.o
 
 IfCommand.i: IfCommand.cpp.i
@@ -408,7 +408,7 @@ IfCommand.i: IfCommand.cpp.i
 
 # target to preprocess a source file
 IfCommand.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/IfCommand.cpp.i
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/IfCommand.cpp.i
 .PHONY : IfCommand.cpp.i
 
 IfCommand.s: IfCommand.cpp.s
@@ -417,7 +417,7 @@ IfCommand.s: IfCommand.cpp.s
 
 # target to generate assembly for a file
 IfCommand.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/IfCommand.cpp.s
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/IfCommand.cpp.s
 .PHONY : IfCommand.cpp.s
 
 Lexer.o: Lexer.cpp.o
@@ -426,7 +426,7 @@ Lexer.o: Lexer.cpp.o
 
 # target to build an object file
 Lexer.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Lexer.cpp.o
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Lexer.cpp.o
 .PHONY : Lexer.cpp.o
 
 Lexer.i: Lexer.cpp.i
@@ -435,7 +435,7 @@ Lexer.i: Lexer.cpp.i
 
 # target to preprocess a source file
 Lexer.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Lexer.cpp.i
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Lexer.cpp.i
 .PHONY : Lexer.cpp.i
 
 Lexer.s: Lexer.cpp.s
@@ -444,7 +444,7 @@ Lexer.s: Lexer.cpp.s
 
 # target to generate assembly for a file
 Lexer.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Lexer.cpp.s
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Lexer.cpp.s
 .PHONY : Lexer.cpp.s
 
 LoopCommand.o: LoopCommand.cpp.o
@@ -453,7 +453,7 @@ LoopCommand.o: LoopCommand.cpp.o
 
 # target to build an object file
 LoopCommand.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/LoopCommand.cpp.o
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/LoopCommand.cpp.o
 .PHONY : LoopCommand.cpp.o
 
 LoopCommand.i: LoopCommand.cpp.i
@@ -462,7 +462,7 @@ LoopCommand.i: LoopCommand.cpp.i
 
 # target to preprocess a source file
 LoopCommand.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/LoopCommand.cpp.i
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/LoopCommand.cpp.i
 .PHONY : LoopCommand.cpp.i
 
 LoopCommand.s: LoopCommand.cpp.s
@@ -471,7 +471,7 @@ LoopCommand.s: LoopCommand.cpp.s
 
 # target to generate assembly for a file
 LoopCommand.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/LoopCommand.cpp.s
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/LoopCommand.cpp.s
 .PHONY : LoopCommand.cpp.s
 
 Minus.o: Minus.cpp.o
@@ -480,7 +480,7 @@ Minus.o: Minus.cpp.o
 
 # target to build an object file
 Minus.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Minus.cpp.o
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Minus.cpp.o
 .PHONY : Minus.cpp.o
 
 Minus.i: Minus.cpp.i
@@ -489,7 +489,7 @@ Minus.i: Minus.cpp.i
 
 # target to preprocess a source file
 Minus.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Minus.cpp.i
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Minus.cpp.i
 .PHONY : Minus.cpp.i
 
 Minus.s: Minus.cpp.s
@@ -498,7 +498,7 @@ Minus.s: Minus.cpp.s
 
 # target to generate assembly for a file
 Minus.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Minus.cpp.s
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Minus.cpp.s
 .PHONY : Minus.cpp.s
 
 Mul.o: Mul.cpp.o
@@ -507,7 +507,7 @@ Mul.o: Mul.cpp.o
 
 # target to build an object file
 Mul.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Mul.cpp.o
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Mul.cpp.o
 .PHONY : Mul.cpp.o
 
 Mul.i: Mul.cpp.i
@@ -516,7 +516,7 @@ Mul.i: Mul.cpp.i
 
 # target to preprocess a source file
 Mul.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Mul.cpp.i
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Mul.cpp.i
 .PHONY : Mul.cpp.i
 
 Mul.s: Mul.cpp.s
@@ -525,7 +525,7 @@ Mul.s: Mul.cpp.s
 
 # target to generate assembly for a file
 Mul.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Mul.cpp.s
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Mul.cpp.s
 .PHONY : Mul.cpp.s
 
 Neg.o: Neg.cpp.o
@@ -534,7 +534,7 @@ Neg.o: Neg.cpp.o
 
 # target to build an object file
 Neg.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Neg.cpp.o
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Neg.cpp.o
 .PHONY : Neg.cpp.o
 
 Neg.i: Neg.cpp.i
@@ -543,7 +543,7 @@ Neg.i: Neg.cpp.i
 
 # target to preprocess a source file
 Neg.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Neg.cpp.i
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Neg.cpp.i
 .PHONY : Neg.cpp.i
 
 Neg.s: Neg.cpp.s
@@ -552,7 +552,7 @@ Neg.s: Neg.cpp.s
 
 # target to generate assembly for a file
 Neg.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Neg.cpp.s
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Neg.cpp.s
 .PHONY : Neg.cpp.s
 
 Number.o: Number.cpp.o
@@ -561,7 +561,7 @@ Number.o: Number.cpp.o
 
 # target to build an object file
 Number.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Number.cpp.o
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Number.cpp.o
 .PHONY : Number.cpp.o
 
 Number.i: Number.cpp.i
@@ -570,7 +570,7 @@ Number.i: Number.cpp.i
 
 # target to preprocess a source file
 Number.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Number.cpp.i
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Number.cpp.i
 .PHONY : Number.cpp.i
 
 Number.s: Number.cpp.s
@@ -579,7 +579,7 @@ Number.s: Number.cpp.s
 
 # target to generate assembly for a file
 Number.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Number.cpp.s
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Number.cpp.s
 .PHONY : Number.cpp.s
 
 OpenDataServerCommand.o: OpenDataServerCommand.cpp.o
@@ -588,7 +588,7 @@ OpenDataServerCommand.o: OpenDataServerCommand.cpp.o
 
 # target to build an object file
 OpenDataServerCommand.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/OpenDataServerCommand.cpp.o
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.o
 .PHONY : OpenDataServerCommand.cpp.o
 
 OpenDataServerCommand.i: OpenDataServerCommand.cpp.i
@@ -597,7 +597,7 @@ OpenDataServerCommand.i: OpenDataServerCommand.cpp.i
 
 # target to preprocess a source file
 OpenDataServerCommand.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/OpenDataServerCommand.cpp.i
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.i
 .PHONY : OpenDataServerCommand.cpp.i
 
 OpenDataServerCommand.s: OpenDataServerCommand.cpp.s
@@ -606,7 +606,7 @@ OpenDataServerCommand.s: OpenDataServerCommand.cpp.s
 
 # target to generate assembly for a file
 OpenDataServerCommand.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/OpenDataServerCommand.cpp.s
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.s
 .PHONY : OpenDataServerCommand.cpp.s
 
 Parser.o: Parser.cpp.o
@@ -615,7 +615,7 @@ Parser.o: Parser.cpp.o
 
 # target to build an object file
 Parser.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Parser.cpp.o
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Parser.cpp.o
 .PHONY : Parser.cpp.o
 
 Parser.i: Parser.cpp.i
@@ -624,7 +624,7 @@ Parser.i: Parser.cpp.i
 
 # target to preprocess a source file
 Parser.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Parser.cpp.i
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Parser.cpp.i
 .PHONY : Parser.cpp.i
 
 Parser.s: Parser.cpp.s
@@ -633,7 +633,7 @@ Parser.s: Parser.cpp.s
 
 # target to generate assembly for a file
 Parser.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Parser.cpp.s
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Parser.cpp.s
 .PHONY : Parser.cpp.s
 
 Plus.o: Plus.cpp.o
@@ -642,7 +642,7 @@ Plus.o: Plus.cpp.o
 
 # target to build an object file
 Plus.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Plus.cpp.o
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Plus.cpp.o
 .PHONY : Plus.cpp.o
 
 Plus.i: Plus.cpp.i
@@ -651,7 +651,7 @@ Plus.i: Plus.cpp.i
 
 # target to preprocess a source file
 Plus.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Plus.cpp.i
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Plus.cpp.i
 .PHONY : Plus.cpp.i
 
 Plus.s: Plus.cpp.s
@@ -660,7 +660,7 @@ Plus.s: Plus.cpp.s
 
 # target to generate assembly for a file
 Plus.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Plus.cpp.s
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Plus.cpp.s
 .PHONY : Plus.cpp.s
 
 PrintCommand.o: PrintCommand.cpp.o
@@ -669,7 +669,7 @@ PrintCommand.o: PrintCommand.cpp.o
 
 # target to build an object file
 PrintCommand.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/PrintCommand.cpp.o
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/PrintCommand.cpp.o
 .PHONY : PrintCommand.cpp.o
 
 PrintCommand.i: PrintCommand.cpp.i
@@ -678,7 +678,7 @@ PrintCommand.i: PrintCommand.cpp.i
 
 # target to preprocess a source file
 PrintCommand.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/PrintCommand.cpp.i
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/PrintCommand.cpp.i
 .PHONY : PrintCommand.cpp.i
 
 PrintCommand.s: PrintCommand.cpp.s
@@ -687,7 +687,7 @@ PrintCommand.s: PrintCommand.cpp.s
 
 # target to generate assembly for a file
 PrintCommand.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/PrintCommand.cpp.s
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/PrintCommand.cpp.s
 .PHONY : PrintCommand.cpp.s
 
 Project1.o: Project1.cpp.o
@@ -696,7 +696,7 @@ Project1.o: Project1.cpp.o
 
 # target to build an object file
 Project1.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Project1.cpp.o
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Project1.cpp.o
 .PHONY : Project1.cpp.o
 
 Project1.i: Project1.cpp.i
@@ -705,7 +705,7 @@ Project1.i: Project1.cpp.i
 
 # target to preprocess a source file
 Project1.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Project1.cpp.i
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Project1.cpp.i
 .PHONY : Project1.cpp.i
 
 Project1.s: Project1.cpp.s
@@ -714,7 +714,7 @@ Project1.s: Project1.cpp.s
 
 # target to generate assembly for a file
 Project1.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Project1.cpp.s
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Project1.cpp.s
 .PHONY : Project1.cpp.s
 
 ShAlgo.o: ShAlgo.cpp.o
@@ -723,7 +723,7 @@ ShAlgo.o: ShAlgo.cpp.o
 
 # target to build an object file
 ShAlgo.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/ShAlgo.cpp.o
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/ShAlgo.cpp.o
 .PHONY : ShAlgo.cpp.o
 
 ShAlgo.i: ShAlgo.cpp.i
@@ -732,7 +732,7 @@ ShAlgo.i: ShAlgo.cpp.i
 
 # target to preprocess a source file
 ShAlgo.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/ShAlgo.cpp.i
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/ShAlgo.cpp.i
 .PHONY : ShAlgo.cpp.i
 
 ShAlgo.s: ShAlgo.cpp.s
@@ -741,7 +741,7 @@ ShAlgo.s: ShAlgo.cpp.s
 
 # target to generate assembly for a file
 ShAlgo.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/ShAlgo.cpp.s
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/ShAlgo.cpp.s
 .PHONY : ShAlgo.cpp.s
 
 SymbolTable.o: SymbolTable.cpp.o
@@ -750,7 +750,7 @@ SymbolTable.o: SymbolTable.cpp.o
 
 # target to build an object file
 SymbolTable.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/SymbolTable.cpp.o
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/SymbolTable.cpp.o
 .PHONY : SymbolTable.cpp.o
 
 SymbolTable.i: SymbolTable.cpp.i
@@ -759,7 +759,7 @@ SymbolTable.i: SymbolTable.cpp.i
 
 # target to preprocess a source file
 SymbolTable.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/SymbolTable.cpp.i
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/SymbolTable.cpp.i
 .PHONY : SymbolTable.cpp.i
 
 SymbolTable.s: SymbolTable.cpp.s
@@ -768,8 +768,35 @@ SymbolTable.s: SymbolTable.cpp.s
 
 # target to generate assembly for a file
 SymbolTable.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/SymbolTable.cpp.s
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/SymbolTable.cpp.s
 .PHONY : SymbolTable.cpp.s
+
+Utils.o: Utils.cpp.o
+
+.PHONY : Utils.o
+
+# target to build an object file
+Utils.cpp.o:
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Utils.cpp.o
+.PHONY : Utils.cpp.o
+
+Utils.i: Utils.cpp.i
+
+.PHONY : Utils.i
+
+# target to preprocess a source file
+Utils.cpp.i:
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Utils.cpp.i
+.PHONY : Utils.cpp.i
+
+Utils.s: Utils.cpp.s
+
+.PHONY : Utils.s
+
+# target to generate assembly for a file
+Utils.cpp.s:
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Utils.cpp.s
+.PHONY : Utils.cpp.s
 
 main.o: main.cpp.o
 
@@ -777,7 +804,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -786,7 +813,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -795,7 +822,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 setCommand.o: setCommand.cpp.o
@@ -804,7 +831,7 @@ setCommand.o: setCommand.cpp.o
 
 # target to build an object file
 setCommand.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/setCommand.cpp.o
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/setCommand.cpp.o
 .PHONY : setCommand.cpp.o
 
 setCommand.i: setCommand.cpp.i
@@ -813,7 +840,7 @@ setCommand.i: setCommand.cpp.i
 
 # target to preprocess a source file
 setCommand.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/setCommand.cpp.i
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/setCommand.cpp.i
 .PHONY : setCommand.cpp.i
 
 setCommand.s: setCommand.cpp.s
@@ -822,7 +849,7 @@ setCommand.s: setCommand.cpp.s
 
 # target to generate assembly for a file
 setCommand.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/setCommand.cpp.s
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/setCommand.cpp.s
 .PHONY : setCommand.cpp.s
 
 # Help Target
@@ -833,7 +860,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... untitled4"
+	@echo "... FlightProject"
 	@echo "... BinaryExpression.o"
 	@echo "... BinaryExpression.i"
 	@echo "... BinaryExpression.s"
@@ -906,6 +933,9 @@ help:
 	@echo "... SymbolTable.o"
 	@echo "... SymbolTable.i"
 	@echo "... SymbolTable.s"
+	@echo "... Utils.o"
+	@echo "... Utils.i"
+	@echo "... Utils.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

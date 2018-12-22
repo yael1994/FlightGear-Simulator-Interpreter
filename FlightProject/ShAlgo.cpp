@@ -4,6 +4,7 @@
 
 #include <sstream>
 #include "ShAlgo.h"
+#include "Utils.h"
 #include <stack>
 #include <iostream>
 
@@ -17,41 +18,12 @@ ShAlgo::ShAlgo() {
     m_mapOperator["*"] = 2;
     m_mapOperator["/"] = 2;
     m_mapOperator["("] = -1;
-    //this->m_mapVar=varMap;
 }
 /**
  * distructor
  */
 ShAlgo::~ShAlgo() {
 
-}
-
-/**
- * the function check if the string is a simple operator.
- * @param str the string that the function check
- * @return true if it is a simple operator , else false.
- */
-bool ShAlgo::isOperator(const string &str) const {
-    return (str == "+") || (str == "-") || (str == "*") || (str == "/");
-}
-
-/**
- * the function check if the string is a simple number
- * @param str the string that the function check
- * @return true if it is a simple number, else false.
- */
-bool ShAlgo::isNumber(const string &str) const {
-    if(str.empty()){
-        return false;
-    }
-    for (unsigned long  i = 0; i < str.length(); i++) {
-        if (str.at(i)<'0'||str.at(i)>'9'){
-            if(str.at(i)!='.'){
-            return false;
-            }
-        }
-    }
-    return true;
 }
 
 /**
@@ -79,26 +51,17 @@ vector<string> ShAlgo::splitString(string &str) const {
         // check if the current char in the string  is a number
         string num;
        // string var;
-        while (this->isNumber(currChar)) {
+        while (Utils::isNumber(currChar)) {
             num += currChar;
             i++;
             currChar = str.substr(i, 1);
         }
-//        while (!this->isNumber(currChar)&&!this->isOperator(currChar)&&currChar!="(" &&currChar!=")"&&!currChar.empty()){
-//            var+=currChar;
-//            i++;
-//            currChar=str.substr(i,1);
-//        }
-        // If this is a number put in the stack.
+
         if (!num.empty()) {
             splits.push_back(num);
             // Fixing position of 'i' due to the 'while' loop terminating
             i--;
-//        } else if(!var.empty()){
-//            double numOfVar=m_mapVar.at(var);
-//            splits.push_back(to_string(numOfVar));
-//            // Fixing position of 'i' due to the 'while' loop terminating
-//            i--;
+
         }
         else {
             splits.push_back(currChar);
@@ -118,9 +81,9 @@ queue<string> ShAlgo::creatQueue(string &expressions) {
     queue<string> numbers;
 
     for (auto &str : vec) {
-        if (this->isNumber(str)) {
+        if (Utils::isNumber(str)) {
             numbers.push(str);
-        } else if (this->isOperator(str)) {
+        } else if (Utils::isOperator(str)) {
             // Moving bigger-precedence-operators from the stack to the queue
             while (!operators.empty() && this->getPrecedence(str, operators.top()) <= 0) {
                 numbers.push(operators.top());
@@ -150,8 +113,3 @@ queue<string> ShAlgo::creatQueue(string &expressions) {
     }
     return numbers;
 }
-//
-//bool ShAlgo::isVar(const string &str) const {
-//    return m_mapVar.count(str) == 1;
-//}
-

@@ -8,42 +8,43 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/yael/CLionProjects/FlightProject/cmake-build-debug"/>
+				<Option working_dir="/home/yael/FlightProject/FlightProject/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/yael/CLionProjects/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yael/CLionProjects/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/yael/CLionProjects/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yael/CLionProjects/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yael/FlightProject/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yael/FlightProject/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yael/FlightProject/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yael/FlightProject/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/yael/CLionProjects/FlightProject/cmake-build-debug"/>
+				<Option working_dir="/home/yael/FlightProject/FlightProject/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/yael/CLionProjects/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yael/CLionProjects/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/yael/CLionProjects/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yael/CLionProjects/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yael/FlightProject/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yael/FlightProject/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yael/FlightProject/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yael/FlightProject/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/yael/CLionProjects/FlightProject/cmake-build-debug"/>
+				<Option working_dir="/home/yael/FlightProject/FlightProject/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/yael/CLionProjects/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yael/CLionProjects/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/yael/CLionProjects/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yael/CLionProjects/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yael/FlightProject/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yael/FlightProject/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yael/FlightProject/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yael/FlightProject/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FlightProject">
-				<Option output="/home/yael/CLionProjects/FlightProject/cmake-build-debug/FlightProject" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/yael/CLionProjects/FlightProject/cmake-build-debug"/>
+				<Option output="/home/yael/FlightProject/FlightProject/cmake-build-debug/FlightProject" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yael/FlightProject/FlightProject/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/yael/FlightProject/FlightProject/."/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -54,19 +55,20 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/yael/CLionProjects/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 FlightProject"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yael/CLionProjects/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/yael/CLionProjects/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yael/CLionProjects/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yael/FlightProject/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 FlightProject"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yael/FlightProject/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yael/FlightProject/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yael/FlightProject/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FlightProject/fast">
-				<Option output="/home/yael/CLionProjects/FlightProject/cmake-build-debug/FlightProject" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/yael/CLionProjects/FlightProject/cmake-build-debug"/>
+				<Option output="/home/yael/FlightProject/FlightProject/cmake-build-debug/FlightProject" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yael/FlightProject/FlightProject/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/yael/FlightProject/FlightProject/."/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -77,173 +79,212 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/yael/CLionProjects/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 FlightProject/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yael/CLionProjects/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/yael/CLionProjects/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yael/CLionProjects/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yael/FlightProject/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 FlightProject/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yael/FlightProject/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yael/FlightProject/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yael/FlightProject/FlightProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/BinaryExpression.cpp">
+		<Unit filename="/home/yael/FlightProject/FlightProject/BinaryExpression.cpp">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/BinaryExpression.h">
+		<Unit filename="/home/yael/FlightProject/FlightProject/BinaryExpression.h">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/ClientConnect.cpp">
+		<Unit filename="/home/yael/FlightProject/FlightProject/CMakeLists.txt">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/ClientConnect.h">
+		<Unit filename="/home/yael/FlightProject/FlightProject/ClientConnect.cpp">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/Command.h">
+		<Unit filename="/home/yael/FlightProject/FlightProject/ClientConnect.h">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/ConditionParser.cpp">
+		<Unit filename="/home/yael/FlightProject/FlightProject/Command.h">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/ConditionParser.h">
+		<Unit filename="/home/yael/FlightProject/FlightProject/ConditionParser.cpp">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/ConnectCommand.cpp">
+		<Unit filename="/home/yael/FlightProject/FlightProject/ConditionParser.h">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/ConnectCommand.h">
+		<Unit filename="/home/yael/FlightProject/FlightProject/ConnectCommand.cpp">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/CreateExp.cpp">
+		<Unit filename="/home/yael/FlightProject/FlightProject/ConnectCommand.h">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/CreateExp.h">
+		<Unit filename="/home/yael/FlightProject/FlightProject/CreateExp.cpp">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/DataReaderServer.cpp">
+		<Unit filename="/home/yael/FlightProject/FlightProject/CreateExp.h">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/DataReaderServer.h">
+		<Unit filename="/home/yael/FlightProject/FlightProject/DataReaderServer.cpp">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/DefineVarCommand.cpp">
+		<Unit filename="/home/yael/FlightProject/FlightProject/DataReaderServer.h">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/DefineVarCommand.h">
+		<Unit filename="/home/yael/FlightProject/FlightProject/DefineVarCommand.cpp">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/Div.cpp">
+		<Unit filename="/home/yael/FlightProject/FlightProject/DefineVarCommand.h">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/Div.h">
+		<Unit filename="/home/yael/FlightProject/FlightProject/Div.cpp">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/Expression.h">
+		<Unit filename="/home/yael/FlightProject/FlightProject/Div.h">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/ExpressionCommand.cpp">
+		<Unit filename="/home/yael/FlightProject/FlightProject/Expression.cpp">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/ExpressionCommand.h">
+		<Unit filename="/home/yael/FlightProject/FlightProject/Expression.h">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/ExpressionSingleTone.h">
+		<Unit filename="/home/yael/FlightProject/FlightProject/ExpressionCommand.cpp">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/IfCommand.cpp">
+		<Unit filename="/home/yael/FlightProject/FlightProject/ExpressionCommand.h">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/IfCommand.h">
+		<Unit filename="/home/yael/FlightProject/FlightProject/ExpressionSingleTone.h">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/IterCommand.h">
+		<Unit filename="/home/yael/FlightProject/FlightProject/IfCommand.cpp">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/Lexer.cpp">
+		<Unit filename="/home/yael/FlightProject/FlightProject/IfCommand.h">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/Lexer.h">
+		<Unit filename="/home/yael/FlightProject/FlightProject/IterCommand.h">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/LoopCommand.cpp">
+		<Unit filename="/home/yael/FlightProject/FlightProject/Lexer.cpp">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/LoopCommand.h">
+		<Unit filename="/home/yael/FlightProject/FlightProject/Lexer.h">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/Minus.cpp">
+		<Unit filename="/home/yael/FlightProject/FlightProject/LoopCommand.cpp">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/Minus.h">
+		<Unit filename="/home/yael/FlightProject/FlightProject/LoopCommand.h">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/Mul.cpp">
+		<Unit filename="/home/yael/FlightProject/FlightProject/Minus.cpp">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/Mul.h">
+		<Unit filename="/home/yael/FlightProject/FlightProject/Minus.h">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/Neg.cpp">
+		<Unit filename="/home/yael/FlightProject/FlightProject/Mul.cpp">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/Neg.h">
+		<Unit filename="/home/yael/FlightProject/FlightProject/Mul.h">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/Number.cpp">
+		<Unit filename="/home/yael/FlightProject/FlightProject/NameToPathTable.h">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/Number.h">
+		<Unit filename="/home/yael/FlightProject/FlightProject/Neg.cpp">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/OpenDataServerCommand.cpp">
+		<Unit filename="/home/yael/FlightProject/FlightProject/Neg.h">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/OpenDataServerCommand.h">
+		<Unit filename="/home/yael/FlightProject/FlightProject/Number.cpp">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/Parser.cpp">
+		<Unit filename="/home/yael/FlightProject/FlightProject/Number.h">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/Parser.h">
+		<Unit filename="/home/yael/FlightProject/FlightProject/OpenDataServerCommand.cpp">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/Plus.cpp">
+		<Unit filename="/home/yael/FlightProject/FlightProject/OpenDataServerCommand.h">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/Plus.h">
+		<Unit filename="/home/yael/FlightProject/FlightProject/Parser.cpp">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/PrintCommand.cpp">
+		<Unit filename="/home/yael/FlightProject/FlightProject/Parser.h">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/PrintCommand.h">
+		<Unit filename="/home/yael/FlightProject/FlightProject/Plus.cpp">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/Project1.cpp">
+		<Unit filename="/home/yael/FlightProject/FlightProject/Plus.h">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/Project1.h">
+		<Unit filename="/home/yael/FlightProject/FlightProject/PrintCommand.cpp">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/ShAlgo.cpp">
+		<Unit filename="/home/yael/FlightProject/FlightProject/PrintCommand.h">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/ShAlgo.h">
+		<Unit filename="/home/yael/FlightProject/FlightProject/Project1.cpp">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/SymbolTable.cpp">
+		<Unit filename="/home/yael/FlightProject/FlightProject/Project1.h">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/SymbolTable.h">
+		<Unit filename="/home/yael/FlightProject/FlightProject/ShAlgo.cpp">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/main.cpp">
+		<Unit filename="/home/yael/FlightProject/FlightProject/ShAlgo.h">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/setCommand.cpp">
+		<Unit filename="/home/yael/FlightProject/FlightProject/SymbolTable.cpp">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/setCommand.h">
+		<Unit filename="/home/yael/FlightProject/FlightProject/SymbolTable.h">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/CLionProjects/FlightProject/CMakeLists.txt">
+		<Unit filename="/home/yael/FlightProject/FlightProject/Utils.cpp">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/FlightProject/FlightProject/Utils.h">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/FlightProject/FlightProject/cmake-build-debug/CMakeCache.txt">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/FlightProject/FlightProject/cmake-build-debug/FlightProject.cbp">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/FlightProject/FlightProject/cmake-build-debug/Makefile">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/FlightProject/FlightProject/cmake-build-debug/cmake_install.cmake">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/FlightProject/FlightProject/cmake-build-debug/com.txt">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/FlightProject/FlightProject/cmake-build-debug/file.txt">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/FlightProject/FlightProject/cmake-build-debug/untitled4">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/FlightProject/FlightProject/cmake-build-debug/untitled4.cbp">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/FlightProject/FlightProject/main.cpp">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/FlightProject/FlightProject/setCommand.cpp">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/FlightProject/FlightProject/setCommand.h">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/FlightProject/FlightProject/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

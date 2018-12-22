@@ -59,45 +59,45 @@ RM = /home/yael/Documents/clion-2018.2.4/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yael/CLionProjects/FlightProject
+CMAKE_SOURCE_DIR = /home/yael/FlightProject/FlightProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yael/CLionProjects/FlightProject/cmake-build-debug
+CMAKE_BINARY_DIR = /home/yael/FlightProject/FlightProject/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/untitled4.dir
+# Target rules for target CMakeFiles/FlightProject.dir
 
 # All Build rule for target.
-CMakeFiles/untitled4.dir/all:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/depend
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27 "Built target untitled4"
-.PHONY : CMakeFiles/untitled4.dir/all
+CMakeFiles/FlightProject.dir/all:
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/depend
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yael/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28 "Built target FlightProject"
+.PHONY : CMakeFiles/FlightProject.dir/all
 
 # Include target in all.
-all: CMakeFiles/untitled4.dir/all
+all: CMakeFiles/FlightProject.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/untitled4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles 27
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/untitled4.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yael/CLionProjects/FlightProject/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/untitled4.dir/rule
+CMakeFiles/FlightProject.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yael/FlightProject/FlightProject/cmake-build-debug/CMakeFiles 28
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/FlightProject.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yael/FlightProject/FlightProject/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/FlightProject.dir/rule
 
 # Convenience name for target.
-untitled4: CMakeFiles/untitled4.dir/rule
+FlightProject: CMakeFiles/FlightProject.dir/rule
 
-.PHONY : untitled4
-
-# clean rule for target.
-CMakeFiles/untitled4.dir/clean:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/clean
-.PHONY : CMakeFiles/untitled4.dir/clean
+.PHONY : FlightProject
 
 # clean rule for target.
-clean: CMakeFiles/untitled4.dir/clean
+CMakeFiles/FlightProject.dir/clean:
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/clean
+.PHONY : CMakeFiles/FlightProject.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/FlightProject.dir/clean
 
 .PHONY : clean
 

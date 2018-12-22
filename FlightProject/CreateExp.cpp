@@ -12,24 +12,7 @@
 #include "Number.h"
 #include "Neg.h"
 #include "ShAlgo.h"
-
-bool CreateExp::isOperator(const string &str) const {
-    return (str == "+") || (str == "-") || (str == "*") || (str == "/");
-}
-
-bool CreateExp::isNumber(const string &str) const {
-    if(str.empty()){
-        return false;
-    }
-    for (unsigned long  i = 0; i < str.length(); i++) {
-        if (str.at(i)<'0'||str.at(i)>'9'){
-            if(str.at(i)!='.'){
-                return false;
-            }
-        }
-    }
-    return true;
-}
+#include "Utils.h"
 
 Expression* CreateExp::biuldExp(string str) {
     ShAlgo* sy=new ShAlgo();
@@ -39,11 +22,11 @@ Expression* CreateExp::biuldExp(string str) {
         string element = q_num.front();
         q_num.pop();
 
-        if (isNumber(element)){
+        if (Utils::isNumber(element)){
             Expression* exp=new Number(stod(element));
             st.push(exp);
         }
-        if(isOperator(element)){
+        if(Utils::isOperator(element)){
            if(element=="+"){
                if(st.size()<2){
                    throw runtime_error("there is no two expressions");
