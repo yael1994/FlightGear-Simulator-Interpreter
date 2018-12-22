@@ -139,7 +139,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="25" />
     <option name="width" value="960" />
     <option name="height" value="990" />
@@ -181,20 +181,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.untitled4">
+  <component name="RunManager" selected="Application.FlightProject">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="untitled4" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="untitled4" TARGET_NAME="untitled4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="untitled4" RUN_TARGET_NAME="untitled4">
+    <configuration name="FlightProject" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FlightProject" TARGET_NAME="FlightProject" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="FlightProject" RUN_TARGET_NAME="FlightProject">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.untitled4" />
+      <item itemvalue="Application.FlightProject" />
     </list>
   </component>
   <component name="SvnConfiguration">

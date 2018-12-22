@@ -4,6 +4,7 @@
 
 #include "OpenDataServerCommand.h"
 #include "DataReaderServer.h"
+#include "Utils.h"
 #include <chrono>
 
 OpenDataServerCommand::OpenDataServerCommand(
@@ -18,9 +19,8 @@ OpenDataServerCommand::OpenDataServerCommand(
 void OpenDataServerCommand::execute() {
 
          this->next();
-         int port = (int) toDouble->calculateExp(this->getString());
-         this->next();
-         int Hz = (int) toDouble->calculateExp(this->getString());
+         int port = (int) toDouble->calculateExp(convertToString());
+         int Hz = (int) toDouble->calculateExp(convertToString());
          this->next();
          
    //call DataReaderServer with object function
@@ -29,8 +29,26 @@ void OpenDataServerCommand::execute() {
    thread1.detach();
 //   DataReaderServer d;
 //   d.openServer(port,Hz);
+}
 
-
+string OpenDataServerCommand::convertToString() {
+    bool flag=false;
+    string ans;
+    while (this->getString()!="\n") {
+        if (Utils::isNumber(this->getString()) && !flag) {
+            ans += this->getString();
+            flag = true;
+            this->next();
+            continue;
+        } else if (Utils::isOperator(this->getString())) {
+            ans += this->getString();
+            flag = false;
+            this->next();
+            continue;
+        } else if ((Utils::isNumber(this->getString()) && flag) || this->getString() == ",") {
+            return ans;
+        }
+    }
 }
 
 

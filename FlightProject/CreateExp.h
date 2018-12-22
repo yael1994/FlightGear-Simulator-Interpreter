@@ -11,8 +11,7 @@
 using namespace std;
 
 class CreateExp {
-    bool isOperator(const string &str) const;
-    bool isNumber(const string &str) const;
+
 
 public:
     CreateExp()= default;
