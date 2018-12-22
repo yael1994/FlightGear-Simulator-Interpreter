@@ -9,6 +9,11 @@
 
 void IfCommand::execute(){
     if (getCondition()){
+        while (this->getString()!="{"){
+            this->next();
+        }
+        this->next();
+        createCommandMap();
         for (int i=0;i<m_commandVec.size();i++){
             m_commandVec.at(i)->calculate();
         }

@@ -10,6 +10,7 @@ add_executable(FlightProject
         cmake-build-debug/CMakeCache.txt
         cmake-build-debug/com.txt
         cmake-build-debug/file.txt
+        cmake-build-debug/FlightProject
         cmake-build-debug/FlightProject.cbp
         cmake-build-debug/Makefile
         cmake-build-debug/untitled4
@@ -69,4 +70,6 @@ add_executable(FlightProject
         ShAlgo.cpp
         ShAlgo.h
         SymbolTable.cpp
-        SymbolTable.h Utils.cpp Utils.h)
+        SymbolTable.h
+        Utils.cpp
+        Utils.h)

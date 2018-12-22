@@ -9,12 +9,15 @@
 #include <vector>
 #include "Command.h"
 #include "IterCommand.h"
+#include "SymbolTable.h"
 
-#define OPERATOR {"<",">","<=",">=","==","!="}
+#define OPERATOR {"<",">","<=",">=","==","!=","{","\n"}
 
 class ConditionParser : public IterCommand{
+    SymbolTable* symbolTable;
 
     map<string, Expression*> mapCommand;
+    string convertToString();
 
 public:
     ConditionParser(

@@ -44,6 +44,7 @@ CMakeFiles/FlightProject.dir/CreateExp.cpp.o: ../Neg.h
 CMakeFiles/FlightProject.dir/CreateExp.cpp.o: ../Number.h
 CMakeFiles/FlightProject.dir/CreateExp.cpp.o: ../Plus.h
 CMakeFiles/FlightProject.dir/CreateExp.cpp.o: ../ShAlgo.h
+CMakeFiles/FlightProject.dir/CreateExp.cpp.o: ../Utils.h
 
 CMakeFiles/FlightProject.dir/DataReaderServer.cpp.o: ../DataReaderServer.cpp
 CMakeFiles/FlightProject.dir/DataReaderServer.cpp.o: ../DataReaderServer.h
@@ -122,6 +123,7 @@ CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.o: ../IterCommand.h
 CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.o: ../OpenDataServerCommand.cpp
 CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.o: ../OpenDataServerCommand.h
 CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.o: ../SymbolTable.h
+CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.o: ../Utils.h
 
 CMakeFiles/FlightProject.dir/Parser.cpp.o: ../Command.h
 CMakeFiles/FlightProject.dir/Parser.cpp.o: ../ConditionParser.h
@@ -177,9 +179,13 @@ CMakeFiles/FlightProject.dir/Project1.cpp.o: ../setCommand.h
 
 CMakeFiles/FlightProject.dir/ShAlgo.cpp.o: ../ShAlgo.cpp
 CMakeFiles/FlightProject.dir/ShAlgo.cpp.o: ../ShAlgo.h
+CMakeFiles/FlightProject.dir/ShAlgo.cpp.o: ../Utils.h
 
 CMakeFiles/FlightProject.dir/SymbolTable.cpp.o: ../SymbolTable.cpp
 CMakeFiles/FlightProject.dir/SymbolTable.cpp.o: ../SymbolTable.h
+
+CMakeFiles/FlightProject.dir/Utils.cpp.o: ../Utils.cpp
+CMakeFiles/FlightProject.dir/Utils.cpp.o: ../Utils.h
 
 CMakeFiles/FlightProject.dir/main.cpp.o: ../Command.h
 CMakeFiles/FlightProject.dir/main.cpp.o: ../ConditionParser.h

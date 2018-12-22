@@ -5,6 +5,7 @@
 #include "DefineVarCommand.h"
 #include "NameToPathTable.h"
 #include "SymbolTable.h"
+#include "Utils.h"
 
 NameToPathTable* NameToPathTable::_instance = NULL;
 
@@ -32,8 +33,19 @@ void DefineVarCommand::execute() {
 
     }else{
         this->next();
+        string ans;
+        while (this->getString()!="\n"){
+         if(!Utils::isNumber(this->getString())&&!Utils::isOperator(this->getString())
+         &&(this->getString()!="("||this->getString()!=")")){
+             ans+=symbolTable->getValue(this->getString());
+             this->next();
+             continue;
+         }
+         ans+=this->getString();
+         this->next();
+        }
         //define var with no path
-        double value = toDouble->calculateExp(this->getString());
+        double value = toDouble->calculateExp(ans);
         symbolTable->setDoubleValue(name,value);
 
     }

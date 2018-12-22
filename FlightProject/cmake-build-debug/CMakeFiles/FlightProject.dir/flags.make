@@ -6,5 +6,5 @@ CXX_FLAGS = -std=c++14 -pthread -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/yael/FlightProject/FlightProject/. 
+CXX_INCLUDES = -I/home/yael/FlightProject/FlightProject/FlightProject/. 
 

@@ -8,6 +8,11 @@
 void LoopCommand::execute() {
     vector<string> ::iterator it=this->getIter();
     while (getCondition()) {
+        while (this->getString()!="{"){
+            this->next();
+        }
+        this->next();
+        createCommandMap();
         for (int i = 0; i < m_commandVec.size(); i++) {
             m_commandVec.at(i)->calculate();
         }
