@@ -5,10 +5,12 @@
 #include "Lexer.h"
 
 SymbolTable* SymbolTable::_instance= NULL;
+
+
 int main() {
    SymbolTable* p = SymbolTable::getInstance();
    SymbolTable* q = SymbolTable::getInstance();
-   SymbolTable* o = SymbolTable::getInstance();
+
 
 
    Project1* project1 = new Project1("file.txt");

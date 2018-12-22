@@ -36,8 +36,10 @@ public:
         this->nameToPath[key] = value;
     }
     const string& getPath(string key){
-
-        return this->nameToPath.find(key)->second;
+        if(this->nameToPath.count(key) > 0) {
+            return this->nameToPath.find(key)->second;
+        }
+        return "";
 
     }
     const int& getIndex(string key){

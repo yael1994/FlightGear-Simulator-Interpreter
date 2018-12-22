@@ -58,39 +58,42 @@ void ClientConnect::openClient(string ip, int port) {
     /* Now ask for a message from the user, this message
        * will be read by server
     */
-//
+
 //    printf("Please enter the message: ");
 //    bzero(buffer,256);
 //    fgets(buffer,255,stdin)
 
-//        while (true) {
-//            string i = "-1";
-//           // msg = "set controls/flight/rudder "+i+"\r\n";
-//          //  n = send(sockfd, (char *) msg.c_str(), strlen((char *) msg.c_str()), 0);
-//            /* Send message to the server */
-//            //   n = send(sockfd, setMsg.c_str(), strlen(setMsg.c_str()), 0);
-//            // n = write(sockfd, buffer, strlen(buffer));
-//           // sleep(5);
-//          //  i = "1";
-//
-////            if (n < 0) {
-////                perror("ERROR writing to socket");
-////                exit(1);
-////            }
-//
-//
-//            /* Now read server response */
-//            bzero(buffer, 256);
-//           n = read(sockfd, buffer, 255);
-//
-//            if (n < 0) {
-//
-//              //  perror("ERROR reading from socket");
-//                //exit(1);
-//            }
-//
-//            printf("%s\n", buffer);
-//        }
+        while (true) {
+            if(!symbolTable->getStackUpdates().empty()){
+                string name = symbolTable->getStackUpdates().top();
+                if(paths->getPath(name) != ""){
+               string path = paths->getPath(name);
+               path.erase(0,1);
+               string value = to_string(symbolTable->getValue(name));
+               msg = "set "+path+" "+value;
+               n = send(sockfd, (char *) msg.c_str(), strlen((char *) msg.c_str()), 0);
+            }
+
+
+
+            if (n < 0) {
+                perror("ERROR writing to socket");
+                exit(1);
+            }
+
+
+            /* Now read server response */
+            bzero(buffer, 256);
+           n = read(sockfd, buffer, 255);
+
+            if (n < 0) {
+
+              //  perror("ERROR reading from socket");
+                //exit(1);
+            }
+
+            printf("%s\n", buffer);
+        }
     }
 
 

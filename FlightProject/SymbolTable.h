@@ -9,6 +9,7 @@
 #include <string>
 #include <fstream>
 #include <iostream>
+#include <stack>
 
 #define XML "generic_small.xml"
 using namespace std;
@@ -17,6 +18,7 @@ class SymbolTable {
     static SymbolTable* _instance;
 
     map<string, double> symbolTable;
+    stack<string> updates;
 
     SymbolTable()= default;
 
@@ -30,8 +32,14 @@ public:
 
     void setDoubleValue(string &key, double num){
         this->symbolTable[key] = num;
+        updates.push(key);
 
     }
+
+    stack<string> &getStackUpdates()  {
+        return updates;
+    }
+
 
     const map<string, double> &getSymbolTable() const {
         return symbolTable;

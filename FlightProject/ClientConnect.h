@@ -7,6 +7,8 @@
 #include <string>
 #include <fstream>
 #include <iostream>
+#include "SymbolTable.h"
+#include "NameToPathTable.h"
 
 #define XML "generic_small.xml"
 using namespace std;
@@ -15,6 +17,8 @@ class ClientConnect {
     static ClientConnect* _instance;
     bool flag;
     int sockfd, n;
+    SymbolTable* symbolTable = SymbolTable::getInstance();
+    NameToPathTable* paths  = NameToPathTable::getInstance();
     string msg;
     ClientConnect()= default;
 
