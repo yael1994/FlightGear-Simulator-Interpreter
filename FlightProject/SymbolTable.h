@@ -11,12 +11,14 @@
 #include <iostream>
 #include <stack>
 
+#include <mutex>
+
 #define XML "generic_small.xml"
 using namespace std;
 
 class SymbolTable {
     static SymbolTable* _instance;
-
+    mutex myLock;
     map<string, double> symbolTable;
     stack<string> updates;
 
@@ -30,9 +32,13 @@ public:
         return _instance;
     }
 
-    void setDoubleValue(string &key, double num){
+    void setDoubleValue(string &key, double num,bool flag){
+        myLock.lock();
         this->symbolTable[key] = num;
-        updates.push(key);
+        if(flag) {
+            updates.push(key);
+        }
+        myLock.unlock();
 
     }
 

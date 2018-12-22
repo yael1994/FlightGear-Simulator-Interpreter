@@ -47,7 +47,7 @@ void Parser::parse() {
         }
         cout << i++ << endl;
         j++;
-        if(j==12) {
+        if(j==18) {
             while (true) {
                 if (i % 100000000000 == 0)
                     cout << i << endl;

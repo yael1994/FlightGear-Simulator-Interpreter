@@ -23,18 +23,18 @@ void DefineVarCommand::execute() {
         this->next();
         if(this->getString()[0] =='/'){
             table->setPathValue(name,this->getString());
-          symbolTable->setDoubleValue(name,0);  }
+          symbolTable->setDoubleValue(name,0,0);  }
           else {
             //bind to other var that already bind, find the path of him and put it
             table->setPathValue(name, table->getPath(this->getString()));
-            symbolTable->setDoubleValue(name,0);
+            symbolTable->setDoubleValue(name,0,0);
         }
 
     }else{
         this->next();
         //define var with no path
         double value = toDouble->calculateExp(this->getString());
-        symbolTable->setDoubleValue(name,value);
+        symbolTable->setDoubleValue(name,value,0);
 
     }
     this->next();

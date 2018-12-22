@@ -114,7 +114,7 @@ void DataReaderServer::setArgs() {
             int i = pathTable->getIndex(path);
             //fix the 23!!!!!!!!!!!!!
             if( i< 23){
-            this->symbolTable->setDoubleValue(name, valueFromSimu[i]);
+            this->symbolTable->setDoubleValue(name, valueFromSimu[i],0);
             cout << name << " " << valueFromSimu[i] << endl;
                 }
         }

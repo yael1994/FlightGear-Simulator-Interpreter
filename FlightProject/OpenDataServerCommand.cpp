@@ -47,6 +47,9 @@ string OpenDataServerCommand::convertToString() {
             continue;
         } else if ((Utils::isNumber(this->getString()) && flag) || this->getString() == ",") {
             return ans;
+        }else{
+            ans += this->getString();
+            this->next();
         }
     }
 }
