@@ -92,9 +92,6 @@
 		<Unit filename="/home/yael/FlightProject/FlightProject/FlightProject/BinaryExpression.h">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/FlightProject/FlightProject/FlightProject/CMakeLists.txt">
-			<Option target="FlightProject"/>
-		</Unit>
 		<Unit filename="/home/yael/FlightProject/FlightProject/FlightProject/ClientConnect.cpp">
 			<Option target="FlightProject"/>
 		</Unit>
@@ -239,6 +236,12 @@
 		<Unit filename="/home/yael/FlightProject/FlightProject/FlightProject/ShAlgo.h">
 			<Option target="FlightProject"/>
 		</Unit>
+		<Unit filename="/home/yael/FlightProject/FlightProject/FlightProject/SleepCommand.cpp">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/FlightProject/FlightProject/FlightProject/SleepCommand.h">
+			<Option target="FlightProject"/>
+		</Unit>
 		<Unit filename="/home/yael/FlightProject/FlightProject/FlightProject/SymbolTable.cpp">
 			<Option target="FlightProject"/>
 		</Unit>
@@ -249,33 +252,6 @@
 			<Option target="FlightProject"/>
 		</Unit>
 		<Unit filename="/home/yael/FlightProject/FlightProject/FlightProject/Utils.h">
-			<Option target="FlightProject"/>
-		</Unit>
-		<Unit filename="/home/yael/FlightProject/FlightProject/FlightProject/cmake-build-debug/CMakeCache.txt">
-			<Option target="FlightProject"/>
-		</Unit>
-		<Unit filename="/home/yael/FlightProject/FlightProject/FlightProject/cmake-build-debug/FlightProject">
-			<Option target="FlightProject"/>
-		</Unit>
-		<Unit filename="/home/yael/FlightProject/FlightProject/FlightProject/cmake-build-debug/FlightProject.cbp">
-			<Option target="FlightProject"/>
-		</Unit>
-		<Unit filename="/home/yael/FlightProject/FlightProject/FlightProject/cmake-build-debug/Makefile">
-			<Option target="FlightProject"/>
-		</Unit>
-		<Unit filename="/home/yael/FlightProject/FlightProject/FlightProject/cmake-build-debug/cmake_install.cmake">
-			<Option target="FlightProject"/>
-		</Unit>
-		<Unit filename="/home/yael/FlightProject/FlightProject/FlightProject/cmake-build-debug/com.txt">
-			<Option target="FlightProject"/>
-		</Unit>
-		<Unit filename="/home/yael/FlightProject/FlightProject/FlightProject/cmake-build-debug/file.txt">
-			<Option target="FlightProject"/>
-		</Unit>
-		<Unit filename="/home/yael/FlightProject/FlightProject/FlightProject/cmake-build-debug/untitled4">
-			<Option target="FlightProject"/>
-		</Unit>
-		<Unit filename="/home/yael/FlightProject/FlightProject/FlightProject/cmake-build-debug/untitled4.cbp">
 			<Option target="FlightProject"/>
 		</Unit>
 		<Unit filename="/home/yael/FlightProject/FlightProject/FlightProject/main.cpp">

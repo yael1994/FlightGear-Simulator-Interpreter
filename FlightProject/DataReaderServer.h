@@ -17,11 +17,13 @@
 #include <sys/socket.h>
 #include <iostream>
 #include "SymbolTable.h"
+#include "NameToPathTable.h"
 
 
 using namespace std;
 class DataReaderServer {
     SymbolTable* symbolTable;
+    NameToPathTable* pathTable;
     char buffer[1042];
     vector<double> valueFromSimu;
     int newsockfd;

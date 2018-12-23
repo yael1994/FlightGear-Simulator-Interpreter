@@ -744,6 +744,33 @@ ShAlgo.cpp.s:
 	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/ShAlgo.cpp.s
 .PHONY : ShAlgo.cpp.s
 
+SleepCommand.o: SleepCommand.cpp.o
+
+.PHONY : SleepCommand.o
+
+# target to build an object file
+SleepCommand.cpp.o:
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/SleepCommand.cpp.o
+.PHONY : SleepCommand.cpp.o
+
+SleepCommand.i: SleepCommand.cpp.i
+
+.PHONY : SleepCommand.i
+
+# target to preprocess a source file
+SleepCommand.cpp.i:
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/SleepCommand.cpp.i
+.PHONY : SleepCommand.cpp.i
+
+SleepCommand.s: SleepCommand.cpp.s
+
+.PHONY : SleepCommand.s
+
+# target to generate assembly for a file
+SleepCommand.cpp.s:
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/SleepCommand.cpp.s
+.PHONY : SleepCommand.cpp.s
+
 SymbolTable.o: SymbolTable.cpp.o
 
 .PHONY : SymbolTable.o
@@ -930,6 +957,9 @@ help:
 	@echo "... ShAlgo.o"
 	@echo "... ShAlgo.i"
 	@echo "... ShAlgo.s"
+	@echo "... SleepCommand.o"
+	@echo "... SleepCommand.i"
+	@echo "... SleepCommand.s"
 	@echo "... SymbolTable.o"
 	@echo "... SymbolTable.i"
 	@echo "... SymbolTable.s"

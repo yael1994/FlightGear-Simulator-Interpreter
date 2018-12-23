@@ -7,7 +7,8 @@
 
 #define SPACE " "
 
-#define SPECIAL_OPERATOR {"+","-","*","/", "\"","<",">","<=",">=","=="}
+#define SPECIAL_OPERATOR {"+","-","*","/", "\"","<",">","<=",">=","==","=","(",")"}
+
 
 #include <vector>
 #include <string>

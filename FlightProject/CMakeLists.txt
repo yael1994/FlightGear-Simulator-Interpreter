@@ -1,25 +1,15 @@
 cmake_minimum_required(VERSION 3.12)
 project(FlightProject)
 
-set(CMAKE_CXX_STANDARD 14)
+#set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_FLAGS "-std=c++14 -pthread")
 include_directories(.)
 
 add_executable(FlightProject
-        cmake-build-debug/cmake_install.cmake
-        cmake-build-debug/CMakeCache.txt
-        cmake-build-debug/com.txt
-        cmake-build-debug/file.txt
-        cmake-build-debug/FlightProject
-        cmake-build-debug/FlightProject.cbp
-        cmake-build-debug/Makefile
-        cmake-build-debug/untitled4
-        cmake-build-debug/untitled4.cbp
         BinaryExpression.cpp
         BinaryExpression.h
         ClientConnect.cpp
         ClientConnect.h
-        CMakeLists.txt
         Command.h
         ConditionParser.cpp
         ConditionParser.h
@@ -72,4 +62,4 @@ add_executable(FlightProject
         SymbolTable.cpp
         SymbolTable.h
         Utils.cpp
-        Utils.h)
+        Utils.h SleepCommand.cpp SleepCommand.h)

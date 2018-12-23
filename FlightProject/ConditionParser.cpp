@@ -20,7 +20,7 @@
  */
 bool ConditionParser:: getCondition(){
     string a1=convertToString();
-    this->next();
+   // this->next();
     string oper=this->getString();
     string a2=convertToString();
     vector<string> operators=OPERATOR;
@@ -46,21 +46,34 @@ bool ConditionParser:: getCondition(){
 }
 
 void ConditionParser::createCommandMap(){
+    bool flag=false;
     vector<string> ::iterator it=this->getIter();
-    while (*it!="}") {
-        Expression *c = mapCommand.find(*it)->second;
-        if (c != NULL) {
-            m_commandVec.push_back(c);
-        }
-        it++;
+    while (this->getString()!="}") {
+            if(this->getString()== "=" || this->getString() == "print"||this->getString()=="while"){
+                flag = true;
+            }
+            if((symbolTable->getSymbolTable().count(this->getString()) > 0)&&!flag) {
+                Expression* c = mapCommand.find("set")->second;
+                m_commandVec.push_back(c);
+            } else {
+                if(mapCommand.count(this->getString()) > 0){
+                Expression *c = mapCommand.find(this->getString())->second;
+                    m_commandVec.push_back(c);
+                }
+            }
+            if(this->getString() == "\n"){
+                flag = false;
+            }
+        this->next();
     }
+    this->setIter(it);
+
 }
 
 ConditionParser::ConditionParser(
-        vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>::iterator &iterator)
-        : IterCommand(iterator) {
+        vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>::iterator &iterator,
+        const map<string, Expression *> &mapCommand) : IterCommand(iterator), mapCommand(mapCommand) {
     symbolTable= SymbolTable::getInstance();
-
 }
 
 void ConditionParser::setMapCommand(map<string, Expression *> &map1) {
@@ -71,12 +84,15 @@ string ConditionParser::convertToString() {
     vector<string> operators=OPERATOR;
     string ans;
     this->next();
-    while (find(operators.begin(), operators.end(), this->getString())!= operators.end()) {
+    while (!(find(operators.begin(), operators.end(), this->getString()) != operators.end())) {
         if (!Utils::isNumber(this->getString()) && !Utils::isOperator(this->getString())
             && (this->getString() != "(" || this->getString() != ")")) {
-            ans += symbolTable->getValue(this->getString());
+            ans += to_string(symbolTable->getValue(this->getString()));
             this->next();
             continue;
+        }else{
+            ans+=this->getString();
+            this->next();
         }
     }
     return ans;

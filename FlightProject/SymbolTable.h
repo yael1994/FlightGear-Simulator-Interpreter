@@ -9,14 +9,18 @@
 #include <string>
 #include <fstream>
 #include <iostream>
+#include <queue>
+
+#include <mutex>
 
 #define XML "generic_small.xml"
 using namespace std;
 
 class SymbolTable {
     static SymbolTable* _instance;
-
+    mutex myLock;
     map<string, double> symbolTable;
+    queue<string> updates;
 
     SymbolTable()= default;
 
@@ -28,10 +32,20 @@ public:
         return _instance;
     }
 
-    void setDoubleValue(string &key, double num){
+    void setDoubleValue(string &key, double num,bool flag){
+        myLock.lock();
         this->symbolTable[key] = num;
+        if(flag) {
+            updates.push(key);
+        }
+        myLock.unlock();
 
     }
+
+    queue<string> &getQueueUpdates()  {
+        return updates;
+    }
+
 
     const map<string, double> &getSymbolTable() const {
         return symbolTable;

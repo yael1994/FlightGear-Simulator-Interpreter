@@ -13,6 +13,7 @@
 
 void DataReaderServer::operator()(int portno, int hz) {
     this->symbolTable = SymbolTable::getInstance();
+    this->pathTable =  NameToPathTable::getInstance();
     int sockfd;
 
     int clilen;
@@ -56,47 +57,31 @@ void DataReaderServer::operator()(int portno, int hz) {
         perror("ERROR on accept");
         exit(1);
     }
-//    cout<<"c"<<endl;
-//    auto f = [this](){
-//        while(true){
-//         //   cout<<"c"<<endl;
-//            bzero(buffer,1024);
-//            int n =read(newsockfd,buffer,1023);
-//            if(n<0){
-//             //   perror("Error: reading from socket");
-//            }else{
-//                split();
-//            }
-//            sleep(1/30);
-//            split();
-//
-//        }
-//    };
-//    if(newsockfd > 0){
-//        thread t1(f);
-//        t1.detach();
-//    }
+
     while(true){
-           cout<<"c"<<endl;
-        bzero(buffer,1024);
-        int n =read(newsockfd,buffer,1023);
-        if(n<0){
-             perror("Error: reading from socket");
+        if(newsockfd >= 0) {
+            cout << "c" << endl;
+            bzero(buffer, 1024);
+            int n = read(newsockfd, buffer, 1023);
+            if (n < 0) {
+                perror("Error: reading from socket");
+            }
+            sleep(1 / 10);
+            split();
         }
-        sleep(1/10);
-        split();
 
     }
 
 
 }
 void DataReaderServer::split() {
-  for(int i = 0; i< strlen(buffer); i++){
+    int i = 0;
+    while(i < this->pathTable->getPathSize()){
       string buf;
-
-      while(buffer[i] != ',' || i < strlen(buffer)) {
-          buf += buffer[i];
-          i++;
+      int j =0;
+      while(buffer[j] != ',' ) {
+          buf += buffer[j];
+          j++;
       }
       double num = stod(buf);
       valueFromSimu.push_back(num);
@@ -106,15 +91,14 @@ void DataReaderServer::split() {
 }
 
 void DataReaderServer::setArgs() {
-    NameToPathTable* pathTable = NameToPathTable::getInstance();
+
     for(auto key : this->symbolTable->getSymbolTable()){
         string name = key.first;
-        if(pathTable->getPath(name) != "" ) {
+        if(pathTable->countPath(key.first)) {
             string path = pathTable->getPath(name);
             int i = pathTable->getIndex(path);
-            //fix the 23!!!!!!!!!!!!!
-            if( i< 23){
-            this->symbolTable->setDoubleValue(name, valueFromSimu[i]);
+            if( i < this->pathTable->getPathSize() && i >= 0){
+            this->symbolTable->setDoubleValue(name, valueFromSimu[i],0);
             cout << name << " " << valueFromSimu[i] << endl;
                 }
         }

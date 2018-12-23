@@ -1,4 +1,4 @@
-//
+git //
 // Created by daniel on 12/15/18.
 //
 
@@ -46,73 +46,78 @@ void ClientConnect::openClient(string ip, int port) {
     bcopy((char *) server->h_addr, (char *) &serv_addr.sin_addr.s_addr, server->h_length);
     serv_addr.sin_port = htons(port);
     flag = false;
-    while(true) {
+    while (true) {
         int c = connect(sockfd, (struct sockaddr *) &serv_addr, sizeof(serv_addr));
         /* Now connect to the server */
         if (c == 0) {
-           flag = true;
-           break;
+            flag = true;
+            break;
         }
     }
     cout << "client connect" << endl;
     /* Now ask for a message from the user, this message
        * will be read by server
     */
-//
+
 //    printf("Please enter the message: ");
 //    bzero(buffer,256);
 //    fgets(buffer,255,stdin)
 
-//        while (true) {
-//            string i = "-1";
-//           // msg = "set controls/flight/rudder "+i+"\r\n";
-//          //  n = send(sockfd, (char *) msg.c_str(), strlen((char *) msg.c_str()), 0);
-//            /* Send message to the server */
-//            //   n = send(sockfd, setMsg.c_str(), strlen(setMsg.c_str()), 0);
-//            // n = write(sockfd, buffer, strlen(buffer));
-//           // sleep(5);
-//          //  i = "1";
-//
-////            if (n < 0) {
-////                perror("ERROR writing to socket");
-////                exit(1);
-////            }
-//
-//
-//            /* Now read server response */
-//            bzero(buffer, 256);
-//           n = read(sockfd, buffer, 255);
-//
-//            if (n < 0) {
-//
-//              //  perror("ERROR reading from socket");
-//                //exit(1);
-//            }
-//
-//            printf("%s\n", buffer);
-//        }
-    }
+    while (true) {
+        if (!symbolTable->getQueueUpdates().empty()) {
+            string name = symbolTable->getQueueUpdates().front();
+            if (paths->countPath(name)) {
+                string path = paths->getPath(name);
+                path.erase(0, 1);
+                string value = to_string(symbolTable->getValue(name));
+                msg = "set " + path + " " + value+"\r\n";
+                n = send(sockfd, (char *) msg.c_str(), strlen((char *) msg.c_str()), 0);
+                sleep(5);
+                symbolTable->getQueueUpdates().pop();
+            }
 
 
-void ClientConnect::sendMessage(string msg) {
-    //this->msg = msg;
-    if(flag) {
-        n = send(sockfd, (char *) msg.c_str(), strlen((char *) msg.c_str()), 0);
-        if (n < 0) {
-            perror("ERROR writing to socket");
-            exit(1);
+            if (n < 0) {
+                perror("ERROR writing to socket");
+                exit(1);
+            }
+
+
+            /* Now read server response */
+            bzero(buffer, 256);
+            n = read(sockfd, buffer, 255);
+
+            if (n < 0) {
+
+                //  perror("ERROR reading from socket");
+                //exit(1);
+            }
+
+            printf("%s\n", buffer);
         }
-        char buffer[256];
-        bzero(buffer, 256);
-        n = read(sockfd, buffer, 255);
-
-        if (n < 0) {
-
-            //  perror("ERROR reading from socket");
-            //exit(1);
-        }
-
-        printf("%s\n", buffer);
     }
-
 }
+
+
+//void ClientConnect::sendMessage(string msg) {
+//    //this->msg = msg;
+//    if(flag) {
+//        n = send(sockfd, (char *) msg.c_str(), strlen((char *) msg.c_str()), 0);
+//        if (n < 0) {
+//            perror("ERROR writing to socket");
+//            exit(1);
+//        }
+//        char buffer[256];
+//        bzero(buffer, 256);
+//        n = read(sockfd, buffer, 255);
+//
+//        if (n < 0) {
+//
+//            //  perror("ERROR reading from socket");
+//            //exit(1);
+//        }
+//
+//        printf("%s\n", buffer);
+//    }
+//
+//}

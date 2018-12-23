@@ -1,4 +1,3 @@
-
 //
 // Created by daniel on 12/14/18.
 //
@@ -13,6 +12,9 @@ void IfCommand::execute(){
             this->next();
         }
         this->next();
+        if(this->getString()=="\n"){
+            this->next();
+        }
         createCommandMap();
         for (int i=0;i<m_commandVec.size();i++){
             m_commandVec.at(i)->calculate();
@@ -24,11 +26,11 @@ void IfCommand::execute(){
     }
 //to jump over the "}"
     this->next();
+    if(this->getString()=="\n"){
+        this->next();
+    }
 }
 
 IfCommand::IfCommand(
-        vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>::iterator &iterator)
-        : ConditionParser(iterator) {
-
-}
-
+        vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>::iterator &iterator,
+        const map<string, Expression *> &mapCommand) : ConditionParser(iterator, mapCommand) {}

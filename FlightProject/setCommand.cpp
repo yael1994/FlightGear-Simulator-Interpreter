@@ -22,8 +22,8 @@ void setCommand::execute() {
     string str;
     while(this->getString()!="\n"){
         if(!Utils::isNumber(this->getString())&&!Utils::isOperator(this->getString())
-           &&(this->getString()!="("||this->getString()!=")")){
-            str+=symbolTable->getValue(this->getString());
+           &&this->getString()!="("&& this->getString()!=")"){
+            str+=to_string(symbolTable->getValue(this->getString()));
             this->next();
             continue;
         }
@@ -31,7 +31,7 @@ void setCommand::execute() {
         this->next();
     }
     double v = toDouble->calculateExp(str);
-    symbolTable->setDoubleValue(name,v);
+    symbolTable->setDoubleValue(name,v,1);
 
     this->next();
 }

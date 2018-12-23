@@ -34,15 +34,12 @@ ConnectCommand::ConnectCommand(
 string ConnectCommand::convertToString() {
     string ans;
     while (this->getString()!="\n") {
-            if(this->getString()==","){
-                this->next();
-                continue;
-            }
-            ans += this->getString();
+        if(this->getString()==","){
             this->next();
+            continue;
         }
+        ans += this->getString();
+        this->next();
+    }
     return ans;
 }
-
-
-

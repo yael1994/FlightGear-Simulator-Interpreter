@@ -8,6 +8,8 @@ CMakeFiles/FlightProject.dir/BinaryExpression.cpp.o
 CMakeFiles/FlightProject.dir/ClientConnect.cpp.o
  /home/yael/FlightProject/FlightProject/FlightProject/ClientConnect.cpp
  /home/yael/FlightProject/FlightProject/FlightProject/ClientConnect.h
+ /home/yael/FlightProject/FlightProject/FlightProject/NameToPathTable.h
+ /home/yael/FlightProject/FlightProject/FlightProject/SymbolTable.h
 CMakeFiles/FlightProject.dir/ConditionParser.cpp.o
  /home/yael/FlightProject/FlightProject/FlightProject/Command.h
  /home/yael/FlightProject/FlightProject/FlightProject/ConditionParser.cpp
@@ -22,7 +24,11 @@ CMakeFiles/FlightProject.dir/ConditionParser.cpp.o
  /home/yael/FlightProject/FlightProject/FlightProject/IterCommand.h
  /home/yael/FlightProject/FlightProject/FlightProject/LoopCommand.h
  /home/yael/FlightProject/FlightProject/FlightProject/OpenDataServerCommand.h
+ /home/yael/FlightProject/FlightProject/FlightProject/PrintCommand.h
  /home/yael/FlightProject/FlightProject/FlightProject/Project1.h
+ /home/yael/FlightProject/FlightProject/FlightProject/SleepCommand.h
+ /home/yael/FlightProject/FlightProject/FlightProject/SymbolTable.h
+ /home/yael/FlightProject/FlightProject/FlightProject/Utils.h
  /home/yael/FlightProject/FlightProject/FlightProject/setCommand.h
 CMakeFiles/FlightProject.dir/ConnectCommand.cpp.o
  /home/yael/FlightProject/FlightProject/FlightProject/ClientConnect.h
@@ -33,6 +39,8 @@ CMakeFiles/FlightProject.dir/ConnectCommand.cpp.o
  /home/yael/FlightProject/FlightProject/FlightProject/Expression.h
  /home/yael/FlightProject/FlightProject/FlightProject/ExpressionSingleTone.h
  /home/yael/FlightProject/FlightProject/FlightProject/IterCommand.h
+ /home/yael/FlightProject/FlightProject/FlightProject/NameToPathTable.h
+ /home/yael/FlightProject/FlightProject/FlightProject/SymbolTable.h
 CMakeFiles/FlightProject.dir/CreateExp.cpp.o
  /home/yael/FlightProject/FlightProject/FlightProject/BinaryExpression.h
  /home/yael/FlightProject/FlightProject/FlightProject/CreateExp.cpp
@@ -61,6 +69,7 @@ CMakeFiles/FlightProject.dir/DefineVarCommand.cpp.o
  /home/yael/FlightProject/FlightProject/FlightProject/IterCommand.h
  /home/yael/FlightProject/FlightProject/FlightProject/NameToPathTable.h
  /home/yael/FlightProject/FlightProject/FlightProject/SymbolTable.h
+ /home/yael/FlightProject/FlightProject/FlightProject/Utils.h
 CMakeFiles/FlightProject.dir/Div.cpp.o
  /home/yael/FlightProject/FlightProject/FlightProject/BinaryExpression.h
  /home/yael/FlightProject/FlightProject/FlightProject/Div.cpp
@@ -84,6 +93,7 @@ CMakeFiles/FlightProject.dir/IfCommand.cpp.o
  /home/yael/FlightProject/FlightProject/FlightProject/IfCommand.cpp
  /home/yael/FlightProject/FlightProject/FlightProject/IfCommand.h
  /home/yael/FlightProject/FlightProject/FlightProject/IterCommand.h
+ /home/yael/FlightProject/FlightProject/FlightProject/SymbolTable.h
 CMakeFiles/FlightProject.dir/Lexer.cpp.o
  /home/yael/FlightProject/FlightProject/FlightProject/Lexer.cpp
  /home/yael/FlightProject/FlightProject/FlightProject/Lexer.h
@@ -96,6 +106,7 @@ CMakeFiles/FlightProject.dir/LoopCommand.cpp.o
  /home/yael/FlightProject/FlightProject/FlightProject/IterCommand.h
  /home/yael/FlightProject/FlightProject/FlightProject/LoopCommand.cpp
  /home/yael/FlightProject/FlightProject/FlightProject/LoopCommand.h
+ /home/yael/FlightProject/FlightProject/FlightProject/SymbolTable.h
 CMakeFiles/FlightProject.dir/Minus.cpp.o
  /home/yael/FlightProject/FlightProject/FlightProject/BinaryExpression.h
  /home/yael/FlightProject/FlightProject/FlightProject/Expression.h
@@ -121,6 +132,7 @@ CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.o
  /home/yael/FlightProject/FlightProject/FlightProject/Expression.h
  /home/yael/FlightProject/FlightProject/FlightProject/ExpressionSingleTone.h
  /home/yael/FlightProject/FlightProject/FlightProject/IterCommand.h
+ /home/yael/FlightProject/FlightProject/FlightProject/NameToPathTable.h
  /home/yael/FlightProject/FlightProject/FlightProject/OpenDataServerCommand.cpp
  /home/yael/FlightProject/FlightProject/FlightProject/OpenDataServerCommand.h
  /home/yael/FlightProject/FlightProject/FlightProject/SymbolTable.h
@@ -143,6 +155,7 @@ CMakeFiles/FlightProject.dir/Parser.cpp.o
  /home/yael/FlightProject/FlightProject/FlightProject/Parser.h
  /home/yael/FlightProject/FlightProject/FlightProject/PrintCommand.h
  /home/yael/FlightProject/FlightProject/FlightProject/Project1.h
+ /home/yael/FlightProject/FlightProject/FlightProject/SleepCommand.h
  /home/yael/FlightProject/FlightProject/FlightProject/SymbolTable.h
  /home/yael/FlightProject/FlightProject/FlightProject/setCommand.h
 CMakeFiles/FlightProject.dir/Plus.cpp.o
@@ -174,13 +187,24 @@ CMakeFiles/FlightProject.dir/Project1.cpp.o
  /home/yael/FlightProject/FlightProject/FlightProject/LoopCommand.h
  /home/yael/FlightProject/FlightProject/FlightProject/OpenDataServerCommand.h
  /home/yael/FlightProject/FlightProject/FlightProject/Parser.h
+ /home/yael/FlightProject/FlightProject/FlightProject/PrintCommand.h
  /home/yael/FlightProject/FlightProject/FlightProject/Project1.cpp
  /home/yael/FlightProject/FlightProject/FlightProject/Project1.h
+ /home/yael/FlightProject/FlightProject/FlightProject/SleepCommand.h
+ /home/yael/FlightProject/FlightProject/FlightProject/SymbolTable.h
  /home/yael/FlightProject/FlightProject/FlightProject/setCommand.h
 CMakeFiles/FlightProject.dir/ShAlgo.cpp.o
  /home/yael/FlightProject/FlightProject/FlightProject/ShAlgo.cpp
  /home/yael/FlightProject/FlightProject/FlightProject/ShAlgo.h
  /home/yael/FlightProject/FlightProject/FlightProject/Utils.h
+CMakeFiles/FlightProject.dir/SleepCommand.cpp.o
+ /home/yael/FlightProject/FlightProject/FlightProject/Command.h
+ /home/yael/FlightProject/FlightProject/FlightProject/CreateExp.h
+ /home/yael/FlightProject/FlightProject/FlightProject/Expression.h
+ /home/yael/FlightProject/FlightProject/FlightProject/ExpressionSingleTone.h
+ /home/yael/FlightProject/FlightProject/FlightProject/IterCommand.h
+ /home/yael/FlightProject/FlightProject/FlightProject/SleepCommand.cpp
+ /home/yael/FlightProject/FlightProject/FlightProject/SleepCommand.h
 CMakeFiles/FlightProject.dir/SymbolTable.cpp.o
  /home/yael/FlightProject/FlightProject/FlightProject/SymbolTable.cpp
  /home/yael/FlightProject/FlightProject/FlightProject/SymbolTable.h
@@ -202,7 +226,9 @@ CMakeFiles/FlightProject.dir/main.cpp.o
  /home/yael/FlightProject/FlightProject/FlightProject/LoopCommand.h
  /home/yael/FlightProject/FlightProject/FlightProject/OpenDataServerCommand.h
  /home/yael/FlightProject/FlightProject/FlightProject/Parser.h
+ /home/yael/FlightProject/FlightProject/FlightProject/PrintCommand.h
  /home/yael/FlightProject/FlightProject/FlightProject/Project1.h
+ /home/yael/FlightProject/FlightProject/FlightProject/SleepCommand.h
  /home/yael/FlightProject/FlightProject/FlightProject/SymbolTable.h
  /home/yael/FlightProject/FlightProject/FlightProject/main.cpp
  /home/yael/FlightProject/FlightProject/FlightProject/setCommand.h
@@ -215,5 +241,6 @@ CMakeFiles/FlightProject.dir/setCommand.cpp.o
  /home/yael/FlightProject/FlightProject/FlightProject/IterCommand.h
  /home/yael/FlightProject/FlightProject/FlightProject/NameToPathTable.h
  /home/yael/FlightProject/FlightProject/FlightProject/SymbolTable.h
+ /home/yael/FlightProject/FlightProject/FlightProject/Utils.h
  /home/yael/FlightProject/FlightProject/FlightProject/setCommand.cpp
  /home/yael/FlightProject/FlightProject/FlightProject/setCommand.h
