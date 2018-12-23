@@ -23,6 +23,7 @@ CMakeFiles/FlightProject.dir/ConditionParser.cpp.o
  /home/daniel/Desktop/FlightProject/FlightProject/IfCommand.h
  /home/daniel/Desktop/FlightProject/FlightProject/IterCommand.h
  /home/daniel/Desktop/FlightProject/FlightProject/LoopCommand.h
+ /home/daniel/Desktop/FlightProject/FlightProject/NameToPathTable.h
  /home/daniel/Desktop/FlightProject/FlightProject/OpenDataServerCommand.h
  /home/daniel/Desktop/FlightProject/FlightProject/PrintCommand.h
  /home/daniel/Desktop/FlightProject/FlightProject/Project1.h
@@ -93,6 +94,7 @@ CMakeFiles/FlightProject.dir/IfCommand.cpp.o
  /home/daniel/Desktop/FlightProject/FlightProject/IfCommand.cpp
  /home/daniel/Desktop/FlightProject/FlightProject/IfCommand.h
  /home/daniel/Desktop/FlightProject/FlightProject/IterCommand.h
+ /home/daniel/Desktop/FlightProject/FlightProject/NameToPathTable.h
  /home/daniel/Desktop/FlightProject/FlightProject/SymbolTable.h
 CMakeFiles/FlightProject.dir/Lexer.cpp.o
  /home/daniel/Desktop/FlightProject/FlightProject/Lexer.cpp
@@ -106,6 +108,7 @@ CMakeFiles/FlightProject.dir/LoopCommand.cpp.o
  /home/daniel/Desktop/FlightProject/FlightProject/IterCommand.h
  /home/daniel/Desktop/FlightProject/FlightProject/LoopCommand.cpp
  /home/daniel/Desktop/FlightProject/FlightProject/LoopCommand.h
+ /home/daniel/Desktop/FlightProject/FlightProject/NameToPathTable.h
  /home/daniel/Desktop/FlightProject/FlightProject/SymbolTable.h
 CMakeFiles/FlightProject.dir/Minus.cpp.o
  /home/daniel/Desktop/FlightProject/FlightProject/BinaryExpression.h
@@ -150,6 +153,7 @@ CMakeFiles/FlightProject.dir/Parser.cpp.o
  /home/daniel/Desktop/FlightProject/FlightProject/IterCommand.h
  /home/daniel/Desktop/FlightProject/FlightProject/Lexer.h
  /home/daniel/Desktop/FlightProject/FlightProject/LoopCommand.h
+ /home/daniel/Desktop/FlightProject/FlightProject/NameToPathTable.h
  /home/daniel/Desktop/FlightProject/FlightProject/OpenDataServerCommand.h
  /home/daniel/Desktop/FlightProject/FlightProject/Parser.cpp
  /home/daniel/Desktop/FlightProject/FlightProject/Parser.h
@@ -169,6 +173,7 @@ CMakeFiles/FlightProject.dir/PrintCommand.cpp.o
  /home/daniel/Desktop/FlightProject/FlightProject/Expression.h
  /home/daniel/Desktop/FlightProject/FlightProject/ExpressionSingleTone.h
  /home/daniel/Desktop/FlightProject/FlightProject/IterCommand.h
+ /home/daniel/Desktop/FlightProject/FlightProject/NameToPathTable.h
  /home/daniel/Desktop/FlightProject/FlightProject/PrintCommand.cpp
  /home/daniel/Desktop/FlightProject/FlightProject/PrintCommand.h
  /home/daniel/Desktop/FlightProject/FlightProject/SymbolTable.h
@@ -185,6 +190,7 @@ CMakeFiles/FlightProject.dir/Project1.cpp.o
  /home/daniel/Desktop/FlightProject/FlightProject/IterCommand.h
  /home/daniel/Desktop/FlightProject/FlightProject/Lexer.h
  /home/daniel/Desktop/FlightProject/FlightProject/LoopCommand.h
+ /home/daniel/Desktop/FlightProject/FlightProject/NameToPathTable.h
  /home/daniel/Desktop/FlightProject/FlightProject/OpenDataServerCommand.h
  /home/daniel/Desktop/FlightProject/FlightProject/Parser.h
  /home/daniel/Desktop/FlightProject/FlightProject/PrintCommand.h
@@ -206,6 +212,7 @@ CMakeFiles/FlightProject.dir/SleepCommand.cpp.o
  /home/daniel/Desktop/FlightProject/FlightProject/SleepCommand.cpp
  /home/daniel/Desktop/FlightProject/FlightProject/SleepCommand.h
 CMakeFiles/FlightProject.dir/SymbolTable.cpp.o
+ /home/daniel/Desktop/FlightProject/FlightProject/NameToPathTable.h
  /home/daniel/Desktop/FlightProject/FlightProject/SymbolTable.cpp
  /home/daniel/Desktop/FlightProject/FlightProject/SymbolTable.h
 CMakeFiles/FlightProject.dir/Utils.cpp.o
@@ -224,6 +231,7 @@ CMakeFiles/FlightProject.dir/main.cpp.o
  /home/daniel/Desktop/FlightProject/FlightProject/IterCommand.h
  /home/daniel/Desktop/FlightProject/FlightProject/Lexer.h
  /home/daniel/Desktop/FlightProject/FlightProject/LoopCommand.h
+ /home/daniel/Desktop/FlightProject/FlightProject/NameToPathTable.h
  /home/daniel/Desktop/FlightProject/FlightProject/OpenDataServerCommand.h
  /home/daniel/Desktop/FlightProject/FlightProject/Parser.h
  /home/daniel/Desktop/FlightProject/FlightProject/PrintCommand.h

@@ -31,8 +31,8 @@ class Project1 {
             commandMap["set"] = new ExpressionCommand(new setCommand(iter));
             commandMap["print"] = new ExpressionCommand(new PrintCommand(iter));
             commandMap["sleep"] = new ExpressionCommand(new SleepCommand(iter));
-            commandMap["if"] = new ExpressionCommand(new IfCommand(iter,getCommandMap()));
-            commandMap["while"] = new ExpressionCommand(new LoopCommand(iter,getCommandMap()));
+            commandMap["if"] = new ExpressionCommand(new IfCommand(iter,this->commandMap));
+            commandMap["while"] = new ExpressionCommand(new LoopCommand(iter,this->commandMap));
 
         }
 

@@ -13,10 +13,9 @@ setCommand::setCommand(
         : IterCommand(iterator) {}
 
 void setCommand::execute() {
-    NameToPathTable* nameToPath = NameToPathTable::getInstance();
+    NameToPathTable* paths = NameToPathTable::getInstance();
     SymbolTable* symbolTable = SymbolTable::getInstance();
     string name  = this->getString();
-    string path = nameToPath->getPath(name);
     this->next();//find the "="
     this->next();//over the "="
     string str;
@@ -30,7 +29,16 @@ void setCommand::execute() {
         str+=this->getString();
         this->next();
     }
+
     double v = toDouble->calculateExp(str);
+//    if(paths->countPath(name)){
+//        string path = paths->getPath(name);
+//        path.erase(0,1);
+//        string msg = "set "+path+" "+to_string(v)+"\r\n";
+//        ClientConnect* client = ClientConnect::getInstance();
+//        client->setMessage(msg);
+//
+//    }
     symbolTable->setDoubleValue(name,v,1);
 
     this->next();

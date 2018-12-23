@@ -10,14 +10,12 @@ void PrintCommand::execute() {
 SymbolTable* p=SymbolTable::getInstance();
 this->next();
 while (this->getString()!="\n"){
-    if(this->getString()=="\""){
-       this->next();
-       while (getString()!="\"") {
-           cout << this->getString();
-           this->next();
-       }
+    if(p->getSymbolTable().count(this->getString())>0){
+        cout<< p->getValue(this->getString());
+        this->next();
+
     } else {
-       cout<< p->getValue(this->getString());
+       cout<< this->getString();
        this->next();
     }
 

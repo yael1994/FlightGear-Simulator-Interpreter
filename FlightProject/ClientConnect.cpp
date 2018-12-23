@@ -13,111 +13,102 @@
 #include <netinet/in.h>
 #include <chrono>
 
-#include <thread>
 #include <string.h>
 
 
 
+//void ClientConnect::setMessage(string msg) {
+//    myLock.lock();
+//    this->msg = msg;
+//    myLock.unlock();
+//}
+//
+//void ClientConnect::sendToSocket(int socket) {
+//    while(true) {
+//        if (!msg.empty()) {
+//            myLock.lock();
+//            n = send(socket, (char *) msg.c_str(), strlen((char *) msg.c_str()), 0);
+//            myLock.unlock();
+//            if(n <0 ){
+//                cout<<"client error"<<endl;
+//            }
+//            msg.clear();
+//        }
+//    }
+//
+//}
+void ClientConnect::sendMsg(int socket) {
+    NameToPathTable *path = NameToPathTable::getInstance();
+    SymbolTable *symbolTable = SymbolTable::getInstance();
+//
+//    struct sockaddr_in serv_addr;
+//    struct hostent *server;
+//
+//    char buffer[256];
+//
+//    /* Create a socket point */
+//    sockfd = socket(AF_INET, SOCK_STREAM, 0);
+//
+//    if (sockfd < 0) {
+//        perror("ERROR opening socket");
+//        exit(1);
+//    }
+//
+//    server = gethostbyname(ip.c_str());
+//
+//    if (server == NULL) {
+//        fprintf(stderr, "ERROR, no such host\n");
+//        exit(0);
+//    }
+//
+//    bzero((char *) &serv_addr, sizeof(serv_addr));
+//    serv_addr.sin_family = AF_INET;
+//    bcopy((char *) server->h_addr, (char *) &serv_addr.sin_addr.s_addr, server->h_length);
+//    serv_addr.sin_port = htons(port);
+//    flag = false;
+//
+//    int c = connect(sockfd, (struct sockaddr *) &serv_addr, sizeof(serv_addr));
+//    /* Now connect to the server */
+//
+//    cout << "client connect" << endl;
+//    /* Now ask for a message from the user, this message
+//       * will be read by server
+//    */
 
-void ClientConnect::openClient(string ip, int port) {
 
-    struct sockaddr_in serv_addr;
-    struct hostent *server;
-
-    char buffer[256];
-
-    /* Create a socket point */
-    sockfd = socket(AF_INET, SOCK_STREAM, 0);
-
-    if (sockfd < 0) {
-        perror("ERROR opening socket");
-        exit(1);
-    }
-
-    server = gethostbyname(ip.c_str());
-
-    if (server == NULL) {
-        fprintf(stderr, "ERROR, no such host\n");
-        exit(0);
-    }
-
-    bzero((char *) &serv_addr, sizeof(serv_addr));
-    serv_addr.sin_family = AF_INET;
-    bcopy((char *) server->h_addr, (char *) &serv_addr.sin_addr.s_addr, server->h_length);
-    serv_addr.sin_port = htons(port);
-    flag = false;
     while (true) {
-        int c = connect(sockfd, (struct sockaddr *) &serv_addr, sizeof(serv_addr));
-        /* Now connect to the server */
-        if (c == 0) {
-            flag = true;
-            break;
-        }
-    }
-    cout << "client connect" << endl;
-    /* Now ask for a message from the user, this message
-       * will be read by server
-    */
 
-//    printf("Please enter the message: ");
-//    bzero(buffer,256);
-//    fgets(buffer,255,stdin)
+        for (auto key :  symbolTable->getSymbolTable()) {
+            if (path->countPath(key.first)) {
+                string pathN = path->getPath(key.first);
+                pathN.erase(0,1);
+                string value = to_string(symbolTable->getValue(key.first));
+                string msg = "set " + pathN + " " + value + "\r\n";
 
-    while (true) {
-        if (!symbolTable->getQueueUpdates().empty()) {
-            string name = symbolTable->getQueueUpdates().front();
-            if (paths->countPath(name)) {
-                string path = paths->getPath(name);
-                path.erase(0, 1);
-                string value = to_string(symbolTable->getValue(name));
-                msg = "set " + path + " " + value+"\r\n";
-                n = send(sockfd, (char *) msg.c_str(), strlen((char *) msg.c_str()), 0);
-                sleep(5);
-                symbolTable->getQueueUpdates().pop();
+                int n = send(socket, (char *) msg.c_str(), strlen((char *) msg.c_str()), 0);
+
+
+
+                if (n < 0) {
+                    perror("ERROR writing to socket");
+                    exit(1);
+                }
+
+                char buffer[256];
+                /* Now read server response */
+                bzero(buffer, 256);
+                n = read(socket, buffer, 255);
+
+                if (n < 0) {
+
+                    //  perror("ERROR reading from socket");
+                    //exit(1);
+                }
+
+                printf("%s\n", buffer);
             }
-
-
-            if (n < 0) {
-                perror("ERROR writing to socket");
-                exit(1);
-            }
-
-
-            /* Now read server response */
-            bzero(buffer, 256);
-            n = read(sockfd, buffer, 255);
-
-            if (n < 0) {
-
-                //  perror("ERROR reading from socket");
-                //exit(1);
-            }
-
-            printf("%s\n", buffer);
         }
     }
 }
 
 
-//void ClientConnect::sendMessage(string msg) {
-//    //this->msg = msg;
-//    if(flag) {
-//        n = send(sockfd, (char *) msg.c_str(), strlen((char *) msg.c_str()), 0);
-//        if (n < 0) {
-//            perror("ERROR writing to socket");
-//            exit(1);
-//        }
-//        char buffer[256];
-//        bzero(buffer, 256);
-//        n = read(sockfd, buffer, 255);
-//
-//        if (n < 0) {
-//
-//            //  perror("ERROR reading from socket");
-//            //exit(1);
-//        }
-//
-//        printf("%s\n", buffer);
-//    }
-//
-//}

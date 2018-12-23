@@ -29,9 +29,17 @@ void LoopCommand::execute() {
     while (this->getString()!="}"){
         this->next();
     }
+    this->next();
+    if(this->getString() == "\n"){
+        this->next();
+    }
+
 }
 
 
+//LoopCommand::LoopCommand(
+//        vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>::iterator &iterator,
+//        const map<string, Expression *> &mapCommand) : ConditionParser(iterator, mapCommand) {}
 LoopCommand::LoopCommand(
         vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>::iterator &iterator,
-        const map<string, Expression *> &mapCommand) : ConditionParser(iterator, mapCommand) {}
+        map<string, Expression *> &mapCommand) : ConditionParser(iterator, mapCommand) {}

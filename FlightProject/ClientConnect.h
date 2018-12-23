@@ -14,24 +14,15 @@
 using namespace std;
 
 class ClientConnect {
-    static ClientConnect* _instance;
-    bool flag;
-    int sockfd, n;
-    SymbolTable* symbolTable = SymbolTable::getInstance();
-    NameToPathTable* paths  = NameToPathTable::getInstance();
-    string msg;
-    ClientConnect()= default;
+
+
+    mutex myLock;
 
 public:
-    static ClientConnect* getInstance(){
-        if(_instance == NULL){
-            _instance = new ClientConnect();
-        }
-        return _instance;
-    }
+    static void sendMsg(int socket);
+    void setMessage(string msg);
+    void sendToSocket(int socket);
 
-    void openClient(string  ip , int port);
-    void sendMessage(string msg);
 
 
 

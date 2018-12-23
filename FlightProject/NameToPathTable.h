@@ -53,6 +53,9 @@ public:
     unsigned long getPathSize(){
         return this->pathToIndex.size();
     }
+    bool countPathToIndex(string path){
+        return  this->pathToIndex.count(path)> 0;
+    }
     unsigned long getNamesSize(){
         return this->nameToPath.size();
     }

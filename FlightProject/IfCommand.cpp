@@ -23,8 +23,14 @@ void IfCommand::execute(){
     }
 //to jump over the "}"
     this->next();
+    if(this->getString() == "\n"){
+        this->next();
+    }
 }
 
+//IfCommand::IfCommand(
+//        vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>::iterator &iterator,
+//        const map<string, Expression *> &mapCommand) : ConditionParser(iterator, mapCommand) {}
 IfCommand::IfCommand(
         vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>::iterator &iterator,
-        const map<string, Expression *> &mapCommand) : ConditionParser(iterator, mapCommand) {}
+        map<string, Expression *> &mapCommand) : ConditionParser(iterator, mapCommand) {}

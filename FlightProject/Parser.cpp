@@ -22,7 +22,7 @@ void Parser::parse() {
     int i = 0;
     int j =0;
     bool setFlag = true;
-    while(*iter != "$") {
+    while(*iter != "\n") {
         if(*iter == "}" ){
             iter++;
             iter++;

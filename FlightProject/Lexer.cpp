@@ -49,11 +49,15 @@ void Lexer::getSpace(string &str) {
 
 void Lexer::lexStr(string &str){
    getSpace(str);
+   bool flag = false;
     string line;
     string delimiter=SPACE;
     while(!str.empty()) {
         line=str.substr(0, str.find(delimiter));
-        if (line[0]=='\"'){
+        if(line == "print"){
+            flag = true;
+        }
+        if (line[0]=='\"' && !flag){
             line=parseApostrophes(line);
         }
         if(line.empty()){
@@ -88,13 +92,19 @@ vector<string> Lexer:: lexer(string fileName) {
         }
         while (!in.eof()) {
             getline(in, line);
+            if(line == "\n" || line.empty()){
+                continue;
+            }
             lexStr(line);
             this->m_vec.push_back("\n");
         }
         in.close();
     } else{
+        if(fileName != "\n"){
         lexStr(fileName);
+            }
         this->m_vec.push_back("\n");
+
 
     }
     this->m_vec.push_back("$");
