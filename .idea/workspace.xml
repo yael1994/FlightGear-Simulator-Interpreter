@@ -12,7 +12,102 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ba17933-ce31-4ad4-b403-7c2d41e630b9" name="Default Changelist" comment="&quot;daniel&quot;">
-      <change beforePath="$PROJECT_DIR$/FlightProject/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/FlightProject/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FlightProject/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/BinaryExpression.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/ClientConnect.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/ConditionParser.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/ConnectCommand.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/CreateExp.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/DataReaderServer.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/DefineVarCommand.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/Div.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/Expression.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/IfCommand.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/Lexer.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/LoopCommand.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/Minus.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/Mul.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/Neg.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/Number.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/Parser.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/Plus.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/PrintCommand.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/Project1.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/ShAlgo.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/SymbolTable.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/setCommand.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FlightProject/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/FlightProject.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/FlightProject/cmake-build-debug/FlightProject.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/FlightProject/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightProject/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/FlightProject/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/BinaryExpression.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/BinaryExpression.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/ClientConnect.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/ClientConnect.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/ConditionParser.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/ConditionParser.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/ConnectCommand.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/ConnectCommand.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/CreateExp.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/CreateExp.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/DataReaderServer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/DataReaderServer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/DefineVarCommand.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/DefineVarCommand.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/Div.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/Div.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/Expression.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/Expression.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/ExpressionCommand.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/ExpressionCommand.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/IfCommand.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/IfCommand.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/Lexer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/Lexer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/LoopCommand.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/LoopCommand.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/Minus.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/Minus.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/Mul.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/Mul.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/Neg.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/Neg.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/Number.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/Number.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/OpenDataServerCommand.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/OpenDataServerCommand.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/Parser.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/Parser.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/Plus.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/Plus.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/PrintCommand.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/PrintCommand.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/Project1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/Project1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/ShAlgo.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/ShAlgo.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/SymbolTable.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/SymbolTable.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/setCommand.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/FlightProject/setCommand.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FlightProject.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FlightProject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FlightProject.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/FlightProject.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,31 +149,26 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1907798250">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CMakeLists.txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FlightProject/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -102,6 +192,7 @@
     <option name="width" value="638" />
     <option name="height" value="888" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -111,11 +202,16 @@
         <subPane>
           <expand>
             <path>
-              <item name="FlightProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled4" type="b2602c69:ProjectViewProjectNode" />
               <item name="FlightProject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FlightProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlightProject" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled4" type="b2602c69:ProjectViewProjectNode" />
               <item name="FlightProject" type="462c0819:PsiDirectoryNode" />
               <item name="FlightProject" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -174,20 +270,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="446000" />
+    <option name="totallyTimeSpent" value="537000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1920" height="898" extended-state="6" />
+    <frame x="0" y="25" width="1920" height="990" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973261" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17449306" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.5488127" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3298153" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="CMake" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -195,11 +285,39 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CMake" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3298153" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.5488127" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17289221" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.10465116" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32906976" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2755814" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32906976" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.2755814" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.32906976" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -228,6 +346,9 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlightProject/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
