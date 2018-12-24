@@ -15,7 +15,7 @@ class CreateExp {
 
 public:
     CreateExp()= default;
-    Expression* biuldExp(string str);
+    Expression* buildExp(string str);
 };
 
 

@@ -14,7 +14,7 @@
 #include "ShAlgo.h"
 #include "Utils.h"
 
-Expression* CreateExp::biuldExp(string str) {
+Expression* CreateExp::buildExp(string str) {
     ShAlgo* sy=new ShAlgo();
     queue<string> q_num=sy->creatQueue(str);
     stack<Expression*> st;
@@ -39,15 +39,16 @@ Expression* CreateExp::biuldExp(string str) {
                Expression *exp = new Plus(e2, e1);
                st.push(exp);
            }
+
             if(element=="-"){
                 if(st.size()==1){
                     Expression* e3=st.top();
-                    st.top();
+                    st.pop();
                     Expression* exp=new Neg(e3);
                     st.push(exp);
                 } else {
                     if(st.size()<2){
-                        throw runtime_error ("there is no two expressions");
+                   //     throw runtime_error ("there is no two expressions");
                     }
                     Expression *e1 = st.top();
                     st.pop();
