@@ -1,6 +1,3 @@
-//
-// Created by yael on 12/22/18.
-//
 
 #ifndef FLIGHTPROJECT_UTILS_H
 #define FLIGHTPROJECT_UTILS_H

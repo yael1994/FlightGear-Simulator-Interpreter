@@ -1,6 +1,4 @@
-//
-// Created by daniel on 12/18/18.
-//
+
 
 #ifndef UNTITLED4_PROJECT1_H
 #define UNTITLED4_PROJECT1_H

@@ -1,6 +1,3 @@
-//
-// Created by yael on 12/14/18.
-//
 
 #ifndef FLIGHTPROJECT_BINARYEXPRESSION_H
 #define FLIGHTPROJECT_BINARYEXPRESSION_H

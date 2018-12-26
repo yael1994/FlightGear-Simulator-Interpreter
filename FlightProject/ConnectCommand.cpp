@@ -1,6 +1,3 @@
-//
-// Created by daniel on 12/14/18.
-//
 
 #include <thread>
 #include "ConnectCommand.h"
@@ -34,6 +31,9 @@ void ConnectCommand::execute() {
     this->next();
     string ip = this->getString();
     this->next();
+    if(this->getString()==","){
+        this->next();
+    }
     int port =(int) toDouble->calculateExp(convertToString());
     this->next();
     openClient(ip,port);

@@ -1,7 +1,3 @@
-//
-// Created by yael on 12/16/18.
-//
-
 #include <stack>
 #include <stdexcept>
 #include "CreateExp.h"
@@ -13,7 +9,11 @@
 #include "Neg.h"
 #include "ShAlgo.h"
 #include "Utils.h"
-
+/**
+ * the function biuld expretion from the queue that got form the algoritem
+ * @param str the string to build from him expretion.
+ * @return the expretion.
+ */
 Expression* CreateExp::buildExp(string str) {
     ShAlgo* sy=new ShAlgo();
     queue<string> q_num=sy->creatQueue(str);
@@ -26,8 +26,9 @@ Expression* CreateExp::buildExp(string str) {
             Expression* exp=new Number(stod(element));
             st.push(exp);
         }
-        if(Utils::isOperator(element)){
-           if(element=="+"){
+        if(Utils::isOperator(element)||element=="&"){
+           //check witch operator we have at the queue
+            if(element=="+"){
                if(st.size()<2){
                    throw runtime_error("there is no two expressions");
                }
@@ -39,7 +40,12 @@ Expression* CreateExp::buildExp(string str) {
                Expression *exp = new Plus(e2, e1);
                st.push(exp);
            }
-
+           if(element=="&"){
+               Expression* e3=st.top();
+               st.pop();
+               Expression* exp=new Neg(e3);
+               st.push(exp);
+           }
             if(element=="-"){
                 if(st.size()==1){
                     Expression* e3=st.top();

@@ -1,13 +1,16 @@
-//
-// Created by daniel on 12/14/18.
-//
+
 
 #include "LoopCommand.h"
+#include "Parser.h"
 
-
+/**
+ * the function make the loop of a while.
+ */
 void LoopCommand::execute() {
-    //save the place of the iterator
     vector<string> ::iterator it=this->getIter();
+    int count=0;
+    count=countLoop();
+    //while loop
     while (getCondition()) {
         while (this->getString()!="{"){
             this->next();
@@ -17,29 +20,27 @@ void LoopCommand::execute() {
         {
             this->next();
         }
-       if(m_commandVec.empty()) {
-           createCommandMap();
-       }
-        //this->next();
-        for (int i = 0; i < m_commandVec.size(); i++) {
-            m_commandVec.at(i)->calculate();
-        }
+        runCommand();
         this->setIter(it);
     }
-    while (this->getString()!="}"){
+    while (count!=0){
+        if(this->getString()=="}"){
+            count--;
+        }
         this->next();
     }
+    //over on "}"
     this->next();
     if(this->getString() == "\n"){
         this->next();
     }
 
 }
-
-
-//LoopCommand::LoopCommand(
-//        vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>::iterator &iterator,
-//        const map<string, Expression *> &mapCommand) : ConditionParser(iterator, mapCommand) {}
+/**
+ * constractor of the class.
+ * @param iterator the iterator on the vector string input.
+ * @param mapCommand map all the command at the simulator.
+ */
 LoopCommand::LoopCommand(
         vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>::iterator &iterator,
         map<string, Expression *> &mapCommand) : ConditionParser(iterator, mapCommand) {}

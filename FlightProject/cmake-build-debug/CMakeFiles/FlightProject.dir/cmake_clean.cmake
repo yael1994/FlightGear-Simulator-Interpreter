@@ -7,7 +7,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/FlightProject.dir/DataReaderServer.cpp.o"
   "CMakeFiles/FlightProject.dir/DefineVarCommand.cpp.o"
   "CMakeFiles/FlightProject.dir/Div.cpp.o"
-  "CMakeFiles/FlightProject.dir/Expression.cpp.o"
   "CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.o"
   "CMakeFiles/FlightProject.dir/IfCommand.cpp.o"
   "CMakeFiles/FlightProject.dir/Lexer.cpp.o"

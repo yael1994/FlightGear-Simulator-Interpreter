@@ -1,7 +1,3 @@
-//
-// Created by daniel on 12/14/18.
-//
-
 #ifndef UNTITLED4_DEFINEVARCOMMAND_H
 #define UNTITLED4_DEFINEVARCOMMAND_H
 

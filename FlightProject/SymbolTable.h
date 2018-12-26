@@ -1,6 +1,3 @@
-//
-// Created by daniel on 12/17/18.
-//
 
 #ifndef UNTITLED4_SYMBOLETABLE_H
 #define UNTITLED4_SYMBOLETABLE_H

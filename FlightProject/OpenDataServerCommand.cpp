@@ -1,6 +1,3 @@
-//
-// Created by daniel on 12/14/18.
-//
 
 #include "OpenDataServerCommand.h"
 #include "DataReaderServer.h"
@@ -86,6 +83,9 @@ string OpenDataServerCommand::convertToString() {
             this->next();
             continue;
         } else if ((Utils::isNumber(this->getString()) && flag) || this->getString() == ",") {
+            if(this->getString()==","){
+                this->next();
+            }
             return ans;
         }else{
             ans += this->getString();

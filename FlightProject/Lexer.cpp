@@ -1,6 +1,3 @@
-//
-// Created by yael on 12/13/18.
-//
 
 #include <vector>
 #include <string>
@@ -23,9 +20,15 @@ string Lexer::parseApostrophes(string word){
     word.erase(word.size()-lenghChar, word.find(delimiter) + lenghChar);
     return word;
 }
+
+/**
+ * the function put space at all the place we need
+ * @param str the input str]ing
+ */
 void Lexer::getSpace(string &str) {
     string ans;
     string ch;
+    //we want space near a spacial operator.
     vector<string> special_operators = SPECIAL_OPERATOR;
     bool is_quotation = false;
     string::iterator it;
@@ -46,17 +49,23 @@ void Lexer::getSpace(string &str) {
     }
     str = ans;
 }
-
+/**
+ * the function parser the string by spaces.
+ * @param str the input string to parse.
+ */
 void Lexer::lexStr(string &str){
    getSpace(str);
    bool flag = false;
     string line;
+    //what to parse on.
     string delimiter=SPACE;
     while(!str.empty()) {
         line=str.substr(0, str.find(delimiter));
+        //the function save the " off the print.
         if(line == "print"){
             flag = true;
         }
+        //if the input have \ it took it out.
         if (line[0]=='\"' && !flag){
             line=parseApostrophes(line);
         }
@@ -64,6 +73,7 @@ void Lexer::lexStr(string &str){
             str.erase(0, str.find(delimiter) + delimiter.length());
             continue;
         }
+        //push to a vector
         this->m_vec.push_back(line);
         if(str.find(delimiter)==string::npos){
             str="";

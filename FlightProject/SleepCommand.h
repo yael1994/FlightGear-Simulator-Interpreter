@@ -1,6 +1,4 @@
-//
-// Created by daniel on 12/22/18.
-//
+
 
 #ifndef FLIGHTPROJECT_SLEEPCOMMAND_H
 #define FLIGHTPROJECT_SLEEPCOMMAND_H

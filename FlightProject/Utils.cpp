@@ -1,14 +1,19 @@
-//
-// Created by yael on 12/22/18.
-//
 
 #include "Utils.h"
 #include <string>
-
+/**
+ * the function check if the string is operator
+ * @param str the string to check
+ * @return if is an operator return true, else return false.
+ */
 bool Utils::isOperator(const string &str) {
     return (str == "+") || (str == "-") || (str == "*") || (str == "/");
 }
-
+/**
+ * the function check if the string is number.
+ * @param str the string to check
+ * @return if is a number return true else return false.
+ */
 bool Utils::isNumber(const string &str) {
     if(str.empty()){
         return false;

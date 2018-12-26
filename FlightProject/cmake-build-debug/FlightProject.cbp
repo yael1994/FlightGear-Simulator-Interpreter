@@ -135,9 +135,6 @@
 		<Unit filename="/home/daniel/Desktop/FlightProject/FlightProject/Div.h">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/daniel/Desktop/FlightProject/FlightProject/Expression.cpp">
-			<Option target="FlightProject"/>
-		</Unit>
 		<Unit filename="/home/daniel/Desktop/FlightProject/FlightProject/Expression.h">
 			<Option target="FlightProject"/>
 		</Unit>

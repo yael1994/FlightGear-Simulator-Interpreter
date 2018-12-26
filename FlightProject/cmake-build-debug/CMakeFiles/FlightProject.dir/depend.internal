@@ -72,9 +72,6 @@ CMakeFiles/FlightProject.dir/Div.cpp.o
  /home/daniel/Desktop/FlightProject/FlightProject/Div.h
  /home/daniel/Desktop/FlightProject/FlightProject/Expression.h
  /home/daniel/Desktop/FlightProject/FlightProject/Number.h
-CMakeFiles/FlightProject.dir/Expression.cpp.o
- /home/daniel/Desktop/FlightProject/FlightProject/Expression.cpp
- /home/daniel/Desktop/FlightProject/FlightProject/Expression.h
 CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.o
  /home/daniel/Desktop/FlightProject/FlightProject/Command.h
  /home/daniel/Desktop/FlightProject/FlightProject/Expression.h
@@ -97,14 +94,24 @@ CMakeFiles/FlightProject.dir/Lexer.cpp.o
 CMakeFiles/FlightProject.dir/LoopCommand.cpp.o
  /home/daniel/Desktop/FlightProject/FlightProject/Command.h
  /home/daniel/Desktop/FlightProject/FlightProject/ConditionParser.h
+ /home/daniel/Desktop/FlightProject/FlightProject/ConnectCommand.h
  /home/daniel/Desktop/FlightProject/FlightProject/CreateExp.h
+ /home/daniel/Desktop/FlightProject/FlightProject/DefineVarCommand.h
  /home/daniel/Desktop/FlightProject/FlightProject/Expression.h
+ /home/daniel/Desktop/FlightProject/FlightProject/ExpressionCommand.h
  /home/daniel/Desktop/FlightProject/FlightProject/ExpressionSingleTone.h
+ /home/daniel/Desktop/FlightProject/FlightProject/IfCommand.h
  /home/daniel/Desktop/FlightProject/FlightProject/IterCommand.h
  /home/daniel/Desktop/FlightProject/FlightProject/LoopCommand.cpp
  /home/daniel/Desktop/FlightProject/FlightProject/LoopCommand.h
  /home/daniel/Desktop/FlightProject/FlightProject/NameToPathTable.h
+ /home/daniel/Desktop/FlightProject/FlightProject/OpenDataServerCommand.h
+ /home/daniel/Desktop/FlightProject/FlightProject/Parser.h
+ /home/daniel/Desktop/FlightProject/FlightProject/PrintCommand.h
+ /home/daniel/Desktop/FlightProject/FlightProject/Project1.h
+ /home/daniel/Desktop/FlightProject/FlightProject/SleepCommand.h
  /home/daniel/Desktop/FlightProject/FlightProject/SymbolTable.h
+ /home/daniel/Desktop/FlightProject/FlightProject/setCommand.h
 CMakeFiles/FlightProject.dir/Minus.cpp.o
  /home/daniel/Desktop/FlightProject/FlightProject/BinaryExpression.h
  /home/daniel/Desktop/FlightProject/FlightProject/Expression.h

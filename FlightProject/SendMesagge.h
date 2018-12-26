@@ -1,6 +1,3 @@
-//
-// Created by daniel on 12/15/18.
-//
 
 
 #include <map>

@@ -161,22 +161,9 @@ CMakeFiles/FlightProject.dir/Div.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlightProject.dir/Div.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daniel/Desktop/FlightProject/FlightProject/Div.cpp -o CMakeFiles/FlightProject.dir/Div.cpp.s
 
-CMakeFiles/FlightProject.dir/Expression.cpp.o: CMakeFiles/FlightProject.dir/flags.make
-CMakeFiles/FlightProject.dir/Expression.cpp.o: ../Expression.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/FlightProject.dir/Expression.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/Expression.cpp.o -c /home/daniel/Desktop/FlightProject/FlightProject/Expression.cpp
-
-CMakeFiles/FlightProject.dir/Expression.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlightProject.dir/Expression.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daniel/Desktop/FlightProject/FlightProject/Expression.cpp > CMakeFiles/FlightProject.dir/Expression.cpp.i
-
-CMakeFiles/FlightProject.dir/Expression.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlightProject.dir/Expression.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daniel/Desktop/FlightProject/FlightProject/Expression.cpp -o CMakeFiles/FlightProject.dir/Expression.cpp.s
-
 CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.o: CMakeFiles/FlightProject.dir/flags.make
 CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.o: ../ExpressionCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.o -c /home/daniel/Desktop/FlightProject/FlightProject/ExpressionCommand.cpp
 
 CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.i: cmake_force
@@ -189,7 +176,7 @@ CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.s: cmake_force
 
 CMakeFiles/FlightProject.dir/IfCommand.cpp.o: CMakeFiles/FlightProject.dir/flags.make
 CMakeFiles/FlightProject.dir/IfCommand.cpp.o: ../IfCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/FlightProject.dir/IfCommand.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/FlightProject.dir/IfCommand.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/IfCommand.cpp.o -c /home/daniel/Desktop/FlightProject/FlightProject/IfCommand.cpp
 
 CMakeFiles/FlightProject.dir/IfCommand.cpp.i: cmake_force
@@ -202,7 +189,7 @@ CMakeFiles/FlightProject.dir/IfCommand.cpp.s: cmake_force
 
 CMakeFiles/FlightProject.dir/Lexer.cpp.o: CMakeFiles/FlightProject.dir/flags.make
 CMakeFiles/FlightProject.dir/Lexer.cpp.o: ../Lexer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/FlightProject.dir/Lexer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/FlightProject.dir/Lexer.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/Lexer.cpp.o -c /home/daniel/Desktop/FlightProject/FlightProject/Lexer.cpp
 
 CMakeFiles/FlightProject.dir/Lexer.cpp.i: cmake_force
@@ -215,7 +202,7 @@ CMakeFiles/FlightProject.dir/Lexer.cpp.s: cmake_force
 
 CMakeFiles/FlightProject.dir/LoopCommand.cpp.o: CMakeFiles/FlightProject.dir/flags.make
 CMakeFiles/FlightProject.dir/LoopCommand.cpp.o: ../LoopCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/FlightProject.dir/LoopCommand.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/FlightProject.dir/LoopCommand.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/LoopCommand.cpp.o -c /home/daniel/Desktop/FlightProject/FlightProject/LoopCommand.cpp
 
 CMakeFiles/FlightProject.dir/LoopCommand.cpp.i: cmake_force
@@ -228,7 +215,7 @@ CMakeFiles/FlightProject.dir/LoopCommand.cpp.s: cmake_force
 
 CMakeFiles/FlightProject.dir/main.cpp.o: CMakeFiles/FlightProject.dir/flags.make
 CMakeFiles/FlightProject.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/FlightProject.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/FlightProject.dir/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/main.cpp.o -c /home/daniel/Desktop/FlightProject/FlightProject/main.cpp
 
 CMakeFiles/FlightProject.dir/main.cpp.i: cmake_force
@@ -241,7 +228,7 @@ CMakeFiles/FlightProject.dir/main.cpp.s: cmake_force
 
 CMakeFiles/FlightProject.dir/Minus.cpp.o: CMakeFiles/FlightProject.dir/flags.make
 CMakeFiles/FlightProject.dir/Minus.cpp.o: ../Minus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/FlightProject.dir/Minus.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/FlightProject.dir/Minus.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/Minus.cpp.o -c /home/daniel/Desktop/FlightProject/FlightProject/Minus.cpp
 
 CMakeFiles/FlightProject.dir/Minus.cpp.i: cmake_force
@@ -254,7 +241,7 @@ CMakeFiles/FlightProject.dir/Minus.cpp.s: cmake_force
 
 CMakeFiles/FlightProject.dir/Mul.cpp.o: CMakeFiles/FlightProject.dir/flags.make
 CMakeFiles/FlightProject.dir/Mul.cpp.o: ../Mul.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/FlightProject.dir/Mul.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/FlightProject.dir/Mul.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/Mul.cpp.o -c /home/daniel/Desktop/FlightProject/FlightProject/Mul.cpp
 
 CMakeFiles/FlightProject.dir/Mul.cpp.i: cmake_force
@@ -267,7 +254,7 @@ CMakeFiles/FlightProject.dir/Mul.cpp.s: cmake_force
 
 CMakeFiles/FlightProject.dir/Neg.cpp.o: CMakeFiles/FlightProject.dir/flags.make
 CMakeFiles/FlightProject.dir/Neg.cpp.o: ../Neg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/FlightProject.dir/Neg.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/FlightProject.dir/Neg.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/Neg.cpp.o -c /home/daniel/Desktop/FlightProject/FlightProject/Neg.cpp
 
 CMakeFiles/FlightProject.dir/Neg.cpp.i: cmake_force
@@ -280,7 +267,7 @@ CMakeFiles/FlightProject.dir/Neg.cpp.s: cmake_force
 
 CMakeFiles/FlightProject.dir/Number.cpp.o: CMakeFiles/FlightProject.dir/flags.make
 CMakeFiles/FlightProject.dir/Number.cpp.o: ../Number.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/FlightProject.dir/Number.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/FlightProject.dir/Number.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/Number.cpp.o -c /home/daniel/Desktop/FlightProject/FlightProject/Number.cpp
 
 CMakeFiles/FlightProject.dir/Number.cpp.i: cmake_force
@@ -293,7 +280,7 @@ CMakeFiles/FlightProject.dir/Number.cpp.s: cmake_force
 
 CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.o: CMakeFiles/FlightProject.dir/flags.make
 CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.o: ../OpenDataServerCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.o -c /home/daniel/Desktop/FlightProject/FlightProject/OpenDataServerCommand.cpp
 
 CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.i: cmake_force
@@ -306,7 +293,7 @@ CMakeFiles/FlightProject.dir/OpenDataServerCommand.cpp.s: cmake_force
 
 CMakeFiles/FlightProject.dir/Parser.cpp.o: CMakeFiles/FlightProject.dir/flags.make
 CMakeFiles/FlightProject.dir/Parser.cpp.o: ../Parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/FlightProject.dir/Parser.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/FlightProject.dir/Parser.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/Parser.cpp.o -c /home/daniel/Desktop/FlightProject/FlightProject/Parser.cpp
 
 CMakeFiles/FlightProject.dir/Parser.cpp.i: cmake_force
@@ -319,7 +306,7 @@ CMakeFiles/FlightProject.dir/Parser.cpp.s: cmake_force
 
 CMakeFiles/FlightProject.dir/Plus.cpp.o: CMakeFiles/FlightProject.dir/flags.make
 CMakeFiles/FlightProject.dir/Plus.cpp.o: ../Plus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/FlightProject.dir/Plus.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/FlightProject.dir/Plus.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/Plus.cpp.o -c /home/daniel/Desktop/FlightProject/FlightProject/Plus.cpp
 
 CMakeFiles/FlightProject.dir/Plus.cpp.i: cmake_force
@@ -332,7 +319,7 @@ CMakeFiles/FlightProject.dir/Plus.cpp.s: cmake_force
 
 CMakeFiles/FlightProject.dir/PrintCommand.cpp.o: CMakeFiles/FlightProject.dir/flags.make
 CMakeFiles/FlightProject.dir/PrintCommand.cpp.o: ../PrintCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/FlightProject.dir/PrintCommand.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/FlightProject.dir/PrintCommand.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/PrintCommand.cpp.o -c /home/daniel/Desktop/FlightProject/FlightProject/PrintCommand.cpp
 
 CMakeFiles/FlightProject.dir/PrintCommand.cpp.i: cmake_force
@@ -345,7 +332,7 @@ CMakeFiles/FlightProject.dir/PrintCommand.cpp.s: cmake_force
 
 CMakeFiles/FlightProject.dir/Project1.cpp.o: CMakeFiles/FlightProject.dir/flags.make
 CMakeFiles/FlightProject.dir/Project1.cpp.o: ../Project1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/FlightProject.dir/Project1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/FlightProject.dir/Project1.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/Project1.cpp.o -c /home/daniel/Desktop/FlightProject/FlightProject/Project1.cpp
 
 CMakeFiles/FlightProject.dir/Project1.cpp.i: cmake_force
@@ -358,7 +345,7 @@ CMakeFiles/FlightProject.dir/Project1.cpp.s: cmake_force
 
 CMakeFiles/FlightProject.dir/setCommand.cpp.o: CMakeFiles/FlightProject.dir/flags.make
 CMakeFiles/FlightProject.dir/setCommand.cpp.o: ../setCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/FlightProject.dir/setCommand.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/FlightProject.dir/setCommand.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/setCommand.cpp.o -c /home/daniel/Desktop/FlightProject/FlightProject/setCommand.cpp
 
 CMakeFiles/FlightProject.dir/setCommand.cpp.i: cmake_force
@@ -371,7 +358,7 @@ CMakeFiles/FlightProject.dir/setCommand.cpp.s: cmake_force
 
 CMakeFiles/FlightProject.dir/ShAlgo.cpp.o: CMakeFiles/FlightProject.dir/flags.make
 CMakeFiles/FlightProject.dir/ShAlgo.cpp.o: ../ShAlgo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/FlightProject.dir/ShAlgo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/FlightProject.dir/ShAlgo.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/ShAlgo.cpp.o -c /home/daniel/Desktop/FlightProject/FlightProject/ShAlgo.cpp
 
 CMakeFiles/FlightProject.dir/ShAlgo.cpp.i: cmake_force
@@ -384,7 +371,7 @@ CMakeFiles/FlightProject.dir/ShAlgo.cpp.s: cmake_force
 
 CMakeFiles/FlightProject.dir/SymbolTable.cpp.o: CMakeFiles/FlightProject.dir/flags.make
 CMakeFiles/FlightProject.dir/SymbolTable.cpp.o: ../SymbolTable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/FlightProject.dir/SymbolTable.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/FlightProject.dir/SymbolTable.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/SymbolTable.cpp.o -c /home/daniel/Desktop/FlightProject/FlightProject/SymbolTable.cpp
 
 CMakeFiles/FlightProject.dir/SymbolTable.cpp.i: cmake_force
@@ -397,7 +384,7 @@ CMakeFiles/FlightProject.dir/SymbolTable.cpp.s: cmake_force
 
 CMakeFiles/FlightProject.dir/Utils.cpp.o: CMakeFiles/FlightProject.dir/flags.make
 CMakeFiles/FlightProject.dir/Utils.cpp.o: ../Utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/FlightProject.dir/Utils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/FlightProject.dir/Utils.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/Utils.cpp.o -c /home/daniel/Desktop/FlightProject/FlightProject/Utils.cpp
 
 CMakeFiles/FlightProject.dir/Utils.cpp.i: cmake_force
@@ -410,7 +397,7 @@ CMakeFiles/FlightProject.dir/Utils.cpp.s: cmake_force
 
 CMakeFiles/FlightProject.dir/SleepCommand.cpp.o: CMakeFiles/FlightProject.dir/flags.make
 CMakeFiles/FlightProject.dir/SleepCommand.cpp.o: ../SleepCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/FlightProject.dir/SleepCommand.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/FlightProject.dir/SleepCommand.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/SleepCommand.cpp.o -c /home/daniel/Desktop/FlightProject/FlightProject/SleepCommand.cpp
 
 CMakeFiles/FlightProject.dir/SleepCommand.cpp.i: cmake_force
@@ -431,7 +418,6 @@ FlightProject_OBJECTS = \
 "CMakeFiles/FlightProject.dir/DataReaderServer.cpp.o" \
 "CMakeFiles/FlightProject.dir/DefineVarCommand.cpp.o" \
 "CMakeFiles/FlightProject.dir/Div.cpp.o" \
-"CMakeFiles/FlightProject.dir/Expression.cpp.o" \
 "CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.o" \
 "CMakeFiles/FlightProject.dir/IfCommand.cpp.o" \
 "CMakeFiles/FlightProject.dir/Lexer.cpp.o" \
@@ -463,7 +449,6 @@ FlightProject: CMakeFiles/FlightProject.dir/CreateExp.cpp.o
 FlightProject: CMakeFiles/FlightProject.dir/DataReaderServer.cpp.o
 FlightProject: CMakeFiles/FlightProject.dir/DefineVarCommand.cpp.o
 FlightProject: CMakeFiles/FlightProject.dir/Div.cpp.o
-FlightProject: CMakeFiles/FlightProject.dir/Expression.cpp.o
 FlightProject: CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.o
 FlightProject: CMakeFiles/FlightProject.dir/IfCommand.cpp.o
 FlightProject: CMakeFiles/FlightProject.dir/Lexer.cpp.o
@@ -485,7 +470,7 @@ FlightProject: CMakeFiles/FlightProject.dir/Utils.cpp.o
 FlightProject: CMakeFiles/FlightProject.dir/SleepCommand.cpp.o
 FlightProject: CMakeFiles/FlightProject.dir/build.make
 FlightProject: CMakeFiles/FlightProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX executable FlightProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable FlightProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FlightProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

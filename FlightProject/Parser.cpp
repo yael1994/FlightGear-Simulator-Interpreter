@@ -1,6 +1,4 @@
-//
-// Created by daniel on 12/13/18.
-//
+
 
 #include "Parser.h"
 #include "ConnectCommand.h"

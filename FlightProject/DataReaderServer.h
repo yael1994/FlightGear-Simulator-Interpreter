@@ -1,6 +1,3 @@
-//
-// Created by daniel on 12/14/18.
-//
 
 #ifndef UNTITLED4_DATAREADERSERVER_H
 #define UNTITLED4_DATAREADERSERVER_H
