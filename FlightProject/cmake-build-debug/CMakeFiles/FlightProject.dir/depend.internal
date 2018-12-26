@@ -5,11 +5,6 @@ CMakeFiles/FlightProject.dir/BinaryExpression.cpp.o
  /home/daniel/Desktop/FlightProject/FlightProject/BinaryExpression.cpp
  /home/daniel/Desktop/FlightProject/FlightProject/BinaryExpression.h
  /home/daniel/Desktop/FlightProject/FlightProject/Expression.h
-CMakeFiles/FlightProject.dir/ClientConnect.cpp.o
- /home/daniel/Desktop/FlightProject/FlightProject/ClientConnect.cpp
- /home/daniel/Desktop/FlightProject/FlightProject/ClientConnect.h
- /home/daniel/Desktop/FlightProject/FlightProject/NameToPathTable.h
- /home/daniel/Desktop/FlightProject/FlightProject/SymbolTable.h
 CMakeFiles/FlightProject.dir/ConditionParser.cpp.o
  /home/daniel/Desktop/FlightProject/FlightProject/Command.h
  /home/daniel/Desktop/FlightProject/FlightProject/ConditionParser.cpp
@@ -32,7 +27,6 @@ CMakeFiles/FlightProject.dir/ConditionParser.cpp.o
  /home/daniel/Desktop/FlightProject/FlightProject/Utils.h
  /home/daniel/Desktop/FlightProject/FlightProject/setCommand.h
 CMakeFiles/FlightProject.dir/ConnectCommand.cpp.o
- /home/daniel/Desktop/FlightProject/FlightProject/ClientConnect.h
  /home/daniel/Desktop/FlightProject/FlightProject/Command.h
  /home/daniel/Desktop/FlightProject/FlightProject/ConnectCommand.cpp
  /home/daniel/Desktop/FlightProject/FlightProject/ConnectCommand.h
@@ -41,6 +35,7 @@ CMakeFiles/FlightProject.dir/ConnectCommand.cpp.o
  /home/daniel/Desktop/FlightProject/FlightProject/ExpressionSingleTone.h
  /home/daniel/Desktop/FlightProject/FlightProject/IterCommand.h
  /home/daniel/Desktop/FlightProject/FlightProject/NameToPathTable.h
+ /home/daniel/Desktop/FlightProject/FlightProject/SendMesagge.h
  /home/daniel/Desktop/FlightProject/FlightProject/SymbolTable.h
 CMakeFiles/FlightProject.dir/CreateExp.cpp.o
  /home/daniel/Desktop/FlightProject/FlightProject/BinaryExpression.h
@@ -199,6 +194,11 @@ CMakeFiles/FlightProject.dir/Project1.cpp.o
  /home/daniel/Desktop/FlightProject/FlightProject/SleepCommand.h
  /home/daniel/Desktop/FlightProject/FlightProject/SymbolTable.h
  /home/daniel/Desktop/FlightProject/FlightProject/setCommand.h
+CMakeFiles/FlightProject.dir/SendMesagge.cpp.o
+ /home/daniel/Desktop/FlightProject/FlightProject/NameToPathTable.h
+ /home/daniel/Desktop/FlightProject/FlightProject/SendMesagge.cpp
+ /home/daniel/Desktop/FlightProject/FlightProject/SendMesagge.h
+ /home/daniel/Desktop/FlightProject/FlightProject/SymbolTable.h
 CMakeFiles/FlightProject.dir/ShAlgo.cpp.o
  /home/daniel/Desktop/FlightProject/FlightProject/ShAlgo.cpp
  /home/daniel/Desktop/FlightProject/FlightProject/ShAlgo.h
@@ -241,13 +241,13 @@ CMakeFiles/FlightProject.dir/main.cpp.o
  /home/daniel/Desktop/FlightProject/FlightProject/main.cpp
  /home/daniel/Desktop/FlightProject/FlightProject/setCommand.h
 CMakeFiles/FlightProject.dir/setCommand.cpp.o
- /home/daniel/Desktop/FlightProject/FlightProject/ClientConnect.h
  /home/daniel/Desktop/FlightProject/FlightProject/Command.h
  /home/daniel/Desktop/FlightProject/FlightProject/CreateExp.h
  /home/daniel/Desktop/FlightProject/FlightProject/Expression.h
  /home/daniel/Desktop/FlightProject/FlightProject/ExpressionSingleTone.h
  /home/daniel/Desktop/FlightProject/FlightProject/IterCommand.h
  /home/daniel/Desktop/FlightProject/FlightProject/NameToPathTable.h
+ /home/daniel/Desktop/FlightProject/FlightProject/SendMesagge.h
  /home/daniel/Desktop/FlightProject/FlightProject/SymbolTable.h
  /home/daniel/Desktop/FlightProject/FlightProject/Utils.h
  /home/daniel/Desktop/FlightProject/FlightProject/setCommand.cpp

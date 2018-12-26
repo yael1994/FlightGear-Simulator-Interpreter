@@ -70,18 +70,18 @@ CMakeFiles/FlightProject.dir/BinaryExpression.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlightProject.dir/BinaryExpression.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daniel/Desktop/FlightProject/FlightProject/BinaryExpression.cpp -o CMakeFiles/FlightProject.dir/BinaryExpression.cpp.s
 
-CMakeFiles/FlightProject.dir/ClientConnect.cpp.o: CMakeFiles/FlightProject.dir/flags.make
-CMakeFiles/FlightProject.dir/ClientConnect.cpp.o: ../ClientConnect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FlightProject.dir/ClientConnect.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/ClientConnect.cpp.o -c /home/daniel/Desktop/FlightProject/FlightProject/ClientConnect.cpp
+CMakeFiles/FlightProject.dir/SendMesagge.cpp.o: CMakeFiles/FlightProject.dir/flags.make
+CMakeFiles/FlightProject.dir/SendMesagge.cpp.o: ../SendMesagge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FlightProject.dir/SendMesagge.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FlightProject.dir/SendMesagge.cpp.o -c /home/daniel/Desktop/FlightProject/FlightProject/SendMesagge.cpp
 
-CMakeFiles/FlightProject.dir/ClientConnect.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlightProject.dir/ClientConnect.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daniel/Desktop/FlightProject/FlightProject/ClientConnect.cpp > CMakeFiles/FlightProject.dir/ClientConnect.cpp.i
+CMakeFiles/FlightProject.dir/SendMesagge.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlightProject.dir/SendMesagge.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daniel/Desktop/FlightProject/FlightProject/SendMesagge.cpp > CMakeFiles/FlightProject.dir/SendMesagge.cpp.i
 
-CMakeFiles/FlightProject.dir/ClientConnect.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlightProject.dir/ClientConnect.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daniel/Desktop/FlightProject/FlightProject/ClientConnect.cpp -o CMakeFiles/FlightProject.dir/ClientConnect.cpp.s
+CMakeFiles/FlightProject.dir/SendMesagge.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlightProject.dir/SendMesagge.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daniel/Desktop/FlightProject/FlightProject/SendMesagge.cpp -o CMakeFiles/FlightProject.dir/SendMesagge.cpp.s
 
 CMakeFiles/FlightProject.dir/ConditionParser.cpp.o: CMakeFiles/FlightProject.dir/flags.make
 CMakeFiles/FlightProject.dir/ConditionParser.cpp.o: ../ConditionParser.cpp
@@ -424,7 +424,7 @@ CMakeFiles/FlightProject.dir/SleepCommand.cpp.s: cmake_force
 # Object files for target FlightProject
 FlightProject_OBJECTS = \
 "CMakeFiles/FlightProject.dir/BinaryExpression.cpp.o" \
-"CMakeFiles/FlightProject.dir/ClientConnect.cpp.o" \
+"CMakeFiles/FlightProject.dir/SendMesagge.cpp.o" \
 "CMakeFiles/FlightProject.dir/ConditionParser.cpp.o" \
 "CMakeFiles/FlightProject.dir/ConnectCommand.cpp.o" \
 "CMakeFiles/FlightProject.dir/CreateExp.cpp.o" \
@@ -456,7 +456,7 @@ FlightProject_OBJECTS = \
 FlightProject_EXTERNAL_OBJECTS =
 
 FlightProject: CMakeFiles/FlightProject.dir/BinaryExpression.cpp.o
-FlightProject: CMakeFiles/FlightProject.dir/ClientConnect.cpp.o
+FlightProject: CMakeFiles/FlightProject.dir/SendMesagge.cpp.o
 FlightProject: CMakeFiles/FlightProject.dir/ConditionParser.cpp.o
 FlightProject: CMakeFiles/FlightProject.dir/ConnectCommand.cpp.o
 FlightProject: CMakeFiles/FlightProject.dir/CreateExp.cpp.o

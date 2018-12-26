@@ -23,7 +23,7 @@ void SendMesagge::sendMsg(int socket) {
        if(!symbolTable->isQueueEmpty()){
                 string msg = symbolTable->getQueueUpdatesFront();
                      symbolTable->queuePop();
-                int n = send(socket, (char *) msg.c_str(), strlen((char *) msg.c_str()), 0);
+                int n = ::send(socket, (char *) msg.c_str(), strlen((char *) msg.c_str()), 0);
                 
                 cout<<msg<<endl;
                 

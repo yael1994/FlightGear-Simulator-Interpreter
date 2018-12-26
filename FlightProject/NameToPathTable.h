@@ -15,18 +15,30 @@
 
 #define XML "generic_small.xml"
 using namespace std;
-
+/**
+ * this class is singletone design pattern that save the name to path table and name to index
+ * name -> path
+ * path->index
+ * so know we have a connection between name->index
+ *
+ */
 class NameToPathTable {
     static NameToPathTable* _instance;
     mutex myLock;
 
     map<string,string> nameToPath;
     map<string,int> pathToIndex;
+    //private constructor that read the xml file also
     NameToPathTable(){
         readXML();
     }
 
 public:
+    /**
+     * static method that return the only instance of the only instance we have
+     * if there is no instance in the firt call we will open one
+     * @return pointer
+     */
     static NameToPathTable* getInstance(){
         if(_instance == NULL){
             _instance = new NameToPathTable();

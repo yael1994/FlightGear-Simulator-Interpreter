@@ -20,8 +20,10 @@ void DefineVarCommand::execute() {
     string name = this->getString(); //get name
     this->next(); //go to "="
     this->next();//avoid "="
+    //if there is a bind symbol there is two options or bind to path or bind to  other object with his path
     if(this->getString()== "bind"){
         this->next();
+        //case 1:
         if(this->getString()[0] =='/'){
             table->setPathValue(name,this->getString());
             symbolTable->setDoubleValue(name,0,0);  }
@@ -33,6 +35,7 @@ void DefineVarCommand::execute() {
         this->next();
     }else{
         string ans;
+
         while (this->getString()!="\n"){
             if(!Utils::isNumber(this->getString())&&!Utils::isOperator(this->getString())
                &&(this->getString()!="("||this->getString()!=")")){

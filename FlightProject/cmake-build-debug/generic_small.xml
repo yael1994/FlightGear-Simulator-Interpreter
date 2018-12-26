@@ -133,7 +133,7 @@
     <name>engine_throttle</name>
 	<type>float</type>
 	<format>%f</format>
-    <node>/controls/engines/engine/throttle</node>
+    <node>/controls/engines/current-engine/throttle</node>
 	</chunk>
 	<chunk>
     <name>engine_rpm</name>

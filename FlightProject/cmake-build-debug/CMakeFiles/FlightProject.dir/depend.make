@@ -5,11 +5,6 @@ CMakeFiles/FlightProject.dir/BinaryExpression.cpp.o: ../BinaryExpression.cpp
 CMakeFiles/FlightProject.dir/BinaryExpression.cpp.o: ../BinaryExpression.h
 CMakeFiles/FlightProject.dir/BinaryExpression.cpp.o: ../Expression.h
 
-CMakeFiles/FlightProject.dir/ClientConnect.cpp.o: ../ClientConnect.cpp
-CMakeFiles/FlightProject.dir/ClientConnect.cpp.o: ../ClientConnect.h
-CMakeFiles/FlightProject.dir/ClientConnect.cpp.o: ../NameToPathTable.h
-CMakeFiles/FlightProject.dir/ClientConnect.cpp.o: ../SymbolTable.h
-
 CMakeFiles/FlightProject.dir/ConditionParser.cpp.o: ../Command.h
 CMakeFiles/FlightProject.dir/ConditionParser.cpp.o: ../ConditionParser.cpp
 CMakeFiles/FlightProject.dir/ConditionParser.cpp.o: ../ConditionParser.h
@@ -31,7 +26,6 @@ CMakeFiles/FlightProject.dir/ConditionParser.cpp.o: ../SymbolTable.h
 CMakeFiles/FlightProject.dir/ConditionParser.cpp.o: ../Utils.h
 CMakeFiles/FlightProject.dir/ConditionParser.cpp.o: ../setCommand.h
 
-CMakeFiles/FlightProject.dir/ConnectCommand.cpp.o: ../ClientConnect.h
 CMakeFiles/FlightProject.dir/ConnectCommand.cpp.o: ../Command.h
 CMakeFiles/FlightProject.dir/ConnectCommand.cpp.o: ../ConnectCommand.cpp
 CMakeFiles/FlightProject.dir/ConnectCommand.cpp.o: ../ConnectCommand.h
@@ -40,6 +34,7 @@ CMakeFiles/FlightProject.dir/ConnectCommand.cpp.o: ../Expression.h
 CMakeFiles/FlightProject.dir/ConnectCommand.cpp.o: ../ExpressionSingleTone.h
 CMakeFiles/FlightProject.dir/ConnectCommand.cpp.o: ../IterCommand.h
 CMakeFiles/FlightProject.dir/ConnectCommand.cpp.o: ../NameToPathTable.h
+CMakeFiles/FlightProject.dir/ConnectCommand.cpp.o: ../SendMesagge.h
 CMakeFiles/FlightProject.dir/ConnectCommand.cpp.o: ../SymbolTable.h
 
 CMakeFiles/FlightProject.dir/CreateExp.cpp.o: ../BinaryExpression.h
@@ -199,6 +194,11 @@ CMakeFiles/FlightProject.dir/Project1.cpp.o: ../SleepCommand.h
 CMakeFiles/FlightProject.dir/Project1.cpp.o: ../SymbolTable.h
 CMakeFiles/FlightProject.dir/Project1.cpp.o: ../setCommand.h
 
+CMakeFiles/FlightProject.dir/SendMesagge.cpp.o: ../NameToPathTable.h
+CMakeFiles/FlightProject.dir/SendMesagge.cpp.o: ../SendMesagge.cpp
+CMakeFiles/FlightProject.dir/SendMesagge.cpp.o: ../SendMesagge.h
+CMakeFiles/FlightProject.dir/SendMesagge.cpp.o: ../SymbolTable.h
+
 CMakeFiles/FlightProject.dir/ShAlgo.cpp.o: ../ShAlgo.cpp
 CMakeFiles/FlightProject.dir/ShAlgo.cpp.o: ../ShAlgo.h
 CMakeFiles/FlightProject.dir/ShAlgo.cpp.o: ../Utils.h
@@ -240,13 +240,13 @@ CMakeFiles/FlightProject.dir/main.cpp.o: ../SymbolTable.h
 CMakeFiles/FlightProject.dir/main.cpp.o: ../main.cpp
 CMakeFiles/FlightProject.dir/main.cpp.o: ../setCommand.h
 
-CMakeFiles/FlightProject.dir/setCommand.cpp.o: ../ClientConnect.h
 CMakeFiles/FlightProject.dir/setCommand.cpp.o: ../Command.h
 CMakeFiles/FlightProject.dir/setCommand.cpp.o: ../CreateExp.h
 CMakeFiles/FlightProject.dir/setCommand.cpp.o: ../Expression.h
 CMakeFiles/FlightProject.dir/setCommand.cpp.o: ../ExpressionSingleTone.h
 CMakeFiles/FlightProject.dir/setCommand.cpp.o: ../IterCommand.h
 CMakeFiles/FlightProject.dir/setCommand.cpp.o: ../NameToPathTable.h
+CMakeFiles/FlightProject.dir/setCommand.cpp.o: ../SendMesagge.h
 CMakeFiles/FlightProject.dir/setCommand.cpp.o: ../SymbolTable.h
 CMakeFiles/FlightProject.dir/setCommand.cpp.o: ../Utils.h
 CMakeFiles/FlightProject.dir/setCommand.cpp.o: ../setCommand.cpp

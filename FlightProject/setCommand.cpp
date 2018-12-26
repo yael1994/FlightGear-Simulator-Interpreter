@@ -31,14 +31,6 @@ void setCommand::execute() {
     }
 
     double v = toDouble->calculateExp(str);
-//    if(paths->countPath(name)){
-//        string path = paths->getPath(name);
-//        path.erase(0,1);
-//        string msg = "set "+path+" "+to_string(v)+"\r\n";
-//        SendMesagge* client = SendMesagge::getInstance();
-//        client->setMessage(msg);
-//
-//    }
     symbolTable->setDoubleValue(name,v,1);
 
     this->next();

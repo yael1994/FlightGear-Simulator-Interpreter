@@ -195,8 +195,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cmake-build-debug/file.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="42">
+              <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -423,12 +423,12 @@
       <workItem from="1545671785129" duration="7159000" />
       <workItem from="1545730061037" duration="786000" />
       <workItem from="1545736393852" duration="298000" />
-      <workItem from="1545736734708" duration="10113000" />
+      <workItem from="1545736734708" duration="11499000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198298000" />
+    <option name="totallyTimeSpent" value="199684000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -440,21 +440,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1456" height="896" extended-state="6" />
+    <frame x="0" y="-1" width="952" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30583215" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4767184" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.54015404" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.9" weight="0.68915343" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.8930481" visible="true" weight="0.70238096" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.9" visible="true" weight="0.85924935" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8930481" weight="1.0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32849604" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.8855615" weight="0.77248675" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.8855615" weight="0.772118" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.4010554" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.10695187" side_tool="true" weight="0.0" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
@@ -924,8 +924,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/file.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="42">
+          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
         </state>
       </provider>
     </entry>

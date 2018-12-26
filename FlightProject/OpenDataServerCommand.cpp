@@ -22,10 +22,6 @@ void OpenDataServerCommand::execute() {
          int port = (int) toDouble->calculateExp(convertToString());
          int Hz = (int) toDouble->calculateExp(convertToString());
          this->next();
-         
-//   //call DataReaderServer with object function
-//   thread thread1(DataReaderServer(), port,Hz);
-// thread1.detach();
     int sockfd;
 
     int clilen;
@@ -64,6 +60,7 @@ void OpenDataServerCommand::execute() {
 
     /* Accept actual connection from the client */
     int newsockfd = accept(sockfd, (struct sockaddr *) &cli_addr, (socklen_t *) &clilen);
+
     if(newsockfd >= 0){
         cout<<"open thread for server"<<endl;
            thread thread1(DataReaderServer(), newsockfd,Hz);
@@ -71,7 +68,9 @@ void OpenDataServerCommand::execute() {
     }
 
 }
-
+/*
+ *this method convert the values from the lexer to string we can evaluate
+ */
 string OpenDataServerCommand::convertToString() {
     bool flag=false;
     string ans;

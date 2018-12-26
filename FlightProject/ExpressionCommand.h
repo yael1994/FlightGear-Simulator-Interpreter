@@ -8,11 +8,13 @@
 
 #include "Command.h"
 #include "Expression.h"
-
+/**
+ * this class is part of :Object Adapter" design pattern that connect between "Command" and "Expression"
+ * this class inheritage the Expression
+ */
 class ExpressionCommand : public Expression{
     Command* c;
 public:
-    ExpressionCommand(const Command &c);
 
     ExpressionCommand(Command *c);
 

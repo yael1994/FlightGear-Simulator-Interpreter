@@ -96,12 +96,6 @@
 		<Unit filename="/home/daniel/Desktop/FlightProject/FlightProject/BinaryExpression.h">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/daniel/Desktop/FlightProject/FlightProject/ClientConnect.cpp">
-			<Option target="FlightProject"/>
-		</Unit>
-		<Unit filename="/home/daniel/Desktop/FlightProject/FlightProject/ClientConnect.h">
-			<Option target="FlightProject"/>
-		</Unit>
 		<Unit filename="/home/daniel/Desktop/FlightProject/FlightProject/Command.h">
 			<Option target="FlightProject"/>
 		</Unit>
@@ -232,6 +226,12 @@
 			<Option target="FlightProject"/>
 		</Unit>
 		<Unit filename="/home/daniel/Desktop/FlightProject/FlightProject/Project1.h">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/daniel/Desktop/FlightProject/FlightProject/SendMesagge.cpp">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/daniel/Desktop/FlightProject/FlightProject/SendMesagge.h">
 			<Option target="FlightProject"/>
 		</Unit>
 		<Unit filename="/home/daniel/Desktop/FlightProject/FlightProject/ShAlgo.cpp">
