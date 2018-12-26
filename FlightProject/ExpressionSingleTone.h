@@ -1,6 +1,3 @@
-//
-// Created by daniel on 12/20/18.
-//
 
 #ifndef UNTITLED4_EXPRESSIONSINGLETONE_H
 #define UNTITLED4_EXPRESSIONSINGLETONE_H

@@ -16,7 +16,13 @@ int main() {
    Project1* project1 = new Project1("file.txt");
    project1->run();
 
-
+//
+//string str("40/70");
+//
+//CreateExp* c=new CreateExp();
+//Expression* e=c->biuldExp(str);
+//double x=e->calculate();
+//cout<<x;
 
 //   struct var{
 //       string name;

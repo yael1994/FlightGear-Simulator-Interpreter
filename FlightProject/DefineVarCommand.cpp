@@ -1,7 +1,3 @@
-//
-// Created by daniel on 12/14/18.
-//
-
 #include "DefineVarCommand.h"
 #include "NameToPathTable.h"
 #include "SymbolTable.h"

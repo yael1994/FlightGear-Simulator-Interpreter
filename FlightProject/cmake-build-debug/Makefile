@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion-2018.2.5/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/yael/Documents/clion-2018.2.4/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion-2018.2.5/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/yael/Documents/clion-2018.2.4/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/daniel/Desktop/FlightProject/FlightProject
+CMAKE_SOURCE_DIR = /home/yael/FlightProject/FlightProject/FlightProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug
+CMAKE_BINARY_DIR = /home/yael/FlightProject/FlightProject/FlightProject/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/daniel/Desktop/FlightProject/FlightProject/cmake-build-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/opt/clion-2018.2.5/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/yael/Documents/clion-2018.2.4/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/opt/clion-2018.2.5/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/yael/Documents/clion-2018.2.4/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles /home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yael/FlightProject/FlightProject/FlightProject/cmake-build-debug/CMakeFiles /home/yael/FlightProject/FlightProject/FlightProject/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yael/FlightProject/FlightProject/FlightProject/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -338,33 +338,6 @@ Div.s: Div.cpp.s
 Div.cpp.s:
 	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Div.cpp.s
 .PHONY : Div.cpp.s
-
-Expression.o: Expression.cpp.o
-
-.PHONY : Expression.o
-
-# target to build an object file
-Expression.cpp.o:
-	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Expression.cpp.o
-.PHONY : Expression.cpp.o
-
-Expression.i: Expression.cpp.i
-
-.PHONY : Expression.i
-
-# target to preprocess a source file
-Expression.cpp.i:
-	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Expression.cpp.i
-.PHONY : Expression.cpp.i
-
-Expression.s: Expression.cpp.s
-
-.PHONY : Expression.s
-
-# target to generate assembly for a file
-Expression.cpp.s:
-	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Expression.cpp.s
-.PHONY : Expression.cpp.s
 
 ExpressionCommand.o: ExpressionCommand.cpp.o
 
@@ -771,33 +744,6 @@ SleepCommand.cpp.s:
 	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/SleepCommand.cpp.s
 .PHONY : SleepCommand.cpp.s
 
-SymbolTable.o: SymbolTable.cpp.o
-
-.PHONY : SymbolTable.o
-
-# target to build an object file
-SymbolTable.cpp.o:
-	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/SymbolTable.cpp.o
-.PHONY : SymbolTable.cpp.o
-
-SymbolTable.i: SymbolTable.cpp.i
-
-.PHONY : SymbolTable.i
-
-# target to preprocess a source file
-SymbolTable.cpp.i:
-	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/SymbolTable.cpp.i
-.PHONY : SymbolTable.cpp.i
-
-SymbolTable.s: SymbolTable.cpp.s
-
-.PHONY : SymbolTable.s
-
-# target to generate assembly for a file
-SymbolTable.cpp.s:
-	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/SymbolTable.cpp.s
-.PHONY : SymbolTable.cpp.s
-
 Utils.o: Utils.cpp.o
 
 .PHONY : Utils.o
@@ -912,9 +858,6 @@ help:
 	@echo "... Div.o"
 	@echo "... Div.i"
 	@echo "... Div.s"
-	@echo "... Expression.o"
-	@echo "... Expression.i"
-	@echo "... Expression.s"
 	@echo "... ExpressionCommand.o"
 	@echo "... ExpressionCommand.i"
 	@echo "... ExpressionCommand.s"
@@ -960,9 +903,6 @@ help:
 	@echo "... SleepCommand.o"
 	@echo "... SleepCommand.i"
 	@echo "... SleepCommand.s"
-	@echo "... SymbolTable.o"
-	@echo "... SymbolTable.i"
-	@echo "... SymbolTable.s"
 	@echo "... Utils.o"
 	@echo "... Utils.i"
 	@echo "... Utils.s"

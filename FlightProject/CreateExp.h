@@ -1,7 +1,3 @@
-//
-// Created by yael on 12/16/18.
-//
-
 #ifndef FLIGHTPROJECT_CREATEEXP_H
 #define FLIGHTPROJECT_CREATEEXP_H
 #include <unordered_map>

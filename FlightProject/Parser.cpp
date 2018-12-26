@@ -1,6 +1,4 @@
-//
-// Created by daniel on 12/13/18.
-//
+
 
 #include "Parser.h"
 #include "ConnectCommand.h"
@@ -22,7 +20,7 @@ void Parser::parse() {
     int i = 0;
     int j =0;
     bool setFlag = true;
-    while(*iter != "\n") {
+    while(*iter != "$") {
         if(*iter == "}" ){
             iter++;
             iter++;

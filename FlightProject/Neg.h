@@ -1,6 +1,3 @@
-//
-// Created by yael on 12/14/18.
-//
 
 #ifndef FLIGHTPROJECT_NEG_H
 #define FLIGHTPROJECT_NEG_H
@@ -12,7 +9,7 @@ class Neg :public Expression{
 public:
     Neg(Expression* epx);
     virtual double calculate();
-
+    ~Neg()= default;
 };
 
 

@@ -1,6 +1,4 @@
-//
-// Created by daniel on 12/14/18.
-//
+
 
 #ifndef UNTITLED4_OPENDATASERVERCOMMAND_H
 #define UNTITLED4_OPENDATASERVERCOMMAND_H

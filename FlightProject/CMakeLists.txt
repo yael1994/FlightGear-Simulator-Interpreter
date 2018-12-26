@@ -23,7 +23,6 @@ add_executable(FlightProject
         DefineVarCommand.h
         Div.cpp
         Div.h
-        Expression.cpp
         Expression.h
         ExpressionCommand.cpp
         ExpressionCommand.h
@@ -59,7 +58,6 @@ add_executable(FlightProject
         setCommand.h
         ShAlgo.cpp
         ShAlgo.h
-        SymbolTable.cpp
         SymbolTable.h
         Utils.cpp
         Utils.h SleepCommand.cpp SleepCommand.h)

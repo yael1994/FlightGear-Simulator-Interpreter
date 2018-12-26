@@ -1,7 +1,3 @@
-//
-// Created by yael on 12/14/18.
-//
-
 #ifndef FLIGHTPROJECT_NUMBER_H
 #define FLIGHTPROJECT_NUMBER_H
 
@@ -12,7 +8,7 @@ class Number: public Expression {
 public:
     Number(double number);
     virtual double calculate();
-
+    ~Number()= default;
 };
 
 

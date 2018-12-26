@@ -1,6 +1,4 @@
-//
-// Created by yael on 12/14/18.
-//
+
 
 #include "Neg.h"
 /**
@@ -15,5 +13,6 @@ Neg::Neg(Expression* epx) {
  * @return
  */
 double Neg::calculate() {
+    //-(x)
     return -(this->m_exp->calculate());
 }

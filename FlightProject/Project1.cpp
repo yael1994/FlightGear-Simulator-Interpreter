@@ -1,6 +1,3 @@
-//
-// Created by daniel on 12/18/18.
-//
 
 #include "Project1.h"
 #include "Lexer.h"

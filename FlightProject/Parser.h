@@ -1,6 +1,4 @@
-//
-// Created by daniel on 12/13/18.
-//
+
 
 #ifndef UNTITLED4_PARSER_H
 #define UNTITLED4_PARSER_H
@@ -24,15 +22,11 @@ class Parser {
 
 
 public:
-
-    Parser(vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>::iterator &iter,
-           const map<string, Expression *> &_commandMap,
-           const vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>::iterator &endIter);
-
     Parser(vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>::iterator &iter,
            const map<string, Expression *> &_commandMap, const vector<string> &vector1);
 
     void parse();
+
 
 };
 

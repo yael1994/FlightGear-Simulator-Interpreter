@@ -1,13 +1,10 @@
-//
-// Created by yael on 12/13/18.
-//
 
 #ifndef FLIGHTPROJECT_LEXER_H
 #define FLIGHTPROJECT_LEXER_H
 
 #define SPACE " "
 
-#define SPECIAL_OPERATOR {"+","-","*","/", "\"","<",">","<=",">=","==","=","(",")"}
+#define SPECIAL_OPERATOR {"+","-","*","/","\"","<",">","<=",">=","==","=","!","(",")",",","{","}"}
 
 
 #include <vector>

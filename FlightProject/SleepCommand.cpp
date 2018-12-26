@@ -1,6 +1,3 @@
-//
-// Created by daniel on 12/22/18.
-//
 
 #include <unistd.h>
 #include "SleepCommand.h"

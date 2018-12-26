@@ -1,6 +1,3 @@
-//
-// Created by yael on 12/14/18.
-//
 
 #include <sstream>
 #include "ShAlgo.h"
@@ -18,6 +15,7 @@ ShAlgo::ShAlgo() {
     m_mapOperator["*"] = 2;
     m_mapOperator["/"] = 2;
     m_mapOperator["("] = -1;
+    m_mapOperator["&"]=3;
 }
 /**
  * distructor
@@ -79,11 +77,17 @@ queue<string> ShAlgo::creatQueue(string &expressions) {
     vector<string> vec = this->splitString(expressions);
     stack<string> operators;
     queue<string> numbers;
+    string lastStr=".";
 
     for (auto &str : vec) {
         if (Utils::isNumber(str)) {
             numbers.push(str);
         } else if (Utils::isOperator(str)) {
+
+            if(Utils::isOperator(lastStr)&& str=="-"){
+                str="&";
+            }
+
             // Moving bigger-precedence-operators from the stack to the queue
             while (!operators.empty() && this->getPrecedence(str, operators.top()) <= 0) {
                 numbers.push(operators.top());
@@ -104,6 +108,9 @@ queue<string> ShAlgo::creatQueue(string &expressions) {
                 numbers.push(temp);
                 operators.pop();
             }
+        }
+        if(str!="("&&str!=")") {
+            lastStr = str;
         }
     }
     // Moving any remaining operators from the stack to the queue
