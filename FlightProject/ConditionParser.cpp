@@ -6,15 +6,23 @@
 #include "Utils.h"
 #include "SymbolTable.h"
 
+bool ConditionParser::isOperator(const string &str){
+    return (str == "=") || (str == "!") || (str == "<") || (str == ">");
+}
 /**
  * the function check if the condition of the loop or "if" is true or false.
  * @return true if the condition is right, else return false.
  */
 bool ConditionParser:: getCondition(){
+    this->next();
     //the left side of the condition.
     string a1=convertToString();
     //the operator of the condition.
-    string oper=this->getString();
+    string oper;
+    while(isOperator(this->getString())){
+        oper+=this->getString();
+        this->next();
+    }
     //the right side of the condition.
     string a2=convertToString();
     vector<string> operators=OPERATOR;
@@ -82,7 +90,6 @@ ConditionParser::ConditionParser(
 string ConditionParser::convertToString() {
     vector<string> operators=OPERATOR;
     string ans;
-    this->next();
     while (!(find(operators.begin(), operators.end(), this->getString()) != operators.end())) {
         if (!Utils::isNumber(this->getString()) && !Utils::isOperator(this->getString())
             && (this->getString() != "(" || this->getString() != ")")) {

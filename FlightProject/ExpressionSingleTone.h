@@ -27,7 +27,7 @@ public:
     }
 
     double calculateExp(string exp){
-        return createExp->biuldExp(exp)->calculate();
+        return createExp->buildExp(exp)->calculate();
     }
 
 

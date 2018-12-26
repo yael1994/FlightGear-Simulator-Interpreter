@@ -34,11 +34,30 @@ public:
     void setDoubleValue(string &key, double num,bool flag) {
         myLock.lock();
         this->symbolTable[key] = num;
+                if (flag) {
+           NameToPathTable* paths = NameToPathTable::getInstance();
+            string name = key;
+            if (paths->countPath(name)) {
+                string path = paths->getPath(name);
+                path.erase(0, 1);
+                string value = to_string(this->symbolTable.find(key)->second);
+                string msg = "set " + path + " " + value + "\r\n";
+                updates.push(msg);
+            }
+
+        }
         myLock.unlock();
     }
 
-    queue<string> &getQueueUpdates()  {
-        return updates;
+    string getQueueUpdatesFront()  {
+        string front= this->updates.front();
+        return front;
+    }
+    void queuePop(){
+        this->updates.pop();
+    }
+    bool isQueueEmpty(){
+        return this->updates.empty();
     }
 
 

@@ -14,7 +14,7 @@
  * @param str the string to build from him expretion.
  * @return the expretion.
  */
-Expression* CreateExp::biuldExp(string str) {
+Expression* CreateExp::buildExp(string str) {
     ShAlgo* sy=new ShAlgo();
     queue<string> q_num=sy->creatQueue(str);
     stack<Expression*> st;
@@ -54,7 +54,7 @@ Expression* CreateExp::biuldExp(string str) {
                     st.push(exp);
                 } else {
                     if(st.size()<2){
-                        throw runtime_error ("there is no two expressions");
+                   //     throw runtime_error ("there is no two expressions");
                     }
                     Expression *e1 = st.top();
                     st.pop();

@@ -8,12 +8,13 @@
 #include "IterCommand.h"
 #include "SymbolTable.h"
 
-#define OPERATOR {"<",">","<=",">=","==","!=","{","\n"}
+#define OPERATOR {"<",">","<=",">=","==","!","{","\n","="}
 
 class ConditionParser : public IterCommand{
     SymbolTable* symbolTable;
     string convertToString();
 
+    bool isOperator(const string &str);
 
 protected:
     map<string, Expression*> &mapCommand;

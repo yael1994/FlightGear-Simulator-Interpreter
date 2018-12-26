@@ -14,11 +14,8 @@ var h0 = heading
 heading = 2500
 roll = 30
 pitch = 90
-if alt < 1000 {
+while alt != 1000 {
 alt=alt+500
-if 5<10 {
-print "yael"
-}
-print "stop"
+print alt
 }
 print "done"

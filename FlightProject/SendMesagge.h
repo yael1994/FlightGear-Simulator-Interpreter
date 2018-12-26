@@ -10,18 +10,9 @@
 #define XML "generic_small.xml"
 using namespace std;
 
-class ClientConnect {
-
-
+class SendMesagge {
     mutex myLock;
-
 public:
     static void sendMsg(int socket);
-    void setMessage(string msg);
-    void sendToSocket(int socket);
-
-
-
-
 
 };

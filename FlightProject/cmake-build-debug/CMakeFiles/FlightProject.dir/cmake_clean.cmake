@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/FlightProject.dir/BinaryExpression.cpp.o"
-  "CMakeFiles/FlightProject.dir/ClientConnect.cpp.o"
+  "CMakeFiles/FlightProject.dir/SendMesagge.cpp.o"
   "CMakeFiles/FlightProject.dir/ConditionParser.cpp.o"
   "CMakeFiles/FlightProject.dir/ConnectCommand.cpp.o"
   "CMakeFiles/FlightProject.dir/CreateExp.cpp.o"

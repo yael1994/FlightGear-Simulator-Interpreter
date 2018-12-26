@@ -8,8 +8,8 @@ include_directories(.)
 add_executable(FlightProject
         BinaryExpression.cpp
         BinaryExpression.h
-        ClientConnect.cpp
-        ClientConnect.h
+        SendMesagge.cpp
+        SendMesagge.h
         Command.h
         ConditionParser.cpp
         ConditionParser.h

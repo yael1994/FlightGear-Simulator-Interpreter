@@ -79,7 +79,7 @@
     <name>indicated-heading-deg</name>
 	<type>float</type>
 	<format>%f</format>
-    <node>/instrumentation/heading-indicator/indicated-heading-deg</node>
+    <node>/instrumentation/heading-indicator/offset-deg</node>
 	</chunk>
 	<chunk>
     <name>magnetic-compass_indicated-heading-deg</name>

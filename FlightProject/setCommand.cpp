@@ -1,7 +1,7 @@
 
 #include "setCommand.h"
 #include "NameToPathTable.h"
-#include "ClientConnect.h"
+#include "SendMesagge.h"
 #include "SymbolTable.h"
 #include "Utils.h"
 
@@ -32,7 +32,7 @@ void setCommand::execute() {
 //        string path = paths->getPath(name);
 //        path.erase(0,1);
 //        string msg = "set "+path+" "+to_string(v)+"\r\n";
-//        ClientConnect* client = ClientConnect::getInstance();
+//        SendMesagge* client = SendMesagge::getInstance();
 //        client->setMessage(msg);
 //
 //    }

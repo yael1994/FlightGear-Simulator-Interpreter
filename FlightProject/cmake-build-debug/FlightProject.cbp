@@ -92,12 +92,6 @@
 		<Unit filename="/home/yael/FlightProject/FlightProject/FlightProject/BinaryExpression.h">
 			<Option target="FlightProject"/>
 		</Unit>
-		<Unit filename="/home/yael/FlightProject/FlightProject/FlightProject/ClientConnect.cpp">
-			<Option target="FlightProject"/>
-		</Unit>
-		<Unit filename="/home/yael/FlightProject/FlightProject/FlightProject/ClientConnect.h">
-			<Option target="FlightProject"/>
-		</Unit>
 		<Unit filename="/home/yael/FlightProject/FlightProject/FlightProject/Command.h">
 			<Option target="FlightProject"/>
 		</Unit>
@@ -225,6 +219,12 @@
 			<Option target="FlightProject"/>
 		</Unit>
 		<Unit filename="/home/yael/FlightProject/FlightProject/FlightProject/Project1.h">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/FlightProject/FlightProject/FlightProject/SendMesagge.cpp">
+			<Option target="FlightProject"/>
+		</Unit>
+		<Unit filename="/home/yael/FlightProject/FlightProject/FlightProject/SendMesagge.h">
 			<Option target="FlightProject"/>
 		</Unit>
 		<Unit filename="/home/yael/FlightProject/FlightProject/FlightProject/ShAlgo.cpp">

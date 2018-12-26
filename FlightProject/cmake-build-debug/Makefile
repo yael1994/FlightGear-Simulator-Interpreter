@@ -150,33 +150,6 @@ BinaryExpression.cpp.s:
 	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/BinaryExpression.cpp.s
 .PHONY : BinaryExpression.cpp.s
 
-ClientConnect.o: ClientConnect.cpp.o
-
-.PHONY : ClientConnect.o
-
-# target to build an object file
-ClientConnect.cpp.o:
-	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/ClientConnect.cpp.o
-.PHONY : ClientConnect.cpp.o
-
-ClientConnect.i: ClientConnect.cpp.i
-
-.PHONY : ClientConnect.i
-
-# target to preprocess a source file
-ClientConnect.cpp.i:
-	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/ClientConnect.cpp.i
-.PHONY : ClientConnect.cpp.i
-
-ClientConnect.s: ClientConnect.cpp.s
-
-.PHONY : ClientConnect.s
-
-# target to generate assembly for a file
-ClientConnect.cpp.s:
-	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/ClientConnect.cpp.s
-.PHONY : ClientConnect.cpp.s
-
 ConditionParser.o: ConditionParser.cpp.o
 
 .PHONY : ConditionParser.o
@@ -690,6 +663,33 @@ Project1.cpp.s:
 	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Project1.cpp.s
 .PHONY : Project1.cpp.s
 
+SendMesagge.o: SendMesagge.cpp.o
+
+.PHONY : SendMesagge.o
+
+# target to build an object file
+SendMesagge.cpp.o:
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/SendMesagge.cpp.o
+.PHONY : SendMesagge.cpp.o
+
+SendMesagge.i: SendMesagge.cpp.i
+
+.PHONY : SendMesagge.i
+
+# target to preprocess a source file
+SendMesagge.cpp.i:
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/SendMesagge.cpp.i
+.PHONY : SendMesagge.cpp.i
+
+SendMesagge.s: SendMesagge.cpp.s
+
+.PHONY : SendMesagge.s
+
+# target to generate assembly for a file
+SendMesagge.cpp.s:
+	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/SendMesagge.cpp.s
+.PHONY : SendMesagge.cpp.s
+
 ShAlgo.o: ShAlgo.cpp.o
 
 .PHONY : ShAlgo.o
@@ -837,9 +837,6 @@ help:
 	@echo "... BinaryExpression.o"
 	@echo "... BinaryExpression.i"
 	@echo "... BinaryExpression.s"
-	@echo "... ClientConnect.o"
-	@echo "... ClientConnect.i"
-	@echo "... ClientConnect.s"
 	@echo "... ConditionParser.o"
 	@echo "... ConditionParser.i"
 	@echo "... ConditionParser.s"
@@ -897,6 +894,9 @@ help:
 	@echo "... Project1.o"
 	@echo "... Project1.i"
 	@echo "... Project1.s"
+	@echo "... SendMesagge.o"
+	@echo "... SendMesagge.i"
+	@echo "... SendMesagge.s"
 	@echo "... ShAlgo.o"
 	@echo "... ShAlgo.i"
 	@echo "... ShAlgo.s"

@@ -9,7 +9,9 @@
 
 
 using namespace std;
-
+/**
+ * Interface
+ */
 class Command{
 public:
     virtual void execute() = 0;

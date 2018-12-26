@@ -90,6 +90,9 @@ queue<string> ShAlgo::creatQueue(string &expressions) {
 
             // Moving bigger-precedence-operators from the stack to the queue
             while (!operators.empty() && this->getPrecedence(str, operators.top()) <= 0) {
+                if(str == operators.top() && str == "-"){
+                    break;
+                }
                 numbers.push(operators.top());
                 operators.pop();
             }
