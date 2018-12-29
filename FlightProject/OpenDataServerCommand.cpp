@@ -28,7 +28,7 @@ void OpenDataServerCommand::execute() {
 
 /* First call to socket() function */
     sockfd = socket(AF_INET, SOCK_STREAM, 0);
-    cout<<"S"<<endl;
+   // cout<<"S"<<endl;
 
     if (sockfd < 0) {
         perror("ERROR opening socket");
@@ -59,7 +59,7 @@ void OpenDataServerCommand::execute() {
     int newsockfd = accept(sockfd, (struct sockaddr *) &cli_addr, (socklen_t *) &clilen);
 
     if(newsockfd >= 0){
-        cout<<"open thread for server"<<endl;
+      //  cout<<"open thread for server"<<endl;
            thread thread1(DataReaderServer(), newsockfd,Hz);
            thread1.detach();
     }

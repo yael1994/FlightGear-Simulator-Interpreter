@@ -4,27 +4,28 @@
 
 
 
-#include <map>
+#include <unordered_map>
 #include <string>
-#include <mutex>
 #include <fstream>
 #include <iostream>
 
 #define XML "generic_small.xml"
+#define SIGN "<node>"
 using namespace std;
 /**
  * this class is singletone design pattern that save the name to path table and name to index
  * name -> path
  * path->index
  * so know we have a connection between name->index
+ * the class conttroles the shifting of the maps and its the only one who do it
  *
  */
 class NameToPathTable {
     static NameToPathTable* _instance;
-    mutex myLock;
 
-    map<string,string> nameToPath;
-    map<string,int> pathToIndex;
+
+    unordered_map<string,string> nameToPath;
+    unordered_map<string,int> pathToIndex;
     //private constructor that read the xml file also
     NameToPathTable(){
         readXML();
@@ -44,9 +45,7 @@ public:
     }
 
     void setPathValue(string key, string value){
-        myLock.lock();
         this->nameToPath[key] = value;
-        myLock.unlock();
     }
     const string& getPath(string key){
 
@@ -69,10 +68,15 @@ public:
         return this->nameToPath.size();
     }
 
+
+
 private:
+    /**
+     * read from the XML file by SIGN
+     */
     void readXML(){
         int i = 0;
-        int nodeSize = sizeof("<node>");
+        int nodeSize = sizeof(SIGN);
         ifstream in;
         string line;
         in.open(XML);
@@ -83,7 +87,7 @@ private:
         while (!in.eof()) {
             in >> line;
 
-            if(!line.compare(0,nodeSize-1,"<node>")){
+            if(!line.compare(0,nodeSize-1,SIGN)){
 
                 line.erase(0,nodeSize-1);
                 line.erase(line.end()-nodeSize,line.end());
@@ -95,6 +99,7 @@ private:
     }
 
 };
+
 
 
 #endif //UNTITLED4_PATHTONAMETABLE_H

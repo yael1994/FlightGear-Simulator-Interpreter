@@ -11,8 +11,9 @@
 using namespace std;
 
 class SendMesagge {
-    mutex myLock;
+
 public:
-    static void sendMsg(int socket);
+    static void sendMsg(string msg);
+    static void openClient(string ip, int port);
 
 };

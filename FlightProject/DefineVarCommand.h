@@ -16,6 +16,7 @@ public:
 
     virtual void execute() override;
 
+    virtual ~DefineVarCommand();
 };
 
 

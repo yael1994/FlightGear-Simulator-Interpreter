@@ -2,24 +2,26 @@
 #ifndef UNTITLED4_SYMBOLETABLE_H
 #define UNTITLED4_SYMBOLETABLE_H
 
-#include <map>
+#include <unordered_map>
 #include <string>
 #include <fstream>
 #include <iostream>
 #include <queue>
-
 #include <mutex>
 #include "NameToPathTable.h"
 
 using namespace std;
 
+
 class SymbolTable {
     static SymbolTable* _instance;
-    mutex myLock;
-    map<string, double> symbolTable;
+    unordered_map<string, double> symbolTable;
     queue<string> updates;
+    mutex myLock;
+
 
     SymbolTable()= default;
+
 
 public:
     static SymbolTable* getInstance(){
@@ -32,29 +34,22 @@ public:
     void setDoubleValue(string &key, double num,bool flag);
 
 
-    string getQueueUpdatesFront()  {
-        string front= this->updates.front();
-        return front;
-    }
-    void queuePop(){
-        this->updates.pop();
-    }
-    bool isQueueEmpty(){
-        return this->updates.empty();
-    }
+    const unordered_map<string, double> &getSymbolTable() const {
 
-
-    const map<string, double> &getSymbolTable() const {
         return symbolTable;
     }
 
     const double getValue(string key){
-        myLock.lock();
+        lock_guard<std::mutex> lock(myLock);
         double value = this->symbolTable.find(key)->second;
-        myLock.unlock();
         return value;
 
     }
+    ~SymbolTable(){
+        delete _instance;
+    }
+
+
 };
 
 

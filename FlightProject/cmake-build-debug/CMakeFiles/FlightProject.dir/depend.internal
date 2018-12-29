@@ -51,6 +51,7 @@ CMakeFiles/FlightProject.dir/CreateExp.cpp.o
  /home/daniel/Desktop/FlightProject/FlightProject/ShAlgo.h
  /home/daniel/Desktop/FlightProject/FlightProject/Utils.h
 CMakeFiles/FlightProject.dir/DataReaderServer.cpp.o
+ /home/daniel/Desktop/FlightProject/FlightProject/Command.h
  /home/daniel/Desktop/FlightProject/FlightProject/DataReaderServer.cpp
  /home/daniel/Desktop/FlightProject/FlightProject/DataReaderServer.h
  /home/daniel/Desktop/FlightProject/FlightProject/NameToPathTable.h
@@ -72,11 +73,6 @@ CMakeFiles/FlightProject.dir/Div.cpp.o
  /home/daniel/Desktop/FlightProject/FlightProject/Div.h
  /home/daniel/Desktop/FlightProject/FlightProject/Expression.h
  /home/daniel/Desktop/FlightProject/FlightProject/Number.h
-CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.o
- /home/daniel/Desktop/FlightProject/FlightProject/Command.h
- /home/daniel/Desktop/FlightProject/FlightProject/Expression.h
- /home/daniel/Desktop/FlightProject/FlightProject/ExpressionCommand.cpp
- /home/daniel/Desktop/FlightProject/FlightProject/ExpressionCommand.h
 CMakeFiles/FlightProject.dir/IfCommand.cpp.o
  /home/daniel/Desktop/FlightProject/FlightProject/Command.h
  /home/daniel/Desktop/FlightProject/FlightProject/ConditionParser.h
@@ -202,6 +198,7 @@ CMakeFiles/FlightProject.dir/Project1.cpp.o
  /home/daniel/Desktop/FlightProject/FlightProject/SymbolTable.h
  /home/daniel/Desktop/FlightProject/FlightProject/setCommand.h
 CMakeFiles/FlightProject.dir/SendMesagge.cpp.o
+ /home/daniel/Desktop/FlightProject/FlightProject/Command.h
  /home/daniel/Desktop/FlightProject/FlightProject/NameToPathTable.h
  /home/daniel/Desktop/FlightProject/FlightProject/SendMesagge.cpp
  /home/daniel/Desktop/FlightProject/FlightProject/SendMesagge.h
@@ -236,11 +233,9 @@ CMakeFiles/FlightProject.dir/main.cpp.o
  /home/daniel/Desktop/FlightProject/FlightProject/ExpressionSingleTone.h
  /home/daniel/Desktop/FlightProject/FlightProject/IfCommand.h
  /home/daniel/Desktop/FlightProject/FlightProject/IterCommand.h
- /home/daniel/Desktop/FlightProject/FlightProject/Lexer.h
  /home/daniel/Desktop/FlightProject/FlightProject/LoopCommand.h
  /home/daniel/Desktop/FlightProject/FlightProject/NameToPathTable.h
  /home/daniel/Desktop/FlightProject/FlightProject/OpenDataServerCommand.h
- /home/daniel/Desktop/FlightProject/FlightProject/Parser.h
  /home/daniel/Desktop/FlightProject/FlightProject/PrintCommand.h
  /home/daniel/Desktop/FlightProject/FlightProject/Project1.h
  /home/daniel/Desktop/FlightProject/FlightProject/SleepCommand.h

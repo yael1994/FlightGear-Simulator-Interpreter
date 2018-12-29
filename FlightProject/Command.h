@@ -6,9 +6,10 @@
 #include <string>
 #include <vector>
 #include<iostream>
-
+#include <mutex>
 
 using namespace std;
+static mutex thisLock;
 /**
  * Interface
  */

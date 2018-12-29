@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/home/daniel/Desktop/FlightProject/FlightProject/Command.h
+string
+-
+vector
+-
+iostream
+-
+mutex
+-
+
 /home/daniel/Desktop/FlightProject/FlightProject/DataReaderServer.cpp
 sstream
 -
@@ -17,6 +27,8 @@ DataReaderServer.h
 /home/daniel/Desktop/FlightProject/FlightProject/DataReaderServer.h
 NameToPathTable.h
 /home/daniel/Desktop/FlightProject/FlightProject/NameToPathTable.h
+Command.h
+/home/daniel/Desktop/FlightProject/FlightProject/Command.h
 
 /home/daniel/Desktop/FlightProject/FlightProject/DataReaderServer.h
 stdio.h
@@ -43,23 +55,17 @@ NameToPathTable.h
 /home/daniel/Desktop/FlightProject/FlightProject/NameToPathTable.h
 
 /home/daniel/Desktop/FlightProject/FlightProject/NameToPathTable.h
-map
+unordered_map
 -
 string
--
-mutex
 -
 fstream
 -
 iostream
 -
 
-/home/daniel/Desktop/FlightProject/FlightProject/SymbolTable.cpp
-SymbolTable.h
 /home/daniel/Desktop/FlightProject/FlightProject/SymbolTable.h
-
-/home/daniel/Desktop/FlightProject/FlightProject/SymbolTable.h
-map
+unordered_map
 -
 string
 -

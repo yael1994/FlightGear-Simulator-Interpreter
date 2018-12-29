@@ -8,10 +8,12 @@ using namespace std;
 
 class CreateExp {
 
-
+vector<Expression*> toDelete;
 public:
     CreateExp()= default;
     Expression* buildExp(string str);
+
+    virtual ~CreateExp();
 };
 
 

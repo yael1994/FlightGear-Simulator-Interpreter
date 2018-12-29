@@ -17,11 +17,11 @@ class ConditionParser : public IterCommand{
     bool isOperator(const string &str);
 
 protected:
-    map<string, Expression*> &mapCommand;
+    unordered_map<string, Expression*> &mapCommand;
 public:
     ConditionParser(
             vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>::iterator &iterator,
-            map<string, Expression *> &mapCommand);
+            unordered_map<string, Expression *> &mapCommand);
 
     bool getCondition();
     void runCommand();

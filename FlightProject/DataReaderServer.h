@@ -31,7 +31,8 @@ public:
     void split();
 
     void setArgs();
-    void readFromSocket();
+    virtual ~DataReaderServer()= default;
+
 };
 
 

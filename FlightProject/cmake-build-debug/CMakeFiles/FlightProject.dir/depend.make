@@ -50,6 +50,7 @@ CMakeFiles/FlightProject.dir/CreateExp.cpp.o: ../Plus.h
 CMakeFiles/FlightProject.dir/CreateExp.cpp.o: ../ShAlgo.h
 CMakeFiles/FlightProject.dir/CreateExp.cpp.o: ../Utils.h
 
+CMakeFiles/FlightProject.dir/DataReaderServer.cpp.o: ../Command.h
 CMakeFiles/FlightProject.dir/DataReaderServer.cpp.o: ../DataReaderServer.cpp
 CMakeFiles/FlightProject.dir/DataReaderServer.cpp.o: ../DataReaderServer.h
 CMakeFiles/FlightProject.dir/DataReaderServer.cpp.o: ../NameToPathTable.h
@@ -71,11 +72,6 @@ CMakeFiles/FlightProject.dir/Div.cpp.o: ../Div.cpp
 CMakeFiles/FlightProject.dir/Div.cpp.o: ../Div.h
 CMakeFiles/FlightProject.dir/Div.cpp.o: ../Expression.h
 CMakeFiles/FlightProject.dir/Div.cpp.o: ../Number.h
-
-CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.o: ../Command.h
-CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.o: ../Expression.h
-CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.o: ../ExpressionCommand.cpp
-CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.o: ../ExpressionCommand.h
 
 CMakeFiles/FlightProject.dir/IfCommand.cpp.o: ../Command.h
 CMakeFiles/FlightProject.dir/IfCommand.cpp.o: ../ConditionParser.h
@@ -201,6 +197,7 @@ CMakeFiles/FlightProject.dir/Project1.cpp.o: ../SleepCommand.h
 CMakeFiles/FlightProject.dir/Project1.cpp.o: ../SymbolTable.h
 CMakeFiles/FlightProject.dir/Project1.cpp.o: ../setCommand.h
 
+CMakeFiles/FlightProject.dir/SendMesagge.cpp.o: ../Command.h
 CMakeFiles/FlightProject.dir/SendMesagge.cpp.o: ../NameToPathTable.h
 CMakeFiles/FlightProject.dir/SendMesagge.cpp.o: ../SendMesagge.cpp
 CMakeFiles/FlightProject.dir/SendMesagge.cpp.o: ../SendMesagge.h
@@ -235,11 +232,9 @@ CMakeFiles/FlightProject.dir/main.cpp.o: ../ExpressionCommand.h
 CMakeFiles/FlightProject.dir/main.cpp.o: ../ExpressionSingleTone.h
 CMakeFiles/FlightProject.dir/main.cpp.o: ../IfCommand.h
 CMakeFiles/FlightProject.dir/main.cpp.o: ../IterCommand.h
-CMakeFiles/FlightProject.dir/main.cpp.o: ../Lexer.h
 CMakeFiles/FlightProject.dir/main.cpp.o: ../LoopCommand.h
 CMakeFiles/FlightProject.dir/main.cpp.o: ../NameToPathTable.h
 CMakeFiles/FlightProject.dir/main.cpp.o: ../OpenDataServerCommand.h
-CMakeFiles/FlightProject.dir/main.cpp.o: ../Parser.h
 CMakeFiles/FlightProject.dir/main.cpp.o: ../PrintCommand.h
 CMakeFiles/FlightProject.dir/main.cpp.o: ../Project1.h
 CMakeFiles/FlightProject.dir/main.cpp.o: ../SleepCommand.h

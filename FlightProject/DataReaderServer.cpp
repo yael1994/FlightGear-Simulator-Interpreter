@@ -6,12 +6,15 @@
 #include "NameToPathTable.h"
 #define  SEPERATE ','
 
+#include "Command.h"
+
 /**
  * overload operator () to use thred calling
  * @param newsockfd the socket that opended
  * @param hz
  */
 void DataReaderServer::operator()(int newsockfd, int hz) {
+    this->newsockfd = newsockfd;
     this->symbolTable = SymbolTable::getInstance();
     this->pathTable =  NameToPathTable::getInstance();
     if (newsockfd < 0) {
@@ -27,8 +30,10 @@ void DataReaderServer::operator()(int newsockfd, int hz) {
             if (n < 0) {
                 perror("Error: reading from socket");
             }
-            sleep(1 / hz);
             split();
+            sleep(hz/1000);
+
+
         }
 
     }
@@ -62,9 +67,10 @@ void DataReaderServer::split() {
  * and if there is-> update from the vector that received from the server
  */
 void DataReaderServer::setArgs() {
-
+    lock_guard<std::mutex> lock(thisLock);
     for(auto key : this->symbolTable->getSymbolTable()){
         string name = key.first;
+
         if(pathTable->countPath(key.first)) {
             //if there is a path get it
             string path = pathTable->getPath(name);
@@ -73,11 +79,14 @@ void DataReaderServer::setArgs() {
             int i = pathTable->getIndex(path);
             //set the value of the relevent var by the index
             this->symbolTable->setDoubleValue(name, valueFromSimu[i],0);
-            cout << name << " " << valueFromSimu[i] << endl;
+
+            //cout << name << " " << valueFromSimu[i] << endl;
+
             }
         }
     }
     valueFromSimu.clear();
+
 }
 
 

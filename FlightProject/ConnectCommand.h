@@ -27,6 +27,10 @@ public:
  * implements the command interface
  */
     virtual void execute() override;
+    virtual ~ConnectCommand(){
+
+    }
+
 
 
 };

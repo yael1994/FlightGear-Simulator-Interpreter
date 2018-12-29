@@ -2,24 +2,16 @@
 // Created by daniel on 12/17/18.
 //
 
+#include <thread>
 #include "SymbolTable.h"
-
+/**
+ * this method set the args of the value
+ * if the flag is on it means that we came from the setCommand and we want to update the plane simiulator
+ * @param key
+ * @param num
+ * @param flag true from set false from others
+ */
 void SymbolTable::setDoubleValue(string &key, double num, bool flag) {
-
-
-    myLock.lock();
+    lock_guard<std::mutex> lock(myLock);
     this->symbolTable[key] = num;
-    if (flag) {
-        NameToPathTable *paths = NameToPathTable::getInstance();
-        string name = key;
-        if (paths->countPath(name)) {
-            string path = paths->getPath(name);
-            path.erase(0, 1);
-            string value = to_string(num);
-            string msg = "set " + path + " " + value + "\r\n";
-            updates.push(msg);
-        }
-
-    }
-    myLock.unlock();
 }

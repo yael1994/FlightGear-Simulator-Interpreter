@@ -11,7 +11,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/daniel/Desktop/FlightProject/FlightProject/DataReaderServer.cpp" "/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/DataReaderServer.cpp.o"
   "/home/daniel/Desktop/FlightProject/FlightProject/DefineVarCommand.cpp" "/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/DefineVarCommand.cpp.o"
   "/home/daniel/Desktop/FlightProject/FlightProject/Div.cpp" "/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/Div.cpp.o"
-  "/home/daniel/Desktop/FlightProject/FlightProject/ExpressionCommand.cpp" "/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.o"
   "/home/daniel/Desktop/FlightProject/FlightProject/IfCommand.cpp" "/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/IfCommand.cpp.o"
   "/home/daniel/Desktop/FlightProject/FlightProject/Lexer.cpp" "/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/Lexer.cpp.o"
   "/home/daniel/Desktop/FlightProject/FlightProject/LoopCommand.cpp" "/home/daniel/Desktop/FlightProject/FlightProject/cmake-build-debug/CMakeFiles/FlightProject.dir/LoopCommand.cpp.o"

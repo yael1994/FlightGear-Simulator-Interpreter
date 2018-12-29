@@ -13,9 +13,18 @@ class ExpressionCommand : public Expression{
     Command* c;
 public:
 
-    ExpressionCommand(Command *c);
 
-    double calculate() override;
+  ExpressionCommand(Command *c) : c(c) {
+    }
+
+    double calculate() {
+        c->execute();
+        return 0;
+    }
+
+    virtual ~ExpressionCommand() {
+      delete this->c;
+    }
 
 
 };

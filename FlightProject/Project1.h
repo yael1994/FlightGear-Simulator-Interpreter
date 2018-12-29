@@ -5,7 +5,7 @@
 
 #include <vector>
 #include <string>
-#include <map>
+#include <unordered_map>
 #include <fstream>
 #include "Command.h"
 #include "ExpressionCommand.h"
@@ -17,11 +17,16 @@
 #include "LoopCommand.h"
 #include "PrintCommand.h"
 #include "SleepCommand.h"
-
+/**
+ * this class controls the spacific information of this project such as vector from lexer and
+ * command map. with this seperation we can reuse our classes for other projects with no changes.
+ */
 class Project1 {
-    map<string,Expression*> commandMap;
+    unordered_map<string,Expression*> commandMap;
     vector<string> rawData;
     vector<string>::iterator iter;
+    //built the commands map as we know from the script
+    //each command warrped with `Exprrision Command for Object adapter
         void bulidMap(){
             commandMap["openDataServer"]= new ExpressionCommand(new OpenDataServerCommand(iter));
             commandMap["connect"]= new ExpressionCommand(new ConnectCommand(iter));
@@ -36,14 +41,24 @@ class Project1 {
 
 
 public:
-        const map<string, Expression *> &getCommandMap() {
+
+        const unordered_map<string, Expression *> &getCommandMap() {
             return commandMap;
         }
 
 
     Project1( string filename);
         Project1 ()= default;
+        /**
+         * runs the project by opening a parser
+         */
     void run();
+    ~Project1(){
+        for(auto i : commandMap){
+            delete i.second;
+        }
+
+    }
 
 
 

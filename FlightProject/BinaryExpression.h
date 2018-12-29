@@ -12,6 +12,10 @@ class BinaryExpression :public Expression{
         virtual Expression* getLeft();
         virtual Expression* getRight();
         virtual double calculate()=0;
+        virtual ~BinaryExpression(){
+            delete this->left;
+            delete  this->right;
+        }
 
 };
 

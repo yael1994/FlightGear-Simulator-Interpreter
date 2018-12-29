@@ -15,3 +15,7 @@ double Div::calculate()  {
     }
     return this->getLeft()->calculate()/this->getRight()->calculate();
 }
+
+Div::~Div() {
+
+}

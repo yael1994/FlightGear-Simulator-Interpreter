@@ -25,6 +25,7 @@ Expression* CreateExp::buildExp(string str) {
         if (Utils::isNumber(element)){
             Expression* exp=new Number(stod(element));
             st.push(exp);
+            toDelete.push_back(exp);
         }
         if(Utils::isOperator(element)||element=="&"){
            //check witch operator we have at the queue
@@ -34,16 +35,19 @@ Expression* CreateExp::buildExp(string str) {
                }
                Expression *e1 = st.top();
                st.pop();
+
                Expression *e2 = st.top();
                st.pop();
 
                Expression *exp = new Plus(e2, e1);
+                toDelete.push_back(exp);
                st.push(exp);
            }
            if(element=="&"){
                Expression* e3=st.top();
                st.pop();
                Expression* exp=new Neg(e3);
+               toDelete.push_back(exp);
                st.push(exp);
            }
             if(element=="-"){
@@ -51,6 +55,7 @@ Expression* CreateExp::buildExp(string str) {
                     Expression* e3=st.top();
                     st.pop();
                     Expression* exp=new Neg(e3);
+                    toDelete.push_back(exp);
                     st.push(exp);
                 } else {
                     if(st.size()<2){
@@ -61,6 +66,7 @@ Expression* CreateExp::buildExp(string str) {
                     Expression *e2 = st.top();
                     st.pop();
                     Expression *exp = new Minus(e2, e1);
+                    toDelete.push_back(exp);
                     st.push(exp);
                 }
             }
@@ -73,6 +79,7 @@ Expression* CreateExp::buildExp(string str) {
                 Expression* e2=st.top();
                 st.pop();
                 Expression* exp=new Mul(e2,e1);
+                toDelete.push_back(exp);
                 st.push(exp);
             }
             if(element=="/"){
@@ -84,11 +91,21 @@ Expression* CreateExp::buildExp(string str) {
                 Expression* e2=st.top();
                 st.pop();
                 Expression* exp=new Div(e2,e1);
+                toDelete.push_back(exp);
                 st.push(exp);
             }
 
         }
 
     }
+    delete sy;
     return st.top();
+}
+
+CreateExp::~CreateExp() {
+    vector<Expression*>::iterator iter;
+    iter = toDelete.begin();
+    for(;iter != toDelete.end(); iter++){
+        delete *iter;
+    }
 }

@@ -24,7 +24,6 @@ add_executable(FlightProject
         Div.cpp
         Div.h
         Expression.h
-        ExpressionCommand.cpp
         ExpressionCommand.h
         ExpressionSingleTone.h
         IfCommand.cpp

@@ -312,33 +312,6 @@ Div.cpp.s:
 	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/Div.cpp.s
 .PHONY : Div.cpp.s
 
-ExpressionCommand.o: ExpressionCommand.cpp.o
-
-.PHONY : ExpressionCommand.o
-
-# target to build an object file
-ExpressionCommand.cpp.o:
-	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.o
-.PHONY : ExpressionCommand.cpp.o
-
-ExpressionCommand.i: ExpressionCommand.cpp.i
-
-.PHONY : ExpressionCommand.i
-
-# target to preprocess a source file
-ExpressionCommand.cpp.i:
-	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.i
-.PHONY : ExpressionCommand.cpp.i
-
-ExpressionCommand.s: ExpressionCommand.cpp.s
-
-.PHONY : ExpressionCommand.s
-
-# target to generate assembly for a file
-ExpressionCommand.cpp.s:
-	$(MAKE) -f CMakeFiles/FlightProject.dir/build.make CMakeFiles/FlightProject.dir/ExpressionCommand.cpp.s
-.PHONY : ExpressionCommand.cpp.s
-
 IfCommand.o: IfCommand.cpp.o
 
 .PHONY : IfCommand.o
@@ -882,9 +855,6 @@ help:
 	@echo "... Div.o"
 	@echo "... Div.i"
 	@echo "... Div.s"
-	@echo "... ExpressionCommand.o"
-	@echo "... ExpressionCommand.i"
-	@echo "... ExpressionCommand.s"
 	@echo "... IfCommand.o"
 	@echo "... IfCommand.i"
 	@echo "... IfCommand.s"

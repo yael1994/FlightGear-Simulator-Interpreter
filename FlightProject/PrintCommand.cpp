@@ -9,9 +9,11 @@ void PrintCommand::execute() {
     SymbolTable* p=SymbolTable::getInstance();
     this->next();
     while (this->getString()!="\n"){
+
         if(p->getSymbolTable().count(this->getString())>0){
             cout<< p->getValue(this->getString());
             this->next();
+
 
         } else {
             cout<< this->getString();

@@ -7,7 +7,10 @@
 #include <iostream>
 #include "CreateExp.h"
 using namespace std;
-
+/**
+ * This class convert strings to Expression.
+ * bind the Expression to the commands
+ */
 class ExpressionSingleTone {
     static ExpressionSingleTone* _instance;
 
@@ -30,6 +33,9 @@ public:
         return createExp->buildExp(exp)->calculate();
     }
 
+    ~ExpressionSingleTone(){
+        delete createExp;
+    }
 
 
 
